@@ -79,7 +79,7 @@
    <div id="logoPicture">
     @@if (site === 'mew' ) {
       <a class="brand" href="/" aria-label="Go to homepage">
-        <img src="https://www.ether1.org/images/full_color_long.png" alt="FUNCOIN" />
+        <img src="https://funcoin.io/full_color_long.png" alt="FUNCOIN" />
         <p class="small visible-xs">1.0.1</p>
       </a>
     }
