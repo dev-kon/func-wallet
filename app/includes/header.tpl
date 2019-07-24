@@ -74,12 +74,12 @@
 
 <header class="{{curNode.name}} {{curNode.service}} {{curNode.service}} nav-index-{{gService.currentTab}}" aria-label="header" ng-controller='tabsCtrl' >
 
-<section class="bg-gradient header-branding">
+<section class="header-branding">
   <section class="container">
    <div id="logoPicture">
     @@if (site === 'mew' ) {
       <a class="brand" href="/" aria-label="Go to homepage">
-        <img src="https://www.ether1.org/images/logo.png" alt="Ether1" />
+        <img src="https://www.ether1.org/images/full_color_long.png" alt="FUNCOIN" />
         <p class="small visible-xs">1.0.1</p>
       </a>
     }
