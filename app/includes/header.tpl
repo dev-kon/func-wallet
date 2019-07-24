@@ -123,7 +123,7 @@
           <p class="small" style="white-space:normal;font-weight:300;margin: 2rem 0 0;" translate="GAS_PRICE_Desc"></p>
           <a class="small"
              translate="x_ReadMore"
-             href="https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html"
+             href="https://forum.funcoin.io/index.php?forums/tools-guides.11/"
              target="_blank"
              rel="noopener noreferrer"></a>
         </div>
@@ -193,7 +193,7 @@
       </li>
       }
       <li class="nav-item help">
-        <a href="https://myetherwallet.github.io/knowledge-base/" target="_blank" rel="noopener noreferrer">
+        <a href="https://forum.funcoin.io/index.php?forums/tools-guides.11/" target="_blank" rel="noopener noreferrer">
           <span translate="NAV_Help">
             Help
           </span>
