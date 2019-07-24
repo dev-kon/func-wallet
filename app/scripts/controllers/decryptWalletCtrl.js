@@ -49,7 +49,7 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
     $scope.setdPath = function() {
         if ($scope.walletType == "ledger") {
             switch ($scope.nodeType) {
-                case nodes.nodeTypes.ETH:
+                case nodes.nodeTypes.FUNC:
                     $scope.HDWallet.dPath = $scope.HDWallet.ledgerPath;
                     break;
                 case nodes.nodeTypes.ETC:
@@ -75,7 +75,7 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
             }
         } else if ($scope.walletType == "trezor") {
             switch ($scope.nodeType) {
-                case nodes.nodeTypes.ETH:
+                case nodes.nodeTypes.FUNC:
                     $scope.HDWallet.dPath = $scope.HDWallet.trezorPath;
                     break;
                 case nodes.nodeTypes.ETC:
@@ -128,7 +128,7 @@ var decryptWalletCtrl = function($scope, $sce, walletService) {
             }
         } else {
           switch ($scope.nodeType) {
-                case nodes.nodeTypes.ETH:
+                case nodes.nodeTypes.FUNC:
                     $scope.HDWallet.dPath = $scope.HDWallet.defaultDPath;
                     break;
                 case nodes.nodeTypes.ETC:

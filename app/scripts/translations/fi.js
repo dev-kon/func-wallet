@@ -67,7 +67,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -84,7 +84,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -396,7 +396,7 @@ SEND_signed                 : 'Allekirjoitettu Siirto ',
 SEND_trans                  : 'Lähetä Siirto ',
 SEND_custom                 : 'Add Custom Token ',
 SENDModal_Title             : 'Varoitus! ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'Olet lähettämässä ',
 SENDModal_Content_2         : 'osoitteeseen ',
 SENDModal_Content_3         : 'Oletko varma että haluat tehdä tämän? ',
@@ -413,17 +413,17 @@ TOKEN_show                  : 'Show All Tokens ',
 
 /* Send Transaction */
 TRANS_desc                  : 'Jos haluat lähettää Tokeneita, ole hyvä ja käytä "Lähetä Tokeneita" sivua. ',
-TRANS_warning               : 'Jos käytät "Vain ETH" tai "Vain ETC" Toimintoja, niin lähetät sopimuksen kautta. Joillakin palveluilla on vaikeuksia hyväksyä näitä siirtoja. Lue lisää. ',
+TRANS_warning               : 'Jos käytät "Vain FUNC" tai "Vain ETC" Toimintoja, niin lähetät sopimuksen kautta. Joillakin palveluilla on vaikeuksia hyväksyä näitä siirtoja. Lue lisää. ',
 TRANS_advanced              : '+Edistynyt: Lisää Tietoja ',
 TRANS_data                  : 'Tiedot ',
 TRANS_gas                   : 'Gas Limit ',
 TRANS_sendInfo              : 'Tavallinen siirto käyttäen 21000 gasia maksaa 0.000441 ETHiä. Me käytämme hieman-yli-minimin gasin hintaa 0.000000021 ETHiä varmistaaksemme että se louhitaan nopeasti. Me emme veloita siirto maksua. ',
 
 /* Send Transaction Modals */
-TRANSModal_Title            : '"Vain ETH" ja "Vain ETC" Siirrot ',
+TRANSModal_Title            : '"Vain FUNC" ja "Vain ETC" Siirrot ',
 TRANSModal_Content_0        : 'Huomautus erilaisista siirroista ja eri palveluista: ',
 TRANSModal_Content_1        : '**ETHO (Tavallinen Siirto): ** Tämä luo oletusarvoisen siirron osoitteesta toiseen. Siinä on oletus gasina 21000. On todennäköistä että kaikki ETHO joka lähetetään tällä tavalla, toistetaan ETC ketjussa. ',
-TRANSModal_Content_2        : '**Vain ETH: ** Tämä lähettää [Timon Rappin toiston suojaus sopimuksen kautta (kuten VB on suositellut)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) niin että sinä lähetät vain **ETH** ketjussa. ',
+TRANSModal_Content_2        : '**Vain FUNC: ** Tämä lähettää [Timon Rappin toiston suojaus sopimuksen kautta (kuten VB on suositellut)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) niin että sinä lähetät vain **FUNC** ketjussa. ',
 TRANSModal_Content_3        : '**Only ETC: ** Tämä lähettää [Timon Rappin toiston suojaus sopimuksen kautta (kuten VB on suositellut)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) niin että sinä lähetät vain **ETC** ketjussa. ',
 TRANSModal_Content_4        : '**Coinbase & ShapeShift: ** Lähetä ainoastaan käyttäen Tavallista Siirtoa. Jos lähetät käyttäen "Vain" sopimuksia, sinun täytyy olla yhteydessä heidän asiakastukensa henkilöstöön jotta he joko manuaalisesti lisäävät sinun saldosi tai palauttavat rahasi. [Voit kokeilla myös ShapeShiftin "split" työkalua.](https://split.shapeshift.io/) ',
 TRANSModal_Content_5        : '**Kraken & Poloniex:** Ei tunnettuja ongelmia. Käytä mitä vain. ',
@@ -527,7 +527,7 @@ SWAP_progress_2             : "Waiting for your ", // Waiting for your BTC...
 SWAP_progress_3             : "Received! ", // ETHO Received!
 SWAP_progress_4             : "Sending your {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Order Complete ",
-SWAP_order_CTA              : "Please send ", // Please send 1 ETH...
+SWAP_order_CTA              : "Please send ", // Please send 1 FUNC...
 SWAP_unlock                 : "Unlock your wallet to send ETHO or Tokens directly from this page. ",
 
 /* Sign Message */

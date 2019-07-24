@@ -1263,7 +1263,7 @@ const darklist = function() {
 		{
 			address: "0xC1dD8Ac971129C8C08333924F58Ff40a50b8bb9a",
 			comment:
-				"Fake Etherzero wallet site asking for ETH to be sent to an address",
+				"Fake Etherzero wallet site asking for FUNC to be sent to an address",
 			date: "2018-03-12"
 		},
 		{
@@ -1288,7 +1288,7 @@ const darklist = function() {
 		},
 		{
 			address: "0xc0fed35b43f59c2bfb1eb544bd8921bfb18140c2",
-			comment: "Fake ETH web-wallet",
+			comment: "Fake FUNC web-wallet",
 			date: "2018-03-12"
 		},
 		{
@@ -2127,7 +2127,7 @@ const darklist = function() {
 		{
 			address: "0x3007a0Db9CAAD557CF4589Cfd550c21ce9399b15",
 			comment:
-				"Trust-Trading scam (looks like a fake ICO - send ETH and have a 92% chance of winning 100ETH - no contract address)",
+				"Trust-Trading scam (looks like a fake ICO - send FUNC and have a 92% chance of winning 100ETH - no contract address)",
 			date: "2018-03-12"
 		},
 		{
@@ -2213,7 +2213,7 @@ const darklist = function() {
 		{
 			address: "0x693D47204555361D4d51311f97102a1507559802",
 			comment:
-				"Fake ETH generator asking for funds to gas to send x eth to whatever address you want",
+				"Fake FUNC generator asking for funds to gas to send x eth to whatever address you want",
 			date: "2018-03-12"
 		},
 		{
@@ -3114,13 +3114,13 @@ const darklist = function() {
 		{
 			address: "0x48d0a447b1d7b9a89112578db4536032d3047b2e",
 			comment:
-				"Pretending to be Poloniex support on Etherscan Disqus (username: @poloniex) - asking for ETH to speed up support queries",
+				"Pretending to be Poloniex support on Etherscan Disqus (username: @poloniex) - asking for FUNC to speed up support queries",
 			date: "2017-09-13"
 		},
 		{
 			address: "0x40B942240fEc55473388Cbf7DBCC5482e64b4367",
 			comment:
-				"Pretending to be Coinbase support on Etherscan Disqus (username: @coinbasesupport) - asking for ETH to speed up support queries",
+				"Pretending to be Coinbase support on Etherscan Disqus (username: @coinbasesupport) - asking for FUNC to speed up support queries",
 			date: "2017-09-13"
 		},
 		{
@@ -3156,13 +3156,13 @@ const darklist = function() {
 		{
 			address: "0xc38d14bf89e0001260bb349a006d7e491e5f43ad",
 			comment:
-				"Cloned decentraland site, phishing for ETH post ICO. - decentraland.pro",
+				"Cloned decentraland site, phishing for FUNC post ICO. - decentraland.pro",
 			date: "2017-08-18"
 		},
 		{
 			address: "0x3B0009071A0a9983E9AAb537FD8c9ad478310Aeb",
 			comment:
-				"Cloned decentraland site, phishing for ETH post ICO. - decentraland.pro",
+				"Cloned decentraland site, phishing for FUNC post ICO. - decentraland.pro",
 			date: "2017-08-18"
 		},
 		{

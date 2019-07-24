@@ -67,7 +67,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -84,7 +84,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -392,7 +392,7 @@ SEND_signed                 : 'Signierte Transaktion ',
 SEND_trans                  : 'Sende Transaktion ',
 SEND_custom                 : 'Benutzerdefinierten Token hinzufügen ',
 SENDModal_Title             : 'Achtung! ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'Sie sind dabei, ',
 SENDModal_Content_2         : 'an die Adresse ',
 SENDModal_Content_3         : 'zu senden. Sind Sie sicher, dass Sie das wollen? ',
@@ -409,17 +409,17 @@ TOKEN_show                  : 'Zeige alle Tokens ',
 
 /* Send Transaction */
 TRANS_desc                  : 'Wenn Sie Token senden wollen, nutzen Sie bitte die "Sende Tokens" Funktion ',
-TRANS_warning               : 'Wenn Sie die "Nur ETH" oder "Nur ETC" Funktionen benutzen, erfolgt die Transaktion über einen Vertrag. Einige Dienste haben ein Problem damit diese Transaktionen zu empfangen. Mehr lesen. ',
+TRANS_warning               : 'Wenn Sie die "Nur FUNC" oder "Nur ETC" Funktionen benutzen, erfolgt die Transaktion über einen Vertrag. Einige Dienste haben ein Problem damit diese Transaktionen zu empfangen. Mehr lesen. ',
 TRANS_advanced              : '+Fortgeschritten: Daten hinzufügen ',
 TRANS_data                  : 'Daten ',
 TRANS_gas                   : 'Gas Limit ',
-TRANS_sendInfo              : 'Eine Standard Transaktion mit 21000 Gas kostet 0.000441 ETH. Wir zahlen einen minimal höheren Gaspreis von 0.000000021 ETHO um zu garantieren, dass die Transaktion schnell bearbeitet wird. Wir erheben keine Transaktionsgebühren. ',
+TRANS_sendInfo              : 'Eine Standard Transaktion mit 21000 Gas kostet 0.000441 FUNC. Wir zahlen einen minimal höheren Gaspreis von 0.000000021 ETHO um zu garantieren, dass die Transaktion schnell bearbeitet wird. Wir erheben keine Transaktionsgebühren. ',
 
 /* Send Transaction Modals */
-TRANSModal_Title            : '"Nur ETH" und "Nur ETC" Transaktionen ',
+TRANSModal_Title            : '"Nur FUNC" und "Nur ETC" Transaktionen ',
 TRANSModal_Content_0        : 'Ein Hinweis zu den verschiedenen Transaktionen und Angeboten ',
 TRANSModal_Content_1        : '**ETHO (Standard Transaktion): ** Dies erzeugt eine Standard Transaktion direkt von einer Adresse zu einer anderen. Diese nutzt standardmässig 21000 Gas. Es ist gut möglich, dass alle Transaktionen dieser Art auf der ETC Blockchain wiederholt werden (Replay Attacke). ',
-TRANSModal_Content_2        : '**Nur ETH: ** Dies sendet die Transaktion so über [Timon Rapp\'s "replay protection contract" (wie von VB empfohlen)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/), dass sie nur auf der **ETH** Blockchain ausgeführt wird. ',
+TRANSModal_Content_2        : '**Nur FUNC: ** Dies sendet die Transaktion so über [Timon Rapp\'s "replay protection contract" (wie von VB empfohlen)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/), dass sie nur auf der **FUNC** Blockchain ausgeführt wird. ',
 TRANSModal_Content_3        : '**Nur ETC: ** Dies sendet die Transaktion so über [Timon Rapp\'s "replay protection contract" (wie von VB empfohlen)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/), dass sie nur auf der **ETC** Blockchain ausgeführt wird. ',
 TRANSModal_Content_4        : '**Coinbase & ShapeShift: ** Sende nur Standard Transaktionen. Wenn du die Transaktion über eine der "Nur" Funktionen versendest, musst du den Support kontaktieren um deinen Betrag oder eine Rückerstattung zu erhalten. [Du kannst auch Shapeshifts "split" Werkzeug ausprobieren.](https://split.shapeshift.io/) ',
 TRANSModal_Content_5        : '**Kraken & Poloniex:** Keine Probleme bekannt. Nutzen, was Ihnen lieber ist ',
@@ -519,7 +519,7 @@ SWAP_progress_2             : "Warte auf Ihre ", // Waiting for your BTC...
 SWAP_progress_3             : "Erhalten! ", // ETHO Received!
 SWAP_progress_4             : "Sende Ihre {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Auftrag erfüllt ", //Vielleicht erledigt!
-SWAP_order_CTA              : "Bitte sende ", // Please send 1 ETH...
+SWAP_order_CTA              : "Bitte sende ", // Please send 1 FUNC...
 SWAP_unlock                 : "Schalten Sie Ihr Wallet frei um ETHO oder Tokens direkt von dieser Seite aus zu senden ",
 
 /* Sign Message */
@@ -583,7 +583,7 @@ ERROR_13                    : 'Ein Wallet mit diesem Spitznamen existiert bereit
 ERROR_14                    : 'Wallet nicht gefunden. ',
 ERROR_15                    : 'Es sieht nicht so aus als würde ein Proposal mit dieser ID existieren oder es gab einen Fehler beim Lesen des Proposal. ',
 ERROR_16                    : 'Es ist bereits ein Wallet mit dieser Adresse gespeichert. Bitte überprüfe die Seite deines Wallets. ',
-ERROR_17                    : 'Unzureichendes Guthaben für Gasverbrauch * Gaspreis + Wert. Du brauchst **0.01 ETH** in deinem Account um die Gaskosten zu decken. Bitte füge ETHO hinzu und versuche es noch einmal. ',
+ERROR_17                    : 'Unzureichendes Guthaben für Gasverbrauch * Gaspreis + Wert. Du brauchst **0.01 FUNC** in deinem Account um die Gaskosten zu decken. Bitte füge ETHO hinzu und versuche es noch einmal. ',
 ERROR_18                    : 'Diese Transaktion würde dein gesamtes verbleibendes Gas verbrauchen. Das bedeutet, du hast bereits über dieses Proposal abgestimmt oder die Debattierphase ist zu Ende. ',
 ERROR_19                    : 'Ungültiges Symbol ',
 ERROR_20                    : 'Kein gültiger ERC-20 Token ',

@@ -67,7 +67,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -84,7 +84,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -391,7 +391,7 @@ SEND_raw                    : 'Transaction brute',
 SEND_signed                 : 'Transaction signée',
 SEND_trans                  : 'Envoyer la transaction',
 SENDModal_Title             : 'Attention !',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'Vous êtes sur le point d\'envoyer',
 SENDModal_Content_2         : 'à l\'adresse',
 SENDModal_Content_3         : 'Voulez-vous vraiment le faire ?',
@@ -411,14 +411,14 @@ TRANS_desc                  : 'Si vous voulez envoyer des Tokens, allez plutôt 
 TRANS_warning               : 'L\'emploi des fonctions "ETHO seulement" et "ETC seulement" vous fait passer par un contrat. Certains services ont des problèmes avec ces transactions. En savoir plus.',
 TRANS_advanced              : '+ Avancé : Ajouter des données',
 TRANS_data                  : 'Données',
-TRANS_sendInfo              : 'Une transaction standard utilisant 21000 GAS coûtera 0,000441 ETH. Le prix du GAS, de 0.000000021 ETH, que nous avons choisi est légèrement supérieur au minimum assurant une confirmation rapide. Nous ne prenons pas de frais de transaction.',
+TRANS_sendInfo              : 'Une transaction standard utilisant 21000 GAS coûtera 0,000441 FUNC. Le prix du GAS, de 0.000000021 FUNC, que nous avons choisi est légèrement supérieur au minimum assurant une confirmation rapide. Nous ne prenons pas de frais de transaction.',
 TRANS_gas                   : 'GAS limite', // changed in ENG to Gas Limit:
 
 /* Send Transaction Modals */
 TRANSModal_Title            : 'Transactions "ETHO seulement" et "ETC seulement"',
 TRANSModal_Content_0        : 'Note sur les transactions et services divers :',
 TRANSModal_Content_1        : '**ETHO (Transaction standard) :** Génère une transaction standard depuis une adresse directement vers une autre. Son GAS par défaut est de 21000. Il est probable que toute transaction d\'ETHO envoyée de cette manière sera réexécutée sur la chaîne ETC.',
-TRANSModal_Content_2        : '**ETHO seulement :** Envoi à travers le [contrat anti-réexécution de Timon Rapp (recommandé par VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) afin de n\'envoyer que sur la chaîne **ETH**.',
+TRANSModal_Content_2        : '**ETHO seulement :** Envoi à travers le [contrat anti-réexécution de Timon Rapp (recommandé par VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) afin de n\'envoyer que sur la chaîne **FUNC**.',
 TRANSModal_Content_3        : '**ETC seulement : **Envoi à travers le [contrat anti-réexécution de Timon Rapp (recommandé par VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) afin de n\'envoyer que sur la chaîne **ETC**.',
 TRANSModal_Content_4        : '**Coinbase & ShapeShift :** N\'envoyer que par transaction standard. Si vous utilisez les contrats d\'envoi sur une seule chaîne, vous devrez contacter leur équipe de support pour ajouter manuellement la somme à votre solde ou pour vous rembourser. [Vous pouvez aussi essayer l\'outil "split" de Shapeshift.](https://split.shapeshift.io/)',
 TRANSModal_Content_5        : '**Kraken & Poloniex :** Pas de problème connu. Utilisez ce que vous voulez.',
@@ -560,7 +560,7 @@ SWAP_progress_2             : "En attente de vos ", // Waiting for your BTC...
 SWAP_progress_3             : "reçu !", // ETHO Received!
 SWAP_progress_4             : "Envoi de vos {{orderResult.output.currency}}",
 SWAP_progress_5             : "Ordre exécuté",
-SWAP_order_CTA              : "Envoyer ", // Please send 1 ETH...
+SWAP_order_CTA              : "Envoyer ", // Please send 1 FUNC...
 SWAP_unlock                 : "Déverrouillez votre portefeuille pour envoyer des ETHO ou des tokens directement depuis cette page.",
 
 /* Error Messages */

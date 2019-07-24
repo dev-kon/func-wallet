@@ -148,7 +148,7 @@
       </ul>
       <p class="dropdown-gas__msg"
          ng-show="gasPriceMsg"
-         ng-hide="ajaxReq.type!='ETH'">
+         ng-hide="ajaxReq.type!='FUNC'">
         The network is really full right now. Check
         <a href="https://ethgasstation.info/"
            target="_blank" rel="noopener noreferrer">Eth Gas Station</a>
@@ -240,7 +240,7 @@
             <label translate="NODE_Name">Node Name</label>
             <input class="form-control"
                    type="text"
-                   placeholder="My ETH Node"
+                   placeholder="My FUNC Node"
                    ng-model="customNode.name"
                    ng-class="Validator.isAlphaNumericSpace(customNode.name) ? 'is-valid' : 'is-invalid'">
           </div>
@@ -270,7 +270,7 @@
           </div>
 
           <div class="clearfix col-xs-12 radio">
-            <label><input name="options" type="radio" ng-model="customNode.options" value="eth"> ETH </label>
+            <label><input name="options" type="radio" ng-model="customNode.options" value="eth"> FUNC </label>
             <label><input name="options" type="radio" ng-model="customNode.options" value="etc"> ETC </label>
             <label><input name="options" type="radio" ng-model="customNode.options" value="rop"> Ropsten </label>
             <label><input name="options" type="radio" ng-model="customNode.options" value="kov"> Kovan </label>
@@ -343,12 +343,12 @@
                 <div class="balance-block">
                   <h3 class="block-title">Balance</h3>
                   <p class="balance-amount" ng-show="!showLongBal" ng-dblclick="showLongBal=!showLongBal" title="{{twallet.balance}} (Double-Click)">
-                    {{twallet.balance|number}} ETH
+                    {{twallet.balance|number}} FUNC
                   </p>
                   <p class="balance-amount"
                       ng-show="showLongBal"
                       ng-dblclick="showLongBal=!showLongBal">
-                        {{twallet.balance }} ETH
+                        {{twallet.balance }} FUNC
                   </p>
                 </div>
 
@@ -400,12 +400,12 @@
                 <div class="balance-block">
                   <h3 class="block-title">Balance</h3>
                   <p class="balance-amount" ng-show="!showLongBal" ng-dblclick="showLongBal=!showLongBal" title="{{twallet.balance}} (Double-Click)">
-                    {{twallet.balance|number}} ETH
+                    {{twallet.balance|number}} FUNC
                   </p>
                   <p class="balance-amount"
                       ng-show="showLongBal"
                       ng-dblclick="showLongBal=!showLongBal">
-                        {{twallet.balance }} ETH
+                        {{twallet.balance }} FUNC
                   </p>
                 </div>
 
@@ -485,7 +485,7 @@
       <div class="account-help-icon">
         <img src="images/icon-help.svg" class="help-icon" />
         <p class="account-help-text" translate="x_AddessDesc">
-          You may know this as your "Account #" or your "Public Key". It's what you send people so they can send you ETH. That icon is an easy way to recognize your address.
+          You may know this as your "Account #" or your "Public Key". It's what you send people so they can send you FUNC. That icon is an easy way to recognize your address.
         </p>
         <h5 translate="x_Address">
           Your Address:
@@ -1075,7 +1075,7 @@
           <strong>
             {{etherBalance}}
           </strong>
-          ETH
+          FUNC
         </li>
       </ul>
 
@@ -1224,13 +1224,13 @@
                   <span ng-bind="HDWallet.defaultDPath"></span>
                 </label>
               </td>
-              <td> Jaxx, Metamask, Exodus, imToken &amp; TREZOR (ETH)</td>
+              <td> Jaxx, Metamask, Exodus, imToken &amp; TREZOR (FUNC)</td>
             </tr>
 
             <tr>
               <td>
                 <label class="radio">
-                  <input aria-describedby="Path: Ledger (ETH) {{HDWallet.ledgerPath}}"
+                  <input aria-describedby="Path: Ledger (FUNC) {{HDWallet.ledgerPath}}"
                          ng-change="onHDDPathChange()"
                          ng-model="HDWallet.dPath"
                          type="radio"
@@ -1238,7 +1238,7 @@
                   <span ng-bind="HDWallet.ledgerPath"></span>
                 </label>
               </td>
-              <td> Ledger (ETH)</td>
+              <td> Ledger (FUNC)</td>
             </tr>
 
             <tr>
@@ -1912,7 +1912,7 @@
             </tr>
             <tr>
               <td class="small text-right">Amount to Send:</td>
-              <td class="small text-left mono">{{parsedSignedTx.value}} ETH</td>
+              <td class="small text-left mono">{{parsedSignedTx.value}} FUNC</td>
             </tr>
             <tr>
               <td class="small text-right">Account Balance:</td>
@@ -1932,12 +1932,12 @@
             </tr>
             <tr>
               <td class="small text-right">Gas Price:</td>
-              <td class="small text-left mono">{{parsedSignedTx.gasPrice.gwei}} GWEI <small>({{parsedSignedTx.gasPrice.eth}} ETH)</small>
+              <td class="small text-left mono">{{parsedSignedTx.gasPrice.gwei}} GWEI <small>({{parsedSignedTx.gasPrice.eth}} FUNC)</small>
               </td>
             </tr>
             <tr>
               <td class="small text-right">Max TX Fee:</td>
-              <td class="small text-left mono"> {{parsedSignedTx.txFee.eth}} ETH <small>({{parsedSignedTx.txFee.gwei}} GWEI)</small></td>
+              <td class="small text-left mono"> {{parsedSignedTx.txFee.eth}} FUNC <small>({{parsedSignedTx.txFee.gwei}} GWEI)</small></td>
             </tr>
             <tr>
               <td class="small text-right">Nonce:</td>
@@ -2010,11 +2010,11 @@
     <div class="col-sm-4 order-info">
       <p class="mono">
         <input class="form-control input-sm" ng-model="priceTicker.ETHBTC"/>
-        <span>ETH = {{bity.curRate.ETHBTC*priceTicker.ETHBTC | number: 6}} BTC</span>
+        <span>FUNC = {{bity.curRate.ETHBTC*priceTicker.ETHBTC | number: 6}} BTC</span>
       </p>
       <p class="mono">
         <input class="form-control input-sm" ng-model="priceTicker.ETHREP"/>
-        <span>ETH = {{bity.curRate.ETHREP*priceTicker.ETHREP | number: 6}} REP</span>
+        <span>FUNC = {{bity.curRate.ETHREP*priceTicker.ETHREP | number: 6}} REP</span>
       </p>
     </div>
     <div class="col-sm-4 order-info">
@@ -2031,7 +2031,7 @@
     <div class="col-sm-4 order-info">
       <p class="mono">
         <input class="form-control input-sm" ng-model="priceTicker.BTCETH"/>
-        <span>BTC = {{bity.curRate.BTCETH*priceTicker.BTCETH | number: 6}} ETH</span>
+        <span>BTC = {{bity.curRate.BTCETH*priceTicker.BTCETH | number: 6}} FUNC</span>
       </p>
       <p class="mono">
         <input class="form-control input-sm" ng-model="priceTicker.BTCREP"/>
@@ -2099,7 +2099,7 @@
     <section class="row">
       <div class="col-xs-6 col-xs-offset-3" >
         <h4 style="margin-top: 40px; border: 5px #0b1929">
-          <a href="https://ccswap.myetherwallet.com" > Buy ETH with <img src="images/visa-master.png" width="60" height="30"></a>
+          <a href="https://ccswap.myetherwallet.com" > Buy FUNC with <img src="images/visa-master.png" width="60" height="30"></a>
         </h4>
       </div>
     </section>
@@ -2230,7 +2230,7 @@
                 <div class="progress-circle"><i>4</i></div>
                 <p>
                     <span translate="SWAP_progress_4">Sending your </span> {{orderResult.output.currency}} <br/>
-                    <small ng-show="orderResult.input.currency=='ETH'"> Waiting for 10 confirmations...</small>
+                    <small ng-show="orderResult.input.currency=='FUNC'"> Waiting for 10 confirmations...</small>
                     <small ng-show="orderResult.input.currency=='BTC'"> Waiting for 1 confirmation...</small>
                 </p>
             </div>
@@ -2252,13 +2252,13 @@
         </section>
 
 
-        <!-- Swap CTA ETH -->
+        <!-- Swap CTA FUNC -->
         <article class="row" ng-show="showStage3Eth && orderResult.progress.status=='OPEN'">
 
             <section class="clearfix collapse-container">
                 <div class="text-center" ng-click="wd = !wd">
                     <a class="collapse-button"><span ng-show="wd">+</span><span ng-show="!wd">-</span></a>
-                    <h5 traslate="SWAP_unlock">Unlock your wallet to send ETH or Tokens directly from this page.</h5>
+                    <h5 traslate="SWAP_unlock">Unlock your wallet to send FUNC or Tokens directly from this page.</h5>
                 </div>
                 <div ng-show="!wd">
                     
@@ -2268,10 +2268,10 @@
                 </div>
             </section>
 
-            <div class="alert alert-danger" ng-show="ajaxReq.type!=='ETH'">
-                <strong>Warning! You are not connected to an ETH node.</strong> <br/>
-                Please use the node switcher in the top-right corner to switch to an ETH node. We <strong>do
-                not</strong> support swapping ETC or Testnet ETH.
+            <div class="alert alert-danger" ng-show="ajaxReq.type!=='FUNC'">
+                <strong>Warning! You are not connected to an FUNC node.</strong> <br/>
+                Please use the node switcher in the top-right corner to switch to an FUNC node. We <strong>do
+                not</strong> support swapping ETC or Testnet FUNC.
             </div>
 
             <section class="row" ng-show="wallet!=null " ng-controller='sendTxCtrl'>
@@ -2714,7 +2714,7 @@
             </tr>
             <tr>
               <td class="small text-right">Amount to Send:</td>
-              <td class="small text-left mono">{{parsedSignedTx.value}} ETH</td>
+              <td class="small text-left mono">{{parsedSignedTx.value}} FUNC</td>
             </tr>
             <tr>
               <td class="small text-right">Account Balance:</td>
@@ -2734,12 +2734,12 @@
             </tr>
             <tr>
               <td class="small text-right">Gas Price:</td>
-              <td class="small text-left mono">{{parsedSignedTx.gasPrice.gwei}} GWEI <small>({{parsedSignedTx.gasPrice.eth}} ETH)</small>
+              <td class="small text-left mono">{{parsedSignedTx.gasPrice.gwei}} GWEI <small>({{parsedSignedTx.gasPrice.eth}} FUNC)</small>
               </td>
             </tr>
             <tr>
               <td class="small text-right">Max TX Fee:</td>
-              <td class="small text-left mono"> {{parsedSignedTx.txFee.eth}} ETH <small>({{parsedSignedTx.txFee.gwei}} GWEI)</small></td>
+              <td class="small text-left mono"> {{parsedSignedTx.txFee.eth}} FUNC <small>({{parsedSignedTx.txFee.gwei}} GWEI)</small></td>
             </tr>
             <tr>
               <td class="small text-right">Nonce:</td>
@@ -2789,7 +2789,7 @@
  
             </section>
         </article>
-        <!-- / Swap CTA ETH -->
+        <!-- / Swap CTA FUNC -->
 
 
         <!-- Swap CTA BTC -->
@@ -2990,7 +2990,7 @@
                 </section>
             </div>
         </div>
-        <!-- Swap CTA ETH -->
+        <!-- Swap CTA FUNC -->
         <article class="row">
 
             <section class="clearfix collapse-container">
@@ -3005,11 +3005,11 @@
                     
                 </div>
             </section>
-            <div class="alert alert-danger" ng-show="ajaxReq.type!=='ETH' && ajaxReq.type!=='ROPSTEN ETH'">
-                <strong>Warning! You are not connected to an ETH node.</strong> <br/>
-                Please use the node switcher in the top-right corner to switch to an ETH node. We <strong>do
+            <div class="alert alert-danger" ng-show="ajaxReq.type!=='FUNC' && ajaxReq.type!=='ROPSTEN FUNC'">
+                <strong>Warning! You are not connected to an FUNC node.</strong> <br/>
+                Please use the node switcher in the top-right corner to switch to an FUNC node. We <strong>do
                                                                                                           not</strong>
-                support swapping ETC or Testnet ETH.
+                support swapping ETC or Testnet FUNC.
             </div>
 
             <section class="row" ng-show="wallet!=null " ng-controller="sendTxCtrl">
@@ -3156,13 +3156,13 @@
                     <tr ng-if="!kyberTransaction.bypassTokenApprove">
                         <td class="small text-right">Avg. Gas Price:</td>
                         <td class="small text-left mono" >{{parsedTx.avgGasPrice.gwei}} GWEI
-                            <small>({{parsedTx.avgGasPrice.eth}} ETH)</small>
+                            <small>({{parsedTx.avgGasPrice.eth}} FUNC)</small>
                                                           <!-- todo: get eth value to display as a decimal not as an exponent-->
                         </td>
                     </tr>
                     <tr ng-if="!kyberTransaction.bypassTokenApprove">
                         <td class="small text-right">Max Combined TX Fee:</td>
-                        <td class="small text-left mono"> {{parsedTx.totalTxFee.eth}} ETH
+                        <td class="small text-left mono"> {{parsedTx.totalTxFee.eth}} FUNC
                             <small>({{parsedTx.totalTxFee.gwei}} GWEI)</small>
                         </td>
                     </tr>
@@ -3177,13 +3177,13 @@
                     <tr ng-if="kyberTransaction.bypassTokenApprove">
                         <td class="small text-right">Gas Price:</td>
                         <td class="small text-left mono" >{{parsedKyberTx.gasPrice.gwei}} GWEI
-                            <small>({{parsedKyberTx.avgGasPrice.eth}} ETH)</small>
+                            <small>({{parsedKyberTx.avgGasPrice.eth}} FUNC)</small>
                                                                                                       <!-- todo: get eth value to display as a decimal not as an exponent-->
                         </td>
                     </tr>
                     <tr ng-if="kyberTransaction.bypassTokenApprove">
                         <td class="small text-right">Max TX Fee:</td>
-                        <td class="small text-left mono"> {{parsedKyberTx.txFee.eth}} ETH
+                        <td class="small text-left mono"> {{parsedKyberTx.txFee.eth}} FUNC
                             <small>({{parsedKyberTx.txFee.gwei}} GWEI)</small>
                         </td>
                     </tr>
@@ -3224,7 +3224,7 @@
                         </tr>
                         <tr>
                             <td class="small text-right">Amount to Send:</td>
-                            <td class="small text-left mono">{{parsedKyberTx.value}} ETH</td>
+                            <td class="small text-left mono">{{parsedKyberTx.value}} FUNC</td>
                         </tr>
                         <tr>
                             <td class="small text-right">Account Balance:</td>
@@ -3249,12 +3249,12 @@
                         <tr>
                             <td class="small text-right">Gas Price:</td>
                             <td class="small text-left mono">{{parsedKyberTx.gasPrice.gwei}} GWEI
-                                <small>({{parsedKyberTx.gasPrice.eth}} ETH) <span ng-if="kyberTransaction.kyberMaxGas">| Note: Kyber Network Gas Price Max is 50 GWEI</span></small>
+                                <small>({{parsedKyberTx.gasPrice.eth}} FUNC) <span ng-if="kyberTransaction.kyberMaxGas">| Note: Kyber Network Gas Price Max is 50 GWEI</span></small>
                             </td>
                         </tr>
                         <tr>
                             <td class="small text-right">Max TX Fee:</td>
-                            <td class="small text-left mono"> {{parsedKyberTx.txFee.eth}} ETH
+                            <td class="small text-left mono"> {{parsedKyberTx.txFee.eth}} FUNC
                                 <small>({{parsedKyberTx.txFee.gwei}} GWEI)</small>
                             </td>
                         </tr>
@@ -3283,7 +3283,7 @@
                         </tr>
                         <tr>
                             <td class="small text-right">Amount to Send:</td>
-                            <td class="small text-left mono">{{parsedKyberTokenTx.value}} ETH</td>
+                            <td class="small text-left mono">{{parsedKyberTokenTx.value}} FUNC</td>
                         </tr>
                         <tr>
                             <td class="small text-right">Account Balance:</td>
@@ -3300,12 +3300,12 @@
                         <tr>
                             <td class="small text-right">Gas Price:</td>
                             <td class="small text-left mono">{{parsedKyberTokenTx.gasPrice.gwei}} GWEI
-                                <small>({{parsedKyberTokenTx.gasPrice.eth}} ETH)</small>
+                                <small>({{parsedKyberTokenTx.gasPrice.eth}} FUNC)</small>
                             </td>
                         </tr>
                         <tr>
                             <td class="small text-right">Max TX Fee:</td>
-                            <td class="small text-left mono"> {{parsedKyberTokenTx.txFee.eth}} ETH
+                            <td class="small text-left mono"> {{parsedKyberTokenTx.txFee.eth}} FUNC
                                 <small>({{parsedKyberTokenTx.txFee.gwei}} GWEI)</small>
                             </td>
                         </tr>
@@ -3335,7 +3335,7 @@
                         </tr>
                         <tr ng-show="kyberTransaction.tokenNeedsReset">
                             <td class="small text-right">Amount to Send:</td>
-                            <td class="small text-left mono">0 ETH</td>
+                            <td class="small text-left mono">0 FUNC</td>
                         </tr>
                         <tr ng-show="kyberTransaction.tokenNeedsReset">
                             <td class="small text-right">Current Approve Value:</td>
@@ -3356,12 +3356,12 @@
                         <tr ng-show="kyberTransaction.tokenNeedsReset">
                             <td class="small text-right">Gas Price:</td>
                             <td class="small text-left mono">{{parsedKyberResetTokenTx.gasPrice.gwei}} GWEI
-                                <small>({{parsedKyberResetTokenTx.gasPrice.eth}} ETH)</small>
+                                <small>({{parsedKyberResetTokenTx.gasPrice.eth}} FUNC)</small>
                             </td>
                         </tr>
                         <tr ng-show="kyberTransaction.tokenNeedsReset">
                             <td class="small text-right">Max TX Fee:</td>
-                            <td class="small text-left mono"> {{parsedKyberTokenTx.txFee.eth}} ETH
+                            <td class="small text-left mono"> {{parsedKyberTokenTx.txFee.eth}} FUNC
                                 <small>({{parsedKyberResetTokenTx.txFee.gwei}} GWEI)</small>
                             </td>
                         </tr>
@@ -3377,7 +3377,7 @@
                     </table>
                 </section>
                 <!-- / KYBER TOKEN TRANSACTION -->
-                <!-- KYBER ETH TRANSACTION -->
+                <!-- KYBER FUNC TRANSACTION -->
                 <table class="table small table-condensed table-hover transaction-modal" ng-if="kyberEthToToken">
                     <tbody>
                     <tr>
@@ -3396,7 +3396,7 @@
                     </tr>
                     <tr>
                         <td class="small text-right">Amount to Send:</td>
-                        <td class="small text-left mono">{{parsedKyberTx.value}} ETH</td>
+                        <td class="small text-left mono">{{parsedKyberTx.value}} FUNC</td>
                     </tr>
                     <tr>
                         <td class="small text-right">Account Balance:</td>
@@ -3425,12 +3425,12 @@
                     <tr>
                         <td class="small text-right">Gas Price:</td>
                         <td class="small text-left mono">{{parsedKyberTx.gasPrice.gwei}} GWEI
-                            <small>({{parsedKyberTx.gasPrice.eth}} ETH) <span ng-if="kyberTransaction.kyberMaxGas">| Note: Kyber Network Gas Price Max is 50 GWEI</span></small>
+                            <small>({{parsedKyberTx.gasPrice.eth}} FUNC) <span ng-if="kyberTransaction.kyberMaxGas">| Note: Kyber Network Gas Price Max is 50 GWEI</span></small>
                         </td>
                     </tr>
                     <tr>
                         <td class="small text-right">Max TX Fee:</td>
-                        <td class="small text-left mono"> {{parsedKyberTx.txFee.eth}} ETH
+                        <td class="small text-left mono"> {{parsedKyberTx.txFee.eth}} FUNC
                             <small>({{parsedKyberTx.txFee.gwei}} GWEI)</small>
                         </td>
                     </tr>
@@ -3445,7 +3445,7 @@
 
                     </tbody>
                 </table>
-                <!-- / KYBER ETH TRANSACTION -->
+                <!-- / KYBER FUNC TRANSACTION -->
             </div>
 
             <div class="modal-footer" ng-if="kyberEthToToken">
@@ -3503,7 +3503,7 @@
             </section>
             <!--</div>-->
         </article>
-        <!-- / Swap CTA ETH -->
+        <!-- / Swap CTA FUNC -->
 
 
     </article>
@@ -3598,7 +3598,7 @@
                             <h5>Transaction Hash(es):</h5>
                         </div>
 
-                        <!-- Token to ETH -->
+                        <!-- Token to FUNC -->
                         <div class="col-sm-12" ng-if="!kyberEthToToken && !kyberTransaction.bypassTokenApprove">
                             <span>
                                 Track your swap transaction:
@@ -3630,9 +3630,9 @@
                                 <h5>{{kyberTransaction.tokenApproveTxHash}}</h5>
                             </a>
                         </div>
-                        <!-- / Token to ETH -->
+                        <!-- / Token to FUNC -->
 
-                        <!-- Token to ETH ( with reset token allowance) -->
+                        <!-- Token to FUNC ( with reset token allowance) -->
                         <div class="col-sm-12" ng-if="kyberTransaction.tokenResetTx">
                             <span>
                                 Track your token approval reset transaction:
@@ -3641,9 +3641,9 @@
                                 <h5>{{kyberTransaction.tokenResetTxHash}}</h5>
                             </a>
                         </div>
-                        <!-- / Token to ETH ( with reset token allowance) -->
+                        <!-- / Token to FUNC ( with reset token allowance) -->
 
-                        <!-- ETH to Token-->
+                        <!-- FUNC to Token-->
                         <div class="col-sm-12" ng-if="kyberEthToToken">
                           <span>
                               Track your swap transaction:
@@ -3653,9 +3653,9 @@
                                 <h5>{{kyberTransaction.ethTxHash}}</h5>
                             </a>
                         </div>
-                        <!-- / ETH to Token-->
+                        <!-- / FUNC to Token-->
 
-                        <!-- Token to ETH (no approval needed)-->
+                        <!-- Token to FUNC (no approval needed)-->
                         <div class="col-sm-12" ng-if="!kyberEthToToken && kyberTransaction.bypassTokenApprove">
                                                         <span>
                                 Track your swap transaction:
@@ -3670,7 +3670,7 @@
                                 <h5>{{kyberTransaction.tokenTxHash}}</h5>
                             </a>
                         </div>
-                        <!-- / Token to ETH (no approval needed)-->
+                        <!-- / Token to FUNC (no approval needed)-->
 
                     </section>
                 </div>
@@ -3684,7 +3684,7 @@
 <!--        <div class="row text-center">
             <span> Common Questions: </span><br/>
             <a href="https://myetherwallet.github.io/knowledge-base/faq/eth-or-tokens-not-showing-on-exchange.html" target="_blank"
-               rel="noopener noreferrer"> ETH or Tokens haven't shown up </a><br/>
+               rel="noopener noreferrer"> FUNC or Tokens haven't shown up </a><br/>
             <a href="https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html" target="_blank"
                rel="noopener noreferrer"> Transactions are Not Showing Up or Pending Forever </a><br/>
             <span> Still need help: </span>
@@ -4736,7 +4736,7 @@
             Ethereum Name Service
           </a>
           is a distributed, open, and extensible naming system based on the Ethereum blockchain.
-          Once you have a name, you can tell your friends to send ETH to <code>mewtopia.eth</code> instead of <code>0x7cB57B5A97eAbe942.....</code>.
+          Once you have a name, you can tell your friends to send FUNC to <code>mewtopia.eth</code> instead of <code>0x7cB57B5A97eAbe942.....</code>.
         </p>
       </article>
       <!-- / ENS Title -->
@@ -4770,9 +4770,9 @@
   <!-- IF NOT ENS CHAIN -->
   <div ng-hide="showENS()" class="alert alert-danger text-center">
     <p>
-      The ENS is only available on the ETH and Ropsten (Testnet) chains. You are currently on the {{ajaxReq.type}} chain.
+      The ENS is only available on the FUNC and Ropsten (Testnet) chains. You are currently on the {{ajaxReq.type}} chain.
       <br />
-      Please use the node switcher in the upper right corner to select "ETH" or "Ropsten".
+      Please use the node switcher in the upper right corner to select "FUNC" or "Ropsten".
     </p>
   </div>
   <!-- / IF NOT ENS CHAIN -->
@@ -4797,7 +4797,7 @@
         Decide which account you wish to own the name & ensure that you have multiple backups of that account.
       </li>
       <li translate="ENS_Helper_4">
-        Decide the maximum amount of ETH you are willing to pay for the name (your <u>Bid Amount</u>). Ensure that the account has enough to cover your bid + 0.01 ETH for gas.
+        Decide the maximum amount of FUNC you are willing to pay for the name (your <u>Bid Amount</u>). Ensure that the account has enough to cover your bid + 0.01 FUNC for gas.
       </li>
     </ul>
 
@@ -4851,7 +4851,7 @@
         Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.
       </li>
       <li translate="ENS_Helper_16">
-        The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will be refunded all but 0.01 ETH.
+        The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will be refunded all but 0.01 FUNC.
       </li>
     </ul>
 
@@ -4986,7 +4986,7 @@
   
    <article class="row text-center" ng-show="objENS.status==ensModes.reveal">
   <br /><br />
-  <h1>It's time to reveal the bids for <strong>{{objENS.name}}.eth</strong>. </br> Current highest bid is <strong>{{objENS.highestBid}} ETH</strong>.</h1>
+  <h1>It's time to reveal the bids for <strong>{{objENS.name}}.eth</strong>. </br> Current highest bid is <strong>{{objENS.highestBid}} FUNC</strong>.</h1>
 
  <section class="order-info-wrap row">
     <div class="col-xs-12 order-info">
@@ -5185,7 +5185,7 @@
         </h5>
         <p>
           <small>
-            *This is the amount of ETH you send when placing your bid. It has no bearing on the *actual* amount you bid (above). It is simply to hide your real bid amount. It must be >= to your actual bid.*
+            *This is the amount of FUNC you send when placing your bid. It has no bearing on the *actual* amount you bid (above). It is simply to hide your real bid amount. It must be >= to your actual bid.*
           </small>
         </p>
         <div class="input-group">
@@ -5369,7 +5369,7 @@
   </button>
   <br /><br />
   <p translate="ENS_Finalize_content">
-    Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will be refunded all but 0.01 ETH. Any non-winners will also be refunded.
+    Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will be refunded all but 0.01 FUNC. Any non-winners will also be refunded.
   </p>
   <br />
 
@@ -5823,9 +5823,9 @@
   <!-- IF NOT ENS CHAIN -->
   <div ng-hide="showSubDomain()" class="alert alert-danger text-center">
     <p>
-      The Sub domain registration is only available on the ETH chain. You are currently on the {{ajaxReq.type}} chain.
+      The Sub domain registration is only available on the FUNC chain. You are currently on the {{ajaxReq.type}} chain.
       <br />
-      Please use the node switcher in the upper right corner to select "ETH".
+      Please use the node switcher in the upper right corner to select "FUNC".
     </p>
   </div>
   <!-- / IF NOT ENS CHAIN -->
@@ -5838,7 +5838,7 @@
           <div>
             <div class="input-group pad-bot" ng-repeat="data in objSub.validNames track by $index" > 
             <input class="form-control" type="text" value="{{data.fullName}}" ng-disabled="true"/>
-            <div class="input-group-btn"><button ng-show="data.available" ng-click="registerSubName($index)" class="btn btn-primary btn-primary-buy-button">Buy ({{data.EthVal}} ETH)
+            <div class="input-group-btn"><button ng-show="data.available" ng-click="registerSubName($index)" class="btn btn-primary btn-primary-buy-button">Buy ({{data.EthVal}} FUNC)
             </button>
             <button ng-show="!data.available" class="btn btn-primary btn-red" disabled><span class="na">X</span>
             </button></br>
@@ -5855,7 +5855,7 @@
     <section class="clearfix collapse-container">
       <div class="text-center" ng-click="wd = !wd">
         <a class="collapse-button"><span ng-show="wd">+</span><span ng-show="!wd">-</span></a>
-        <h5 traslate="SWAP_unlock">Unlock your wallet to buy {{objSub.buy.fullName}} for {{objSub.buy.EthVal}} ETH</h5>
+        <h5 traslate="SWAP_unlock">Unlock your wallet to buy {{objSub.buy.fullName}} for {{objSub.buy.EthVal}} FUNC</h5>
       </div>
       <div ng-show="!wd">
           
@@ -6302,7 +6302,7 @@
             </tr>
             <tr>
               <td class="small text-right">Amount to Send:</td>
-              <td class="small text-left mono">{{parsedSignedTx.value}} ETH</td>
+              <td class="small text-left mono">{{parsedSignedTx.value}} FUNC</td>
             </tr>
             <tr>
               <td class="small text-right">Account Balance:</td>
@@ -6322,12 +6322,12 @@
             </tr>
             <tr>
               <td class="small text-right">Gas Price:</td>
-              <td class="small text-left mono">{{parsedSignedTx.gasPrice.gwei}} GWEI <small>({{parsedSignedTx.gasPrice.eth}} ETH)</small>
+              <td class="small text-left mono">{{parsedSignedTx.gasPrice.gwei}} GWEI <small>({{parsedSignedTx.gasPrice.eth}} FUNC)</small>
               </td>
             </tr>
             <tr>
               <td class="small text-right">Max TX Fee:</td>
-              <td class="small text-left mono"> {{parsedSignedTx.txFee.eth}} ETH <small>({{parsedSignedTx.txFee.gwei}} GWEI)</small></td>
+              <td class="small text-left mono"> {{parsedSignedTx.txFee.eth}} FUNC <small>({{parsedSignedTx.txFee.gwei}} GWEI)</small></td>
             </tr>
             <tr>
               <td class="small text-right">Nonce:</td>
@@ -6442,7 +6442,7 @@
 
   <!-- IF NOT DOMAINSALE CHAIN -->
   <div ng-hide="showDomainSale()" class="alert alert-danger text-center">
-    <p> DomainSale is only available on the ETH and Ropsten (Testnet) chains. You are currently on the {{ajaxReq.type}} chain. <br /> Please use the node switcher in the upper right corner to select "ETH" or "Ropsten". </p>
+    <p> DomainSale is only available on the FUNC and Ropsten (Testnet) chains. You are currently on the {{ajaxReq.type}} chain. <br /> Please use the node switcher in the upper right corner to select "FUNC" or "Ropsten". </p>
   </div>
   <!-- / IF NOT DOMAINSALE CHAIN -->
 
@@ -7451,7 +7451,7 @@
               </span>
             </td>
             <td>
-              ({{ txFee.eth }} ETH)
+              ({{ txFee.eth }} FUNC)
               <small>({{ txFee.usd }} USD)</small>
             </td>
           </tr>
@@ -7937,7 +7937,7 @@
             </tr>
             <tr>
               <td class="small text-right">Amount to Send:</td>
-              <td class="small text-left mono">{{parsedSignedTx.value}} ETH</td>
+              <td class="small text-left mono">{{parsedSignedTx.value}} FUNC</td>
             </tr>
             <tr>
               <td class="small text-right">Account Balance:</td>
@@ -7957,12 +7957,12 @@
             </tr>
             <tr>
               <td class="small text-right">Gas Price:</td>
-              <td class="small text-left mono">{{parsedSignedTx.gasPrice.gwei}} GWEI <small>({{parsedSignedTx.gasPrice.eth}} ETH)</small>
+              <td class="small text-left mono">{{parsedSignedTx.gasPrice.gwei}} GWEI <small>({{parsedSignedTx.gasPrice.eth}} FUNC)</small>
               </td>
             </tr>
             <tr>
               <td class="small text-right">Max TX Fee:</td>
-              <td class="small text-left mono"> {{parsedSignedTx.txFee.eth}} ETH <small>({{parsedSignedTx.txFee.gwei}} GWEI)</small></td>
+              <td class="small text-left mono"> {{parsedSignedTx.txFee.eth}} FUNC <small>({{parsedSignedTx.txFee.gwei}} GWEI)</small></td>
             </tr>
             <tr>
               <td class="small text-right">Nonce:</td>
@@ -8292,7 +8292,7 @@
                   You are just using our **interface** to interact **directly with the blockchain**.
                 </li>
                 <li translate="ONBOARD_interface_content__6">
-                  If you send your *public key (address)* to someone, they can send you ETH or tokens. 👍
+                  If you send your *public key (address)* to someone, they can send you FUNC or tokens. 👍
                 </li>
                 <li translate="ONBOARD_interface_content__7">
                   If you send your *private key* to someone, they now have full control of your account. 👎

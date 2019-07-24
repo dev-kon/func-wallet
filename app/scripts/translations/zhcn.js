@@ -67,7 +67,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -84,7 +84,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -395,7 +395,7 @@ SEND_signed                 : '签名交易 ',
 SEND_trans                  : '发送交易 ',
 SEND_custom                 : 'Add Custom Token ',
 SENDModal_Title             : '警告！ ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : '你将发送 ',
 SENDModal_Content_2         : '到地址 ',
 SENDModal_Content_3         : '你确定这样做吗？ ',
@@ -422,7 +422,7 @@ TRANS_sendInfo              : '一笔标准交易需要21000gas，花费0.000441
 TRANSModal_Title            : '“只发送ETH”和“只发送ETC”交易 ',
 TRANSModal_Content_0        : '注意不同的交易和不同的服务： ',
 TRANSModal_Content_1        : '**发送ETH（标准交易）：** 这将生成一个默认交易，直接从一个地址发送到另一个地址。它的默认gas是21000。 用这种方式发送ETH可能会在ETC链上重放。 ',
-TRANSModal_Content_2        : '**只发送：ETH：** 这是通过[Timon Rapp的重放保护合约（VB推荐）](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/)， 所以你只会在ETH链上发送交易。 ',
+TRANSModal_Content_2        : '**只发送：FUNC：** 这是通过[Timon Rapp的重放保护合约（VB推荐）](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/)， 所以你只会在ETH链上发送交易。 ',
 TRANSModal_Content_3        : '**只发送：ETC：** 这是通过[Timon Rapp的重放保护合约（VB推荐）](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/)， 所以你只会在ETH链上发送交易。 ',
 TRANSModal_Content_4        : '**Coinbase & ShapeShift: ** 通过标准交易只发送ETH或者ETC。如果你通过“只发送ETH或者ETC”合约发送交易，你需要联系他们的客服，让他们手动增加你的余额或者返币给你。 [你也可以尝试Shapeshift的”分割“工具。](https://split.shapeshift.io/) ',
 TRANSModal_Content_5        : '**Kraken、Poloniex交易所：**向这两个交易所地址发送没币有遇到问题。可以使用。 ',
@@ -522,7 +522,7 @@ SWAP_progress_2             : "Waiting for your ", // Waiting for your BTC...
 SWAP_progress_3             : "Received! ", // FUNC Received!
 SWAP_progress_4             : "Sending your {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Order Complete ",
-SWAP_order_CTA              : "Please send ", // Please send 1 ETH...
+SWAP_order_CTA              : "Please send ", // Please send 1 FUNC...
 SWAP_unlock                 : "Unlock your wallet to send FUNC or Tokens directly from this page. ",
 
 /* Sign Message */

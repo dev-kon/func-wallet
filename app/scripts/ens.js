@@ -17,8 +17,8 @@ var ens = function() {
     this.subDomainABI = {};
     for (var i in subDomainInterface) this.subDomainABI[subDomainInterface[i].name] = subDomainInterface[i];
     switch (ajaxReq.type) {
-        case nodes.nodeTypes.ETH:
-            _this.setCurrentRegistry(ens.registry.ETH);
+        case nodes.nodeTypes.FUNC:
+            _this.setCurrentRegistry(ens.registry.FUNC);
             break;
         case nodes.nodeTypes.Rinkeby:
             _this.setCurrentRegistry(ens.registry.Rinkeby);
@@ -31,7 +31,7 @@ var ens = function() {
     }
 };
 ens.registry = {
-    ETH: require('./ensConfigs/ETHConfig.json'),
+    FUNC: require('./ensConfigs/ETHConfig.json'),
     Rinkeby: require('./ensConfigs/RinkebyConfig.json'),
     ROPSTEN: require('./ensConfigs/ROPConfig.json'),
     NULL: {}

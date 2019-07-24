@@ -67,7 +67,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -84,7 +84,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -391,7 +391,7 @@ SEND_raw                    : 'Định Dạng Giao Dịch ',
 SEND_signed                 : 'Chữ Ký Giao Dich ',
 SEND_trans                  : 'Gửi Đi ',
 SENDModal_Title             : 'Cảnh Báo! ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'Bạn muốn gửi đi ',
 SENDModal_Content_2         : 'Địa chỉ đến ',
 SENDModal_Content_3         : 'Bạn đã chắc chắn muốn thực hiện giao dịch này ',
@@ -408,17 +408,17 @@ TOKEN_hide                  : 'Ẩn Tokens ',
 
 /* Send Transaction */
 TRANS_desc                  : 'Nếu bạn muốn gửi Token, xin vui lòng sử dụng danh mục "Gửi Token". ',
-TRANS_warning               : 'Nếu bạn sử dụng chức năng "Chỉ ETH" hoặc "Chỉ ETC" trong việc gửi đi thông qua một hợp đồng thông minh. Những dịch vụ có chức năng chấp nhận các giao dịch. Đọc Thêm. ',
+TRANS_warning               : 'Nếu bạn sử dụng chức năng "Chỉ FUNC" hoặc "Chỉ ETC" trong việc gửi đi thông qua một hợp đồng thông minh. Những dịch vụ có chức năng chấp nhận các giao dịch. Đọc Thêm. ',
 TRANS_advanced              : 'Nâng Cao: Thêm Dữ Liệu ',
 TRANS_data                  : 'Dữ Liệu: ',
 TRANS_gas                   : 'Gas Limit: ',
-TRANS_sendInfo              : 'Mỗi Giao dịch Phổ Thông sử dụng hết 21000 gas có giá tương đương 0.000441 ETH. Chúng tôi áp dụng giá Gas dành cho một giao dịch cao hơn so với mức tối thiểu là 0.000000021 ETHO nhằm đảm bảo một giao dịch được diễn ra nhanh. Chúng tôi hoàn toàn không nhận được khoản tiền phát sinh nào từ phí giao dịch. ',
+TRANS_sendInfo              : 'Mỗi Giao dịch Phổ Thông sử dụng hết 21000 gas có giá tương đương 0.000441 FUNC. Chúng tôi áp dụng giá Gas dành cho một giao dịch cao hơn so với mức tối thiểu là 0.000000021 ETHO nhằm đảm bảo một giao dịch được diễn ra nhanh. Chúng tôi hoàn toàn không nhận được khoản tiền phát sinh nào từ phí giao dịch. ',
 
 /* Send Transaction Modals */
-TRANSModal_Title            : 'Giao Dịch "Chỉ ETH" Và "Chỉ ETC" ',
+TRANSModal_Title            : 'Giao Dịch "Chỉ FUNC" Và "Chỉ ETC" ',
 TRANSModal_Content_0        : 'Một số lưu ý về sự khác biệt của từng loại giao dịch và sự khác biệt của từng dịch vụ: ',
 TRANSModal_Content_1        : '**ETHO (Giao Dịch Phổ Thông): ** Phương pháp này mặc định rằng nó sẽ tạo giao dịch từ một địa chỉ gửi đến địa chỉ nhận khác và nó sẽ tiêu thụ hết 21000 gas. Theo giả thuyết thì bất kì số ETHO gửi đi thông qua phương pháp này sẽ được thực hiện lại tương tự trên chuổi ETC. ',
-TRANSModal_Content_2        : '**Chỉ ETH: ** Phương pháp này sẽ thực hiện giao dịch thông qua [Hợp đồng thông minh nhằm "tránh việc phát lại" được phát triển bởi Timon Rapp (theo lời cảnh báo của VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) vì vậy giao dịch này chỉ được thực hiện trên chuổi **ETH**. ',
+TRANSModal_Content_2        : '**Chỉ FUNC: ** Phương pháp này sẽ thực hiện giao dịch thông qua [Hợp đồng thông minh nhằm "tránh việc phát lại" được phát triển bởi Timon Rapp (theo lời cảnh báo của VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) vì vậy giao dịch này chỉ được thực hiện trên chuổi **FUNC**. ',
 TRANSModal_Content_3        : '**Chỉ ETC: ** Phương pháp này sẽ thực hiện giao dịch thông qua [Hợp đồng thông minh nhằm "tránh việc phát lại" được phát triển bởi Timon Rapp (theo lời cảnh báo của VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) vì vậy giao dịch này chỉ được thực hiện trên chuổi **ETC**. ',
 TRANSModal_Content_4        : '**Coinbase & ShapeShift: ** Giao Dịch chỉ được thực hiện thông qua giao dịch phổ thông. Nếu bạn thực hiện thông qua hợp đồng "Chỉ", thì bạn cần phải liên hệ trực tiếp với nhân viên hỗ trợ của họ để họ tự thêm vào hoặc hoàn lại tiền cho bạn. [bạn cũng có thể thử với công cụ "chia tách" của Shapeshift.](https://split.shapeshift.io/) ',
 TRANSModal_Content_5        : '**Kraken & Poloniex:** không có sự cố nào xảy ra khi thực hiện giao dịch. ',
@@ -484,7 +484,7 @@ SWAP_progress_2             : "Waiting for your ", // Waiting for your BTC...
 SWAP_progress_3             : "Received! ", // ETHO Received!
 SWAP_progress_4             : "Sending your {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Order Complete ",
-SWAP_order_CTA              : "Please send ", // Please send 1 ETH...
+SWAP_order_CTA              : "Please send ", // Please send 1 FUNC...
 SWAP_unlock                 : "Unlock your wallet to send ETHO or Tokens directly from this page. ",
 
 /* Sign Message */
@@ -579,7 +579,7 @@ ERROR_13                    : 'Tên gọi này đã được sữ dụng. ',
 ERROR_14                    : 'Không tìm thấy Ví. ',
 ERROR_15                    : 'Trông có vẻ như một proposal ới số ID này chưa kết thúc hoặc đang có một lỗi xảy ra để đọc được proposal này. ',
 ERROR_16                    : 'Đã có một ví với địa chỉ này đang tồn tại trong mục lưu trữ. Vui lòng kiễm tra trang ví của bạn. ',
-ERROR_17                    : 'Bạn cần có ít nhất **0.01 ETH** trong tài khoản để thanh toán chi phí gas. Hãy thêm một số ether và thực hiện lại. ',
+ERROR_17                    : 'Bạn cần có ít nhất **0.01 FUNC** trong tài khoản để thanh toán chi phí gas. Hãy thêm một số ether và thực hiện lại. ',
 ERROR_18                    : 'Toàn bộ gas sẽ được sử dụng trong giao dịch này. Việc làm này có nghĩa là bạn đã bỏ phiếu cho đề xuất này hoặc kỳ hạn của cuộc tranh luận đã kết thúc. ',
 ERROR_19                    : 'Biểu tượng không hợp lệ ',
 ERROR_20                    : 'Không tồn tại trên hệ thống ERC-20 token. Nếu bạn phải chờ lâu. Xin vui lòng thử lại lần nữa!. ',

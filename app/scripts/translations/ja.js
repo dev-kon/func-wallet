@@ -68,7 +68,7 @@ DOMAIN_offer_15                 :  'ドメイン名の販売を中止して、�
 
 ENS_Bid_Title                   :  '入札する', /*Place a Bid*/
 ENS_Finalize                    :  '終了処理', /*Finalize*/
-ENS_Finalize_content            :  '終了処理を行うと、ドメイン名が落札者に移管されます。落札者には、第二位の入札価格との差額が返却されます。入札が一件だけの場合には、0.01ethとの差額が返却されます。落札者以外の入札も返却されます。', /*Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.*/
+ENS_Finalize_content            :  '終了処理を行うと、ドメイン名が落札者に移管されます。落札者には、第二位の入札価格との差額が返却されます。入札が一件だけの場合には、0.01ethとの差額が返却されます。落札者以外の入札も返却されます。', /*Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.*/
 ENS_Finalize_content_1          :  'まもなく、オークションの最終処理と登録を行います。', /*You are about to finalize the auction & claim the name:*/
 ENS_Helper_1                    :  '処理プロセスの概要は？', /*What is the process like?*/
 ENS_Helper_2                    :  '１) 準備', /*1. Preparation*/
@@ -85,7 +85,7 @@ ENS_Helper_12                   :  'アカウントを解錠してから, <u>Bid
 ENS_Helper_13                   :  '同一価格での応札では、先に開示された応札が優先されます。', /*In the event that two parties bid exactly the same amount, the first bid revealed will win.*/
 ENS_Helper_14                   :  '４) 競売を終了する', /*4. Finalize the Auction*/
 ENS_Helper_15                   :  'いったん競売が（五日間、あるいは１２０時間後に）終了すると、その新しいドメイン名を確定するために、落札者は最終処理を行う必要があります。', /*Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.*/
-ENS_Helper_16                   :  '落札者には、その入札額と二番入札との差額が返金されます。', /*The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.*/
+ENS_Helper_16                   :  '落札者には、その入札額と二番入札との差額が返金されます。', /*The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.*/
 ENS_Helper_17                   :  '詳細情報', /*More Information*/
 ENS_Helper_18                   :  '登録のための競売は、封印入札方式で、詳細は', /*The auction for this registrar is a blind auction, and is described in*/
 ENS_Helper_19                   :  '基本的には応札中に何も開示されません。', /*Basically, no one can see *anything* during the auction.*/
@@ -518,7 +518,7 @@ SWAP_progress_2             : "到着待機中 ", // Waiting for your BTC...
 SWAP_progress_3             : "ETH受け取り完了 ", // ETHO Received!
 SWAP_progress_4             : "送出中 {{orderResult.output.currency}} ",
 SWAP_progress_5             : "注文完了 ",
-SWAP_order_CTA              : "お送りいただきたいのは ", // Please send 1 ETH...
+SWAP_order_CTA              : "お送りいただきたいのは ", // Please send 1 FUNC...
 SWAP_unlock                 : "このページから直接ETHあるいはトークンを送出するためには、お財布を解錠してください。",
 
 TOKEN_Addr                  : 'トークン契約アドレス： ',

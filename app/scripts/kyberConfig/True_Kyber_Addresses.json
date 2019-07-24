@@ -80,7 +80,7 @@
       "maxPerBlockImbalance": "1925452883",
       "maxTotalImbalance": "1925452883"
     },
-    "ETH": {
+    "FUNC": {
       "name": "Ethereum",
       "decimals": 18,
       "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
@@ -88,7 +88,7 @@
   },
   "exchanges": {
     "binance": {
-      "ETH": "0x44d34a119ba21a42167ff8b77a88f0fc7bb2db90",
+      "FUNC": "0x44d34a119ba21a42167ff8b77a88f0fc7bb2db90",
       "OMG": "0x44d34a119ba21a42167ff8b77a88f0fc7bb2db90",
       "KNC": "0x44d34a119ba21a42167ff8b77a88f0fc7bb2db90",
       "SNT": "0x44d34a119ba21a42167ff8b77a88f0fc7bb2db90",
@@ -164,7 +164,7 @@
   "neg diff in bps": 20,
   "min expected rate slippage": 300,
   "KNC wallet": "0xBC33a1F908612640F2849b56b67a4De4d179C151",
-  "KNC to ETH rate": 300,
+  "KNC to FUNC rate": 300,
   "valid duration block": 60,
   "reserve": "0x0FC1CF3e7DD049F7B42e6823164A64F76fC06Be0",
   "pricing": "0x535DE1F5a982c2a896da62790a42723A71c0c12B",

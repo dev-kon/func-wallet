@@ -67,7 +67,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -84,7 +84,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -284,7 +284,7 @@ NAV_Swap                    : 'Swap ',
 NAV_SignMsg                 : 'Sign Message ',
 
 /* General */
-x_AddessDesc                : 'Your Address can also be known as you `Account #` or your `Public Key`. It is what you share with people so they can send you Ether or Tokens. Find the colorful address icon. Make sure it matches your paper wallet & whenever you enter your address somewhere. Úgy is ismerheted ezt, mint "Számlaszám" vagy "Publikus Kulcs". Ez az amit a partnereidnek küldesz, hogy tudjanak ETH-et küldeni neked. Az oldalsó ikon egyszerű módja a saját címed felismerésének. ',
+x_AddessDesc                : 'Your Address can also be known as you `Account #` or your `Public Key`. It is what you share with people so they can send you Ether or Tokens. Find the colorful address icon. Make sure it matches your paper wallet & whenever you enter your address somewhere. Úgy is ismerheted ezt, mint "Számlaszám" vagy "Publikus Kulcs". Ez az amit a partnereidnek küldesz, hogy tudjanak FUNC-et küldeni neked. Az oldalsó ikon egyszerű módja a saját címed felismerésének. ',
 x_Address                   : 'A Te címed ',
 x_Cancel                    : 'Mégse ',
 x_CSV                       : 'CSV fájl (titkosítatlan) ',
@@ -392,7 +392,7 @@ SEND_raw                    : 'Raw/Nyers Tranzakció ',
 SEND_signed                 : 'Aláírt Tranzakció ',
 SEND_trans                  : 'Tranzakció Küldése ',
 SENDModal_Title             : 'Figyelmeztetés! ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'Most készülsz küldeni ',
 SENDModal_Content_2         : '-t az alábbi címre: ',
 SENDModal_Content_3         : 'Biztos vagy benne? ',
@@ -409,17 +409,17 @@ TOKEN_hide                  : 'Tokenek elrejtése ',
 
 /* Send Transaction */
 TRANS_desc                  : 'Ha Tokeneket akarsz küldeni, kérlek használd a Token Küldése oldalt ehelyett. ',
-TRANS_warning               : 'Ha a "Csak ETH" vagy a "Csak ETC" Funkciókat használod a küldés kontraktuson keresztül megy végbe. Néhány szolgáltatásnak problémái lehetnek az ilyen tranzakciók elfogadásával. Kattints és tudj meg többet. ',
+TRANS_warning               : 'Ha a "Csak FUNC" vagy a "Csak ETC" Funkciókat használod a küldés kontraktuson keresztül megy végbe. Néhány szolgáltatásnak problémái lehetnek az ilyen tranzakciók elfogadásával. Kattints és tudj meg többet. ',
 TRANS_advanced              : '+Haladó: Több Adat ',
 TRANS_data                  : 'Adat ',
 TRANS_gas                   : 'Gas Limit ',
-TRANS_sendInfo              : 'Egy standard tranzakció 21000 gas-t használ, ami 0.000441 ETH-be fog kerülni. Mi 0.000000021 ETH-nél (a minimálisnál) enyhén magasabb gas árat használunk, annak biztosítása érdekében, hogy gyorsan ki legyen bányászva. Tranazkciós költséget nem számolunk fel. ',
+TRANS_sendInfo              : 'Egy standard tranzakció 21000 gas-t használ, ami 0.000441 FUNC-be fog kerülni. Mi 0.000000021 FUNC-nél (a minimálisnál) enyhén magasabb gas árat használunk, annak biztosítása érdekében, hogy gyorsan ki legyen bányászva. Tranazkciós költséget nem számolunk fel. ',
 
 /* Send Transaction Modals */
-TRANSModal_Title            : '"Csak ETH" és "Csak ETC" Tranzakciók ',
+TRANSModal_Title            : '"Csak FUNC" és "Csak ETC" Tranzakciók ',
 TRANSModal_Content_0        : 'Egy jegyzet a különféle tranzakciókról és szolgáltatásokról ',
-TRANSModal_Content_1        : '**ETHO (Standard Tranzakció): ** Egy alapértelmezett tranzakciót generál közvetlenül az egyik címről a másikra. A gas alapértéke 21000. Valószínűsíthető, hogy minden ETH, ami ezzel a módszerrel lesz elküldve, végbemegy az ETC láncon is. ',
-TRANSModal_Content_2        : '**Csak ETH: **  Ez a tranzakciótípus [Timon Rapp replay protection/visszajátszás elleni védelem kontraktusán keresztül küld (ahogy azt Vitalik Buterin adjánlotta)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) tehát a küldés csak az **ETH** láncon megy végbe. ',
+TRANSModal_Content_1        : '**ETHO (Standard Tranzakció): ** Egy alapértelmezett tranzakciót generál közvetlenül az egyik címről a másikra. A gas alapértéke 21000. Valószínűsíthető, hogy minden FUNC, ami ezzel a módszerrel lesz elküldve, végbemegy az ETC láncon is. ',
+TRANSModal_Content_2        : '**Csak FUNC: **  Ez a tranzakciótípus [Timon Rapp replay protection/visszajátszás elleni védelem kontraktusán keresztül küld (ahogy azt Vitalik Buterin adjánlotta)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) tehát a küldés csak az **FUNC** láncon megy végbe. ',
 TRANSModal_Content_3        : '**Csak ETC: ** Ez a tranzakciótípus [Timon Rapp replay protection/visszajátszás elleni védelem kontraktusán keresztül küld (ahogy azt Vitalik Buterin adjánlotta)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) tehát a küldés csak az **ETC** láncon megy végbe. ',
 TRANSModal_Content_4        : '**Coinbase & ShapeShift: ** Csak Standard Tranzakció szerint küld. Ha a "Csak" kontraktusok valamelyikével küldesz, fel kell venned a kapcsolatot az ügyfélszolgálattal, hogy manuálisan hozzáadhassák az egyenleged vagy visszatérítést küldjenek. [Megpróbálhatod a Shapeshift "split" eszközét is.](https://split.shapeshift.io/) ',
 TRANSModal_Content_5        : '**Kraken & Poloniex:** Nincsenek ismert problémák. Használható bárhogyan. ',
@@ -523,7 +523,7 @@ SWAP_progress_2             : "Waiting for your ", // Waiting for your BTC...
 SWAP_progress_3             : "Received! ", // ETHO Received!
 SWAP_progress_4             : "Sending your {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Order Complete ",
-SWAP_order_CTA              : "Please send ", // Please send 1 ETH...
+SWAP_order_CTA              : "Please send ", // Please send 1 FUNC...
 SWAP_unlock                 : "Unlock your wallet to send ETHO or Tokens directly from this page. ",
 
 /* Sign Message */
@@ -651,7 +651,7 @@ TranslatorAddr_5            : '',
 HELP_Warning                : 'Ha **2015 december 31** előtt készítettél egy tárcát vagy töltötted le a repo-t, akkor ellenőrizd a tárcáidat és töltsd le a repo új verzióját. Kattints a részletekért. ',
 HELP_Desc                   : 'Valamit hiányolsz? Egyéb kérdésed lenne? [Írj nekünk](mailto:support@myetherwallet.com), és nem csak választ fogsz kapni, de még ezt az oldalt is frissítjük, hogy másoknak is hasznosabb legyen. ',
 HELP_Remind_Title           : 'Néhány emlékeztető ',
-HELP_Remind_Desc_1          : 'Az **Ethereum, Funcoin Wallet és Funcoin Wallet CX, továbbá néhány, az oldal által használt JavaScript könyvtár aktív fejlesztés alatt állnak.** Az alapos tesztelés és a világszerte több tízezer sikeresen létrehozott tárca ellenére mindig fennáll az apró lehetőség arra, hogy valami váratlan esemény miatt elveszted az ETH-id. Ne fektess be annál többet, mint amit hajlandó lennél elveszítnei. Ha esetleg bármi ilyen történne, nagyon sajnáljuk, de **nem vagyunk a felősek az elvesztett Etherekért**. ',
+HELP_Remind_Desc_1          : 'Az **Ethereum, Funcoin Wallet és Funcoin Wallet CX, továbbá néhány, az oldal által használt JavaScript könyvtár aktív fejlesztés alatt állnak.** Az alapos tesztelés és a világszerte több tízezer sikeresen létrehozott tárca ellenére mindig fennáll az apró lehetőség arra, hogy valami váratlan esemény miatt elveszted az FUNC-id. Ne fektess be annál többet, mint amit hajlandó lennél elveszítnei. Ha esetleg bármi ilyen történne, nagyon sajnáljuk, de **nem vagyunk a felősek az elvesztett Etherekért**. ',
 HELP_Remind_Desc_2          : 'A Funcoin Wallet és a Funcoin Wallet CX nem "web tárcák". Nem kell nálunk regisztrálnod, vagy ránk bízni az Ethereid megőrzésre. Semmilyen adat nem hagyja el a gépedet/böngésződet. Abban segítünk, hogy egyszerűen tudd az tárcáid látrehozni, lementeni és hozzájuk férni, és egyéb módon használni a blokkláncot. ',
 HELP_Remind_Desc_3          : 'Ha nem mented le a privát kulcsodat és a jelszót, akkor nincs lehetőség visszaszerezni a tárcádhoz a hozzáférést, sem a rajta levő összeget. Készíts róluk több példányban is biztonsági másolatot, és ne csak a gépeden legyenek! ',
 

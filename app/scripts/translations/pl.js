@@ -67,7 +67,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -84,7 +84,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -391,7 +391,7 @@ SEND_raw                    : 'Surowa Transakcja ',
 SEND_signed                 : 'Podpisana Transakcja ',
 SEND_trans                  : 'Wyślij Transakcję ',
 SENDModal_Title             : 'Ostrzeżenie! ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'Wysyłasz ',
 SENDModal_Content_2         : 'do adresu ',
 SENDModal_Content_3         : 'Jesteś pewien, że chcesz to zrobić? ',
@@ -408,17 +408,17 @@ TOKEN_hide                  : 'Ukryj Tokeny ',
 
 /* Send Transaction */
 TRANS_desc                  : 'Jeśli chcesz wysłać Tokeny, użyj zakładki "Wyślij Tokeny". ',
-TRANS_warning               : 'Jeśli używasz funkcji "Tylko ETH" lub "Tylko ETC" wysyłasz przez kontrakt. Niektóre serwisy mają problemy z rozpoznawaniem tego typu transakcji. Czytaj dalej. ',
+TRANS_warning               : 'Jeśli używasz funkcji "Tylko FUNC" lub "Tylko ETC" wysyłasz przez kontrakt. Niektóre serwisy mają problemy z rozpoznawaniem tego typu transakcji. Czytaj dalej. ',
 TRANS_advanced              : '+Zaawansowane: Dodaj Dane ',
 TRANS_data                  : 'Dane ',
-TRANS_sendInfo              : 'Standardowa transakcja, zużywająca 21000 paliwa, będzie kosztować 0.000441 ETH. My używamy ceny paliwa nieco-powyżej-minimum, co odpowiada 0.000000021 ETHO aby upewnić się, że zostanie szybko zatwierdzona. Nie pobieramy żadnych dodatkowych opłat. ',
+TRANS_sendInfo              : 'Standardowa transakcja, zużywająca 21000 paliwa, będzie kosztować 0.000441 FUNC. My używamy ceny paliwa nieco-powyżej-minimum, co odpowiada 0.000000021 ETHO aby upewnić się, że zostanie szybko zatwierdzona. Nie pobieramy żadnych dodatkowych opłat. ',
 TRANS_gas                   : 'Limit Paliwa ',
 
 /* Send Transaction Modals */
-TRANSModal_Title            : 'Transakcje "Tylko ETH" i "Tylko ETC" ',
+TRANSModal_Title            : 'Transakcje "Tylko FUNC" i "Tylko ETC" ',
 TRANSModal_Content_0        : 'Informacje na temat różnych transakcji i różnych odbiorców: ',
 TRANSModal_Content_1        : '**ETHO (Standardowa Transakcja): ** generuje standardową transakcję bezpośrednio z jednego adresu do drugiego. Domyślnie spala 21000 paliwa. Prawdopodobnie transakcja ETHO zostanie powielona na łańcuchu ETC jeżeli posiadasz obie waluty na tym samym adresie. ',
-TRANSModal_Content_2        : '**Tylko ETH: ** wysyła przez [Kontrakt zapobiegający powielaniu Timon\'a Rapp\'a (zalecany przez VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/), który wysyła środki tylko na łańcuchu **ETH**. ',
+TRANSModal_Content_2        : '**Tylko FUNC: ** wysyła przez [Kontrakt zapobiegający powielaniu Timon\'a Rapp\'a (zalecany przez VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/), który wysyła środki tylko na łańcuchu **FUNC**. ',
 TRANSModal_Content_3        : '**Tylko ETC: ** wysyła przez [Kontrakt zapobiegający powielaniu Timon\'a Rapp\'a (zalecany przez VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/), który wysyła środki tylko na łańcuchu **ETC**. ',
 TRANSModal_Content_4        : '**Coinbase & ShapeShift: ** używaj tylko Transakcji Standardowych. Jeżeli wyślesz z opcją "Tylko...", będziesz musiał skontaktować się z pomocą techniczną usługodawcy w celu manualnego zatwierdzenia środków lub ich zwrotu. Możesz też użyć [narzędzia Shapeshift](https://split.shapeshift.io/)  do rozdzielenia środków. ',
 TRANSModal_Content_5        : '**Kraken i Poloniex:** nie są znane żadne utrudnienia. Używaj dowolnie. ',
@@ -559,7 +559,7 @@ SWAP_progress_2             : "Oczekiwanie na Twoje ", // Waiting for your BTC..
 SWAP_progress_3             : "Otrzymano! ", // ETHO Received!
 SWAP_progress_4             : "Wysyłanie Twoich {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Zlecenie Zakończone ",
-SWAP_order_CTA              : "Wyślij ", // Please send 1 ETH...
+SWAP_order_CTA              : "Wyślij ", // Please send 1 FUNC...
 SWAP_unlock                 : "Odblokuj Twój portfel, aby wysłać ETHO lub Tokeny wprost z tej strony. ",
 
 /* Error Messages */
@@ -580,7 +580,7 @@ ERROR_13                    : 'Portfel z tą nazwą już istnieje. ',
 ERROR_14                    : 'Nie znaleziono portfela. ',
 ERROR_15                    : 'Wygląda, że propozycja z tym ID jeszcze nie istnieje, lub wystąpił błąd odczytu tej propozycji. ',
 ERROR_16                    : 'Portfel z tym adresem już istnieje w konfiguracji. Sprawdź zakładkę portfeli. ',
-ERROR_17                    : 'Niewystarczające środki. Konto, z którego wysyłasz transakcję nie posiada wystarczających funduszy. Musisz mieć **0.01 ETH** na koncie, aby pokryć koszty paliwa. Doładuj konto i spróbuj ponownie. ',
+ERROR_17                    : 'Niewystarczające środki. Konto, z którego wysyłasz transakcję nie posiada wystarczających funduszy. Musisz mieć **0.01 FUNC** na koncie, aby pokryć koszty paliwa. Doładuj konto i spróbuj ponownie. ',
 ERROR_18                    : 'Całe paliwo było by zużyte w tej transakcji. Oznacza to, że głosowałeś już w tej propozycji albo minął termin głosowania. ',
 ERROR_19                    : 'Nieprawidłowy symbol ',
 ERROR_20                    : 'nie jest prawidłowym tokenem ERC-20. Jeśli inne tokeny się ładują, sporóbuj usunąć i dodać ponownie ten token. ',

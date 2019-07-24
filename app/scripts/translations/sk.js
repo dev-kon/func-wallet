@@ -68,7 +68,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -85,7 +85,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -289,7 +289,7 @@ NAV_YourWallets             : 'Vaše Peňaženky ',
 
 /* General */
 x_Access                    : 'Access ',
-x_AddessDesc                : 'Your Address can also be known as you `Account #` or your `Public Key`. It is what you share with people so they can send you Ether or Tokens. Find the colorful address icon. Make sure it matches your paper wallet & whenever you enter your address somewhere. Možno to poznate ako vaše "Konto #" alebo váš "Verejný Kľúč". Adresa je to, čo pošlete ľudom, aby vám mohli poslať ETH. Táto ikona vám pomôže rozpoznať vašu adresu. ',
+x_AddessDesc                : 'Your Address can also be known as you `Account #` or your `Public Key`. It is what you share with people so they can send you Ether or Tokens. Find the colorful address icon. Make sure it matches your paper wallet & whenever you enter your address somewhere. Možno to poznate ako vaše "Konto #" alebo váš "Verejný Kľúč". Adresa je to, čo pošlete ľudom, aby vám mohli poslať FUNC. Táto ikona vám pomôže rozpoznať vašu adresu. ',
 x_Address                   : 'Vaša Adresa ',
 x_Cancel                    : 'Zrušiť ',
 x_CSV                       : 'CSV súbor (nezašifrovaný) ',
@@ -395,7 +395,7 @@ SEND_raw                    : 'Raw Transaction ',
 SEND_signed                 : 'Signed Transaction ',
 SEND_trans                  : 'Send Transaction ',
 SENDModal_Title             : 'Warning! ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'You are about to send ',
 SENDModal_Content_2         : 'to address ',
 SENDModal_Content_3         : 'Are you sure you want to do this? ',
@@ -412,17 +412,17 @@ TOKEN_hide                  : 'Hide Tokens ',
 
 /* Send Transaction */
 TRANS_desc                  : 'If you want to send Tokens, please use the "Send Token" page instead. ',
-TRANS_warning               : 'If you are using the "Only ETH" or "Only ETC" Functions you are sending via a contract. Some services have issues accepting these transactions. Read more. ',
+TRANS_warning               : 'If you are using the "Only FUNC" or "Only ETC" Functions you are sending via a contract. Some services have issues accepting these transactions. Read more. ',
 TRANS_advanced              : '+Advanced: Add Data ',
 TRANS_data                  : 'Data ',
 TRANS_gas                   : 'Gas Limit ',
-TRANS_sendInfo              : 'A standard transaction using 21000 gas will cost 0.000441 ETH. We use a slightly-above-minimum gas price of 0.000000021 ETHO to ensure it gets mined quickly. We do not take a transaction fee. ',
+TRANS_sendInfo              : 'A standard transaction using 21000 gas will cost 0.000441 FUNC. We use a slightly-above-minimum gas price of 0.000000021 ETHO to ensure it gets mined quickly. We do not take a transaction fee. ',
 
 /* Send Transaction Modals */
-TRANSModal_Title            : '"Only ETH" and "Only ETC" Transactions ',
+TRANSModal_Title            : '"Only FUNC" and "Only ETC" Transactions ',
 TRANSModal_Content_0        : 'A note about the different transactions and different services: ',
 TRANSModal_Content_1        : '**ETHO (Standard Transaction): ** This generates a default transaction directly from one address to another. It has a default gas of 21000. It is likely that any ETHO sent via this method will be replayed onto the ETC chain. ',
-TRANSModal_Content_2        : '**Only ETH: ** This sends via [Timon Rapp\'s replay protection contract (as recommended by VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) so that you only send on the **ETH** chain. ',
+TRANSModal_Content_2        : '**Only FUNC: ** This sends via [Timon Rapp\'s replay protection contract (as recommended by VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) so that you only send on the **FUNC** chain. ',
 TRANSModal_Content_3        : '**Only ETC: ** This sends via [Timon Rapp\'s replay protection contract (as recommended by VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) so that you only send on the **ETC** chain. ',
 TRANSModal_Content_4        : '**Coinbase & ShapeShift: ** Only send via Standard Transaction. If you send via the "Only" contracts, you will need to reach out to their support staff to manually add your balance or refund you. [You can try Shapeshift\'s "split" tool as well.](https://split.shapeshift.io/) ',
 TRANSModal_Content_5        : '**Kraken & Poloniex:** No known issues. Use whatever. ',
@@ -552,7 +552,7 @@ SWAP_progress_2             : "Waiting for your ", // Waiting for your BTC...
 SWAP_progress_3             : "Received! ", // ETHO Received!
 SWAP_progress_4             : "Sending your {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Order Complete ",
-SWAP_order_CTA              : "Please send ", // Please send 1 ETH...
+SWAP_order_CTA              : "Please send ", // Please send 1 FUNC...
 SWAP_unlock                 : "Unlock your wallet to send ETHO or Tokens directly from this page. ",
 
 /* Sign Message */

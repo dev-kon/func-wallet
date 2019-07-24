@@ -161,7 +161,7 @@
   <section class="row">
     <div class="form-group col-sm-6">
       <label>
-        Amount you Bid (ETH)
+        Amount you Bid (FUNC)
       </label>
       <input class="form-control" type="text" ng-model="bidEth" ng-change="toBidWei()" />
     </div>

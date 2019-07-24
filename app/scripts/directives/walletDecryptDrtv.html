@@ -35,7 +35,7 @@
     <!-- Ledger -->
     <label aria-flowto="aria3"
            class="radio"
-           ng-show="ajaxReq.type=='ETH'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN ETH'||ajaxReq.type=='RINKEBY ETH'||ajaxReq.type=='KOVAN ETH'||ajaxReq.type=='EXP'||ajaxReq.type=='UBQ'||ajaxReq.type=='POA'||ajaxReq.type=='TOMO'||ajaxReq.type=='ESN'||ajaxReq.type=='AKROMA'||ajaxReq.type=='ETHO'">
+           ng-show="ajaxReq.type=='FUNC'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN FUNC'||ajaxReq.type=='RINKEBY FUNC'||ajaxReq.type=='KOVAN FUNC'||ajaxReq.type=='EXP'||ajaxReq.type=='UBQ'||ajaxReq.type=='POA'||ajaxReq.type=='TOMO'||ajaxReq.type=='ESN'||ajaxReq.type=='AKROMA'||ajaxReq.type=='ETHO'">
       <input aria-flowto="aria3"
              type="radio"
              aria-label="Ledger Hardware Wallet"
@@ -47,7 +47,7 @@
     <!-- TREZOR -->
     <label class="radio"
            aria-flowto="aria4"
-           ng-show="ajaxReq.type=='ETH'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN ETH'||ajaxReq.type=='RINKEBY ETH'||ajaxReq.type=='KOVAN ETH'||ajaxReq.type=='EXP'||ajaxReq.type=='UBQ'||ajaxReq.type=='POA'||ajaxReq.type=='TOMO'||ajaxReq.type=='ELLA'||ajaxReq.type=='EGEM'||ajaxReq.type=='CLO'||ajaxReq.type=='ETSC'||ajaxReq.type=='MUSIC'||ajaxReq.type=='GO'||ajaxReq.type=='EOSC'||ajaxReq.type=='AKROMA'||ajaxReq.type=='ESN'">
+           ng-show="ajaxReq.type=='FUNC'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN FUNC'||ajaxReq.type=='RINKEBY FUNC'||ajaxReq.type=='KOVAN FUNC'||ajaxReq.type=='EXP'||ajaxReq.type=='UBQ'||ajaxReq.type=='POA'||ajaxReq.type=='TOMO'||ajaxReq.type=='ELLA'||ajaxReq.type=='EGEM'||ajaxReq.type=='CLO'||ajaxReq.type=='ETSC'||ajaxReq.type=='MUSIC'||ajaxReq.type=='GO'||ajaxReq.type=='EOSC'||ajaxReq.type=='AKROMA'||ajaxReq.type=='ESN'">
       <input aria-flowto="aria4"
              type="radio"
              aria-label="Trezor Hardware Wallet"
@@ -59,7 +59,7 @@
     <!-- Digital Bitbox -->
     <label aria-flowto="aria5"
            class="radio"
-           ng-show="ajaxReq.type=='ETH'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN ETH'||ajaxReq.type=='RINKEBY ETH'||ajaxReq.type=='KOVAN ETH'||ajaxReq.type=='EXP'">
+           ng-show="ajaxReq.type=='FUNC'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN FUNC'||ajaxReq.type=='RINKEBY FUNC'||ajaxReq.type=='KOVAN FUNC'||ajaxReq.type=='EXP'">
       <input aria-flowto="aria5"
              type="radio"
              aria-label="Digital Bitbox hardware wallet"
@@ -71,7 +71,7 @@
     <!-- Secalot -->
     <label aria-flowto="aria5"
            class="radio"
-           ng-show="ajaxReq.type=='ETH'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN ETH'||ajaxReq.type=='RINKEBY ETH'||ajaxReq.type=='KOVAN ETH'||ajaxReq.type=='EXP'">
+           ng-show="ajaxReq.type=='FUNC'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN FUNC'||ajaxReq.type=='RINKEBY FUNC'||ajaxReq.type=='KOVAN FUNC'||ajaxReq.type=='EXP'">
       <input aria-flowto="aria5"
              type="radio"
              aria-label="Secalot hardware wallet"
@@ -309,7 +309,7 @@
                 Please use MyEtherWallet on a secure (SSL / HTTPS) connection to connect.
           </li>
           <li>
-            <span translate="ADD_Ledger_2" ng-if="ajaxReq.type=='ETH'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN ETH'||ajaxReq.type=='RINKEBY ETH'||ajaxReq.type=='KOVAN ETH'">
+            <span translate="ADD_Ledger_2" ng-if="ajaxReq.type=='FUNC'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN FUNC'||ajaxReq.type=='RINKEBY FUNC'||ajaxReq.type=='KOVAN FUNC'">
               Open the Ethereum application (or a contract application)
             </span>
             <span translate="ADD_Ledger_2_Exp" ng-if="ajaxReq.type=='EXP'">
@@ -711,7 +711,7 @@
           </h4>
 
           <p class="alert alert-danger"
-             ng-hide="ajaxReq.type=='ETH'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN ETH'||ajaxReq.type=='RINKEBY ETH'||ajaxReq.type=='KOVAN ETH'||ajaxReq.type=='EXP'||ajaxReq.type=='UBQ'||ajaxReq.type=='ELLA'||ajaxReq.type=='EGEM'||ajaxReq.type=='CLO'||ajaxReq.type=='ETSC'||ajaxReq.type=='MUSIC'||ajaxReq.type=='GO'||ajaxReq.type=='EOSC'||ajaxReq.type=='POA'||ajaxReq.type=='AKROMA'||ajaxReq.type=='ESN'||ajaxReq.type=='ETHO'">
+             ng-hide="ajaxReq.type=='FUNC'||ajaxReq.type=='ETC'||ajaxReq.type=='ROPSTEN FUNC'||ajaxReq.type=='RINKEBY FUNC'||ajaxReq.type=='KOVAN FUNC'||ajaxReq.type=='EXP'||ajaxReq.type=='UBQ'||ajaxReq.type=='ELLA'||ajaxReq.type=='EGEM'||ajaxReq.type=='CLO'||ajaxReq.type=='ETSC'||ajaxReq.type=='MUSIC'||ajaxReq.type=='GO'||ajaxReq.type=='EOSC'||ajaxReq.type=='POA'||ajaxReq.type=='AKROMA'||ajaxReq.type=='ESN'||ajaxReq.type=='ETHO'">
                 We do not know the correct path for this network.
                 <a href="https://github.com/kvhnuke/etherwallet/issues"
                    target="_blank"
@@ -732,21 +732,21 @@
                       value="{{HDWallet.defaultDPath}}"/>
                 <span ng-bind="HDWallet.defaultDPath"></span>
                 <p class="small">
-                  Jaxx, Metamask, Exodus, imToken, TREZOR (ETH) &amp; Digital Bitbox
+                  Jaxx, Metamask, Exodus, imToken, TREZOR (FUNC) &amp; Digital Bitbox
                 </p>
               </label>
             </div>
 
             <div class="col-sm-4">
               <label class="radio small">
-                <input aria-describedby="Path: Ledger (ETH) {{HDWallet.ledgerPath}}"
+                <input aria-describedby="Path: Ledger (FUNC) {{HDWallet.ledgerPath}}"
                        ng-change="onHDDPathChange()"
                        ng-model="HDWallet.dPath"
                        type="radio"
                       value="{{HDWallet.ledgerPath}}"/>
                 <span ng-bind="HDWallet.ledgerPath"></span>
                 <p class="small">
-                  Ledger (ETH)
+                  Ledger (FUNC)
                 </p>
               </label>
             </div>

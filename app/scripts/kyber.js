@@ -9,14 +9,14 @@ const kyberFuncs = function () {
     for (let i in KyberReserveABI) this.kyberReserveABI[KyberReserveABI[i].name] = KyberReserveABI[i]
     this.tokenABIs = {}
     switch (ajaxReq.type) {
-        case nodes.nodeTypes.ETH:
-            this.nodeType = 'ETH'
-            _this.setCurrentNetwork(kyberFuncs.networks.ETH)
+        case nodes.nodeTypes.FUNC:
+            this.nodeType = 'FUNC'
+            _this.setCurrentNetwork(kyberFuncs.networks.FUNC)
 
-            for (let key in kyberFuncs.networkTokenABIs.ETH) {
+            for (let key in kyberFuncs.networkTokenABIs.FUNC) {
                 this.tokenABIs[key] = {}
-                for (let i in kyberFuncs.networkTokenABIs.ETH[key]) {
-                    this.tokenABIs[key][kyberFuncs.networkTokenABIs.ETH[key][i].name] = kyberFuncs.networkTokenABIs.ETH[key][i]
+                for (let i in kyberFuncs.networkTokenABIs.FUNC[key]) {
+                    this.tokenABIs[key][kyberFuncs.networkTokenABIs.FUNC[key][i].name] = kyberFuncs.networkTokenABIs.FUNC[key][i]
                 }
             }
 
@@ -47,12 +47,12 @@ kyberFuncs.currRates = {}
 kyberFuncs.ETH_TOKEN_ADDRESS = '0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee' //todo: this is redundant (look to remove)
 kyberFuncs.mainTokens = []
 kyberFuncs.networks = {
-    ETH: require('./kyberConfig/EthConfig.json'),
+    FUNC: require('./kyberConfig/EthConfig.json'),
     ROPSTEN: require('./kyberConfig/RopConfig.json'),
     NULL: require('./kyberConfig/NullConfig.json'),
 }
 kyberFuncs.networkTokenABIs = {
-    ETH: require('./kyberConfig/EthTokenABIs.json'),
+    FUNC: require('./kyberConfig/EthTokenABIs.json'),
     ROPSTEN: require('./kyberConfig/RopTokenABIs.json'),
     NULL: {}
 }
@@ -94,7 +94,7 @@ kyberFuncs.prototype.setCurrentNetwork = function (_network) {
         _this.tokenDetails = _network.tokens
         _this.mainTokens = Object.keys(_network.tokens)
         _this.kyberRates = this.buildPairList(_this.mainTokens)
-        if (this.nodeType === 'ETH') {
+        if (this.nodeType === 'FUNC') {
             _this.getMainNetAddress()
         } else {
             _this.KyberNetworkAddress = _network.network
@@ -134,7 +134,7 @@ kyberFuncs.prototype.getTokenAddress = function (_token) {
 
 kyberFuncs.prototype.getTokenList = function () {
     var _this = this
-    return _this.mainTokens.filter(_tok => _tok !== 'ETH')
+    return _this.mainTokens.filter(_tok => _tok !== 'FUNC')
 }
 
 kyberFuncs.prototype.getDataString = function (func, inputs) {
@@ -192,7 +192,7 @@ kyberFuncs.prototype.setKyberRate = function (_from, _to) {
     var _this = this
     return new Promise((resolve, reject) => {
         _this.getExpectedRate(_from, _to, 1, (_results) => {
-            let _returnedRate = _this.convertToTokenBase(_results.data.expectedRate, 'ETH')
+            let _returnedRate = _this.convertToTokenBase(_results.data.expectedRate, 'FUNC')
             _this.kyberRates[kyber.toPairKey(_from, _to)] = _returnedRate
             _this.priceLoaded = true
             resolve(_returnedRate)
@@ -210,7 +210,7 @@ kyberFuncs.prototype.refreshRates = function () {
         let toToken = pairContents[1]
         _this.getExpectedRate(fromToken, toToken, 1, (_results) => {
             //
-            _this.kyberRates[_key] = _this.convertToTokenBase(_results.data.expectedRate, 'ETH')
+            _this.kyberRates[_key] = _this.convertToTokenBase(_results.data.expectedRate, 'FUNC')
         })
     })
     _this.priceLoaded = true
@@ -274,7 +274,7 @@ kyberFuncs.prototype.getBalance = async function (_token, userAddress, callback)
 
 /*ERC20 src, ERC20 dest, uint srcQty*/
 // rate/10**18between 1 eth and 1 token base
-kyberFuncs.prototype.getExpectedRate = function (srcToken, destToken, srcQty /* In ETH or Whole Token*/, callback) {
+kyberFuncs.prototype.getExpectedRate = function (srcToken, destToken, srcQty /* In FUNC or Whole Token*/, callback) {
     var _this = this
     // returns int
     var srcTokenAddress = _this.getTokenAddress(srcToken)
@@ -320,14 +320,14 @@ kyberFuncs.prototype.getUserCapInWei = function (address, callback) {
     })
 }
 
-kyberFuncs.prototype.checkUserCap = function (_userAddress, swapValue /* In ETH or Whole Token*/, isFrom, callback) {
+kyberFuncs.prototype.checkUserCap = function (_userAddress, swapValue /* In FUNC or Whole Token*/, isFrom, callback) {
     var _this = this
-    let weiValue = _this.convertToTokenWei(swapValue, 'ETH')
+    let weiValue = _this.convertToTokenWei(swapValue, 'FUNC')
 
     _this.getUserCapInWei(_userAddress, function (data) {
         let numberAsBN = new BigNumber(weiValue)
         let nineFivePct = data.data.times(0.95)
-        let nineFivePctUserCap = _this.convertToTokenWei(nineFivePct, 'ETH')
+        let nineFivePctUserCap = _this.convertToTokenWei(nineFivePct, 'FUNC')
         if (nineFivePct.gt(numberAsBN)) {
             callback({
                 error: false,
@@ -421,7 +421,7 @@ kyberFuncs.prototype.getTradeData = function (swapOrder, minRate) {
         var srcTokenAddress = _this.getTokenAddress(swapOrder.fromCoin)
         var destTokenAddress = _this.getTokenAddress(swapOrder.toCoin)
         let walletId = '0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D'
-        let minConversionRate = _this.convertToTokenWei(minRate, 'ETH') // Uses slippagePrice with fallback to MarketRate.  1 => Market Rate, but we could also set this as the quoted rate
+        let minConversionRate = _this.convertToTokenWei(minRate, 'FUNC') // Uses slippagePrice with fallback to MarketRate.  1 => Market Rate, but we could also set this as the quoted rate
         let srcAmount = _this.convertToTokenWei(swapOrder.fromVal, swapOrder.fromCoin) //etherUnits.toWei(swapOrder.fromVal, "ether");
         let maxDestAmount = 2 ** 200 //100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000; // Really big number (like a googol)
 

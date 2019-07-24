@@ -67,7 +67,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -84,7 +84,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -396,7 +396,7 @@ SEND_trans                  : 'Islemi gönder ',
 SENDModal_Title             : 'Uyarı! ',
 SEND_custom                 : 'Özel Token Ekle ',
 
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'şu an ',
 SENDModal_Content_2         : 'bu adresse ',
 SENDModal_Content_3         : 'Göndermek üzeresin. Emin misin? ',
@@ -413,17 +413,17 @@ TOKEN_hide                  : 'Tokenleri gizle ',
 
 /* Send Transaction */
 TRANS_desc                  : 'Eğer Token göndermek istiyorsan, bunun yerine "Token Gönder" sayfasını kullan. ',
-TRANS_warning               : '"Yalnızca ETH" ya da "Yalnızca ETC" fonksiyonu kullanıyorsan, bir sözleşme yoluyla gönderiyorsun. Bazı servisler bu işlemleri kabul etmekde sorunları var. Daha fazla oku. ',
+TRANS_warning               : '"Yalnızca FUNC" ya da "Yalnızca ETC" fonksiyonu kullanıyorsan, bir sözleşme yoluyla gönderiyorsun. Bazı servisler bu işlemleri kabul etmekde sorunları var. Daha fazla oku. ',
 TRANS_advanced              : '+Gelişmiş: Veri ekle ',
 TRANS_data                  : 'Veri ',
 TRANS_gas                   : 'Gas Limiti ',
-TRANS_sendInfo              : '21000 gaz kullanan standart bir islem 0.000441 ETHO ile mal olur. Biz hizli bir sekilde mayinlanmasi için, 0.000000021 ETH\'dan biraz daha yüksek gaz fiyatini kullaniyoruz. Biz herhangi bir islem ücreti almiyoruz. ',
+TRANS_sendInfo              : '21000 gaz kullanan standart bir islem 0.000441 ETHO ile mal olur. Biz hizli bir sekilde mayinlanmasi için, 0.000000021 FUNC\'dan biraz daha yüksek gaz fiyatini kullaniyoruz. Biz herhangi bir islem ücreti almiyoruz. ',
 
 /* Send Transaction Modals */
-TRANSModal_Title            : '"Yalnızca ETH" and "Yalnızca ETC" islemler ',
+TRANSModal_Title            : '"Yalnızca FUNC" and "Yalnızca ETC" islemler ',
 TRANSModal_Content_0        : 'Farklı işlemler ve farklı hizmetleri hakkında bir not: ',
 TRANSModal_Content_1        : '**ETHO (Standart islem): ** Bu standart bir islem baslatir bir hesapten direkt baska bir hesapa. Standart gas 21000\'dir. Bu islemlen gönderileren islem ETC zincirinde\'de yer bulabilir. ',
-TRANSModal_Content_2        : '**Only ETH: ** This sends via [Timon Rapp\'s replay protection contract (as recommended by VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) so that you only send on the **ETH** chain. ',
+TRANSModal_Content_2        : '**Only FUNC: ** This sends via [Timon Rapp\'s replay protection contract (as recommended by VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) so that you only send on the **FUNC** chain. ',
 TRANSModal_Content_3        : '**Only ETC: ** This sends via [Timon Rapp\'s replay protection contract (as recommended by VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) so that you only send on the **ETC** chain. ',
 TRANSModal_Content_4        : '**Coinbase & ShapeShift: ** Only send via Standard Transaction. If you send via the "Only" contracts, you will need to reach out to their support staff to manually add your balance or refund you. [You can try Shapeshift\'s "split" tool as well.](https://split.shapeshift.io/) ',
 TRANSModal_Content_5        : '**Kraken & Poloniex:** Bilinen sorun yok, ikisinden birini sec ', /* */
@@ -512,7 +512,7 @@ SWAP_progress_2             : "Waiting for your ", // Waiting for your BTC...
 SWAP_progress_3             : "Received! ", // ETHO Received!
 SWAP_progress_4             : "Sending your {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Order Complete ",
-SWAP_order_CTA              : "Please send ", // Please send 1 ETH...
+SWAP_order_CTA              : "Please send ", // Please send 1 FUNC...
 SWAP_unlock                 : "Unlock your wallet to send ETHO or Tokens directly from this page. ",
 
 /* Sign Message */

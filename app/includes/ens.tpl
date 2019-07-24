@@ -53,9 +53,9 @@
   <!-- IF NOT ENS CHAIN -->
   <div ng-hide="showSubDomain()" class="alert alert-danger text-center">
     <p>
-      The Sub domain registration is only available on the ETH chain. You are currently on the {{ajaxReq.type}} chain.
+      The Sub domain registration is only available on the FUNC chain. You are currently on the {{ajaxReq.type}} chain.
       <br />
-      Please use the node switcher in the upper right corner to select "ETH".
+      Please use the node switcher in the upper right corner to select "FUNC".
     </p>
   </div>
   <!-- / IF NOT ENS CHAIN -->
@@ -68,7 +68,7 @@
           <div>
             <div class="input-group pad-bot" ng-repeat="data in objSub.validNames track by $index" > 
             <input class="form-control" type="text" value="{{data.fullName}}" ng-disabled="true"/>
-            <div class="input-group-btn"><button ng-show="data.available" ng-click="registerSubName($index)" class="btn btn-primary btn-primary-buy-button">Buy ({{data.EthVal}} ETH)
+            <div class="input-group-btn"><button ng-show="data.available" ng-click="registerSubName($index)" class="btn btn-primary btn-primary-buy-button">Buy ({{data.EthVal}} FUNC)
             </button>
             <button ng-show="!data.available" class="btn btn-primary btn-red" disabled><span class="na">X</span>
             </button></br>
@@ -85,7 +85,7 @@
     <section class="clearfix collapse-container">
       <div class="text-center" ng-click="wd = !wd">
         <a class="collapse-button"><span ng-show="wd">+</span><span ng-show="!wd">-</span></a>
-        <h5 traslate="SWAP_unlock">Unlock your wallet to buy {{objSub.buy.fullName}} for {{objSub.buy.EthVal}} ETH</h5>
+        <h5 traslate="SWAP_unlock">Unlock your wallet to buy {{objSub.buy.fullName}} for {{objSub.buy.EthVal}} FUNC</h5>
       </div>
       <div ng-show="!wd">
           @@if (site === 'mew' ) {  <wallet-decrypt-drtv></wallet-decrypt-drtv>         }

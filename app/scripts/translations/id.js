@@ -67,7 +67,7 @@ ENS_WrongAddress_1              :  'Dompet yang Anda buka bukan pemilik nama ter
 ENS_WrongAddress_2              :  'Tolong buka dompet dengan alamat ',
 
 ENS_Finalize                    :  'Selesaikan',
-ENS_Finalize_content            :  'Menyelesaikan nama ini akan memberikan nama ENS kepada pemenang lelang. Selisih antara tawaran mereka dan tawaran tertinggi berikutnya akan dikembalikan kepada Pemenang. Jika Anda adalah satu-satunya peserta lelang, akan mendapat pengembalian penuh dipotong 0,01 ETH. Setiap non-pemenang juga akan dikembalikan dana-nya.',
+ENS_Finalize_content            :  'Menyelesaikan nama ini akan memberikan nama ENS kepada pemenang lelang. Selisih antara tawaran mereka dan tawaran tertinggi berikutnya akan dikembalikan kepada Pemenang. Jika Anda adalah satu-satunya peserta lelang, akan mendapat pengembalian penuh dipotong 0,01 FUNC. Setiap non-pemenang juga akan dikembalikan dana-nya.',
 ENS_Finalize_content_1          :  'Anda akan menyelesaikan proses lelang & mengklaim nama tersebut:',
 ENS_Helper_1                    :  'Prosesnya seperti apa?',
 ENS_Helper_2                    :  '1) Persiapan',
@@ -84,7 +84,7 @@ ENS_Helper_12                   :  'Anda akan membuka kunci akun Anda, masukkan 
 ENS_Helper_13                   :  'Jika dua pihak menawar jumlah yang sama persis, tawaran pertama yang diungkap akan menang.',
 ENS_Helper_14                   :  '4)Selesaikan Lelang',
 ENS_Helper_15                   :  'Setelah lelang selesai (setelah 5 hari / 120 jam), pemenang harus menyelesaikan lelang untuk mengklaim nama baru mereka.',
-ENS_Helper_16                   :  'Pemenang akan mendapat pengembalian selisih antara tawaran mereka dan tawaran tertinggi berikutnya. Jika Anda adalah satu-satunya penawar, akan mendapat pengembalian penuh dipotong 0,01 ETH.',
+ENS_Helper_16                   :  'Pemenang akan mendapat pengembalian selisih antara tawaran mereka dan tawaran tertinggi berikutnya. Jika Anda adalah satu-satunya penawar, akan mendapat pengembalian penuh dipotong 0,01 FUNC.',
 ENS_Helper_17                   :  'Informasi lebih lanjut',
 ENS_Helper_18                   :  'Pelelangan untuk registrar ini memakai metode lelang buta, seperti dijelaskan di',
 ENS_Helper_19                   :  'Pada dasarnya, tidak ada yang bisa melihat *apapun* selama pelelangan.',
@@ -261,7 +261,7 @@ GEN_Unlock                  : 'Buka kunci dompet Anda untuk melihat alamat Anda'
 GAS_PRICE_Desc              : 'Harga Gas Price adalah jumlah yang Anda bayar per unit gas. `Biaya TX = harga gas * gas limit` & dibayarkan kepada miners untuk memasukkan TX Anda ke dalam block. Makin tinggi harga gas = transaksi makin cepat, tapi makin mahal. Default-nya `41 GWEI`.',
 GAS_LIMIT_Desc              : 'Batas Gas (Gas limit) adalah jumlah gas untuk dikirim bersama TX Anda.  `Biaya TX = harga gas * gas limit` & dibayarkan kepada miners untuk memasukkan TX Anda ke dalam block. Menaikkan angka ini tidak mempercepat TX Anda untuk ditambang. Pengiriman ETHO = `21000`. Pengiriman Token = ~`200000`.',
 NONCE_Desc                  : 'Nonce adalah nomor transaksi yang dikirimn dari sebuah alamat. Ini untuk menjamin agar pengiriman terlaksana secara runtut dan tidak ada yang dilakukan lebih dari sekali.',
-TXFEE_Desc                  : 'Biaya TX Fee dibayarkan kepada miners untuk memasukkan TX Anda ke dalam block. Jumlahnya =  `gas limit` * `gas price`. [Anda dapat mengkonversi GWEI -> ETH](https://wallet.ether1.org/helpers.html)',
+TXFEE_Desc                  : 'Biaya TX Fee dibayarkan kepada miners untuk memasukkan TX Anda ke dalam block. Jumlahnya =  `gas limit` * `gas price`. [Anda dapat mengkonversi GWEI -> FUNC](https://wallet.ether1.org/helpers.html)',
 
 
 
@@ -426,7 +426,7 @@ SEND_raw                    : 'Transaksi Raw ',
 SEND_signed                 : '"Signed Transaction" ',
 SEND_trans                  : 'Kirim Transaksi ',
 SENDModal_Title             : 'PERINGATAN! ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'Anda akan mengirim ',
 SENDModal_Content_2         : 'ke alamat ',
 SENDModal_Content_3         : 'Apakah ini benar? ',
@@ -443,19 +443,19 @@ TOKEN_hide                  : 'Jangan tampilkan Token ',
 
 /* Send Transaction */
 TRANS_desc                  : 'Untuk pengiriman Token, gunakan halaman "Kirim Token". ',
-TRANS_warning               : 'Penggunaan fitur "Hanya ETH" atau "Hanya ETC" memakai pengiriman melalui Kontrak. Beberapa layanan tidak menerima transaksi jenis ini. Baca lebih lanjut. ',
+TRANS_warning               : 'Penggunaan fitur "Hanya FUNC" atau "Hanya ETC" memakai pengiriman melalui Kontrak. Beberapa layanan tidak menerima transaksi jenis ini. Baca lebih lanjut. ',
 TRANS_advanced              : '+Advanced: Tambah Data ',
 TRANS_data                  : 'Data ',
 TRANS_gas                   : 'Gas Limit ',
-TRANS_sendInfo              : 'Transaksi standar menggunakan 21000 gas membutuhkan 0.000441 ETH. Kami memakai harga gas sedikit-diatas-harga-gas-minimum senilai 0.000000021 ETHO untuk mempercepat. Kami tidak mengambil biaya atas transaksi. ',
+TRANS_sendInfo              : 'Transaksi standar menggunakan 21000 gas membutuhkan 0.000441 FUNC. Kami memakai harga gas sedikit-diatas-harga-gas-minimum senilai 0.000000021 ETHO untuk mempercepat. Kami tidak mengambil biaya atas transaksi. ',
 
 /* Send Transaction Modals */
-TRANSModal_Title            : 'Transaksi "Hanya ETH" dan "Hanya ETC" ',
+TRANSModal_Title            : 'Transaksi "Hanya FUNC" dan "Hanya ETC" ',
 TRANSModal_Content_0        : 'Catatan terkait jenis transaksi dan layanan: ',
 TRANSModal_Content_1        : '**ETHO (Transaksi Standar): ** Transaksi default ini melakukan pengiriman langsung dari alamat pengirim ke alamat tujuan. Nilai Gas 21000. Besar kemungkinan ETHO yang dikirim dengan metode ini akan di "replay" di rantai ETC. ',
-TRANSModal_Content_2        : '**Hanya ETH: ** Pengiriman melalui [kontrak penangkal "replay" oleh Timon Rapp (direkomendasikan oleh VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) sehingga hanya dilaksanakan di rantai **ETH** saja. ',
+TRANSModal_Content_2        : '**Hanya FUNC: ** Pengiriman melalui [kontrak penangkal "replay" oleh Timon Rapp (direkomendasikan oleh VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) sehingga hanya dilaksanakan di rantai **FUNC** saja. ',
 TRANSModal_Content_3        : '**Hanya ETC: ** Pengiriman melalui [kontrak penangkal "replay" oleh Timon Rapp (direkomendasikan oleh VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) sehingga hanya dilaksanakan di rantai **ETC** saja. ',
-TRANSModal_Content_4        : '**Coinbase & ShapeShift: ** Hanya melakukan pengiriman melalui Transaksi Standar saja. Jika Anda mengirim menggunakan "Hanya ETH" atau "Hanya ETC", hubungi layanan konsumen mereka untuk menambahkan saldo Anda secara manual atau membatalkan transaksinya. [Bisa juga dicoba fasilitas "split" dari Shapeshift.](https://split.shapeshift.io/) ',
+TRANSModal_Content_4        : '**Coinbase & ShapeShift: ** Hanya melakukan pengiriman melalui Transaksi Standar saja. Jika Anda mengirim menggunakan "Hanya FUNC" atau "Hanya ETC", hubungi layanan konsumen mereka untuk menambahkan saldo Anda secara manual atau membatalkan transaksinya. [Bisa juga dicoba fasilitas "split" dari Shapeshift.](https://split.shapeshift.io/) ',
 TRANSModal_Content_5        : '**Kraken & Poloniex:** Tidak ada masalah dengan tipe pengiriman. Anda bisa memilih metode yang mana saja. ',
 TRANSModal_Yes              : 'Baik, saya sudah paham sekarang. ',
 TRANSModal_No               : 'Waduh, saya jadi tambah bingung. Bantu saya. ',
@@ -560,7 +560,7 @@ SWAP_progress_2             : "Menunggu ", // Waiting for your BTC...
 SWAP_progress_3             : "Diterima! ", // ETHO Received!
 SWAP_progress_4             : "Mengirim {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Perintah Selesai ",
-SWAP_order_CTA              : "Kirimkan ", // Please send 1 ETH...
+SWAP_order_CTA              : "Kirimkan ", // Please send 1 FUNC...
 SWAP_unlock                 : "Unlock wallet Anda untuk mengirim ETHO atau Token langsung dari halaman ini. ",
 
 /* Error Messages */
@@ -581,7 +581,7 @@ ERROR_13                    : 'Sudah ada Dompet dengan nickname ini. ',
 ERROR_14                    : 'Dompet tidak ditemukan. ',
 ERROR_15                    : 'Tidak ditemukan proposal dengan ID ini atau terjadi error saat membaca proposal ini. ',
 ERROR_16                    : 'Terdapat dompet dengan alamat yang sama di storage. Cek kembali halaman dompet Anda. ',
-ERROR_17                    : 'Dana tidak mencukupi. Akun yang dipakai untuk mengirim tidak memiliki dana yang cukup. Minimal harus ada **0.01 ETH** di akun untuk menutup biaya gas. Tambahkan ether dan coba lagi. ',
+ERROR_17                    : 'Dana tidak mencukupi. Akun yang dipakai untuk mengirim tidak memiliki dana yang cukup. Minimal harus ada **0.01 FUNC** di akun untuk menutup biaya gas. Tambahkan ether dan coba lagi. ',
 ERROR_18                    : 'Semua gas akan digunakan pada transaksi ini. Ini berarti Anda telah memberikan suara pada proposal ini atau periode perdebatan telah berakhir. ',
 ERROR_19                    : 'Simbol tidak valid ',
 ERROR_20                    : 'Bukan ERC-20 token yang valid.',

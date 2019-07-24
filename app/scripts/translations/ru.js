@@ -67,7 +67,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -84,7 +84,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -394,7 +394,7 @@ SEND_raw                    : 'Готовая транзакция ',
 SEND_signed                 : 'Подписанная транзакция ',
 SEND_trans                  : 'Отправить транзакцию ',
 SENDModal_Title             : 'Внимание! ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'Вы собираетесь перевести ',
 SENDModal_Content_2         : 'на адрес ',
 SENDModal_Content_3         : 'Вы уверены, что хотите сделать это? ',
@@ -409,16 +409,16 @@ TOKEN_Dec                   : 'Дробность (знаков после за�
 
 /* Send Transaction */
 TRANS_desc                  : 'Если Вы хотите перевести токены, используйте страницу "Отправить токены". ',
-TRANS_warning               : 'Если Вы используете функции "только ETH" или "только ETC", перевод будет выполнен с помощью контракта. У некоторых сервисов могут возникнуть проблемы с приёмом таких переводов. Уточните этот вопрос. ',
+TRANS_warning               : 'Если Вы используете функции "только FUNC" или "только ETC", перевод будет выполнен с помощью контракта. У некоторых сервисов могут возникнуть проблемы с приёмом таких переводов. Уточните этот вопрос. ',
 TRANS_advanced              : '+Дополнительно: добавить данные ',
 TRANS_data                  : 'Данные ',
 TRANS_sendInfo              : 'Стандартная транзакция, использующая 21000 газа, будет стоить 0,000441 эфира (ether). Мы указываем цену газа немного выше минимально возможной: 0,000000021 эфира (ether), для того, чтобы ускорить выполнение танзакций. Мы не берём комиссию за выполнение транзакций. ',
 
 /* Send Transaction Modals */
-TRANSModal_Title            : 'Транзакции вида "только ETH" и "только ETC" ',
+TRANSModal_Title            : 'Транзакции вида "только FUNC" и "только ETC" ',
 TRANSModal_Content_0        : 'О видах транзакций и сервисах: ',
-TRANSModal_Content_1        : '**Эфир (ether, обычная транзакция): ** Выполняет обычный перевод напрямую с одного адреса на другой. Используется стандартное количесвто газа: 21000. В большинстве случаев, перевод ETH, выполненный этим способом, можно будет продублировать для ETC. ',
-TRANSModal_Content_2        : '**Только ETH: ** Выполняет перевод через [контракт Тимона Раппа, защищающий от дублирования переводов (рекомендован ВБ)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/), поэтому перевод будет выполнен только в **ETH**. ',
+TRANSModal_Content_1        : '**Эфир (ether, обычная транзакция): ** Выполняет обычный перевод напрямую с одного адреса на другой. Используется стандартное количесвто газа: 21000. В большинстве случаев, перевод FUNC, выполненный этим способом, можно будет продублировать для ETC. ',
+TRANSModal_Content_2        : '**Только FUNC: ** Выполняет перевод через [контракт Тимона Раппа, защищающий от дублирования переводов (рекомендован ВБ)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/), поэтому перевод будет выполнен только в **FUNC**. ',
 TRANSModal_Content_3        : '**Только ETC: ** Выполняет перевод через [контракт Тимона Раппа, защищающий от дублирования переводов (рекомендован ВБ)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/), поэтому перевод будет выполнен только в **ETC**. ',
 TRANSModal_Content_4        : '**Coinbase и ShapeShift: ** Отправляйте им только обычные транзакции. Если Вы отправите им транзакцию вида "только ...", то Вам придётся обращаться к их службе поддержки, чтобы они вручную пополнили Ваш баланс или вернули бы Вам Ваш эфир (ether). [Вы также можете попробовать использовать инструмент "split" от Shapeshift.](https://split.shapeshift.io/) ',
 TRANSModal_Content_5        : '**Kraken & Poloniex:** Проблем не выявлено.  Можно использовать транзакции любого вида. ',
@@ -518,7 +518,7 @@ SWAP_progress_2             : "Ждём получения ваших ", // Wait
 SWAP_progress_3             : "Получено! ", // FUNC Received!
 SWAP_progress_4             : "Отправляем ваши {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Заявка выполнена ",
-SWAP_order_CTA              : "Пожалуйста, отправьте ", // Please send 1 ETH...
+SWAP_order_CTA              : "Пожалуйста, отправьте ", // Please send 1 FUNC...
 SWAP_unlock                 : "Отоприте ваш кошелёк для отправки FUNC или Tokens непосредственно с этой страницы. ",
 
 /* Sign Message */

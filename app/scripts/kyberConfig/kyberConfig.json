@@ -1,5 +1,5 @@
 {
-  "ETH": {
+  "FUNC": {
     "configFile":  "EthConfig.json",
     "tokenabisFile": "EthTokenABIs.json",
     "networkabiFile": "KyberNetworkABI.json",

@@ -67,7 +67,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -84,7 +84,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -392,7 +392,7 @@ SEND_signed                 : 'Transacción firmada ',
 SEND_trans                  : 'Enviar transacción ',
 SEND_custom                 : 'Añadir token personalizado ',
 SENDModal_Title             : '¡Atención! ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'Vas a enviar ',
 SENDModal_Content_2         : 'a la dirección ',
 SENDModal_Content_3         : '¿Estás seguro de que quieres hacer esto? ',
@@ -409,19 +409,19 @@ TOKEN_show                  : 'Mostrar todos los tokens ',
 
 /* Send Transaction */
 TRANS_desc                  : 'Si quieres enviar tokens, utiliza la página "Enviar tokens" en lugar de esta. ',
-TRANS_warning               : 'Si utilizas las funciones "Sólo ETH" o "Sólo ETC" estás enviando a través de un contrato. Algunos servicios tienen problemas aceptando estas transacciones. Leer más. ',
+TRANS_warning               : 'Si utilizas las funciones "Sólo FUNC" o "Sólo ETC" estás enviando a través de un contrato. Algunos servicios tienen problemas aceptando estas transacciones. Leer más. ',
 TRANS_advanced              : '+Avanzado: Añadir datos ',
 TRANS_data                  : 'Datos ',
 TRANS_gas                   : 'Límite de gas ',
-TRANS_sendInfo              : 'Una transacción estándar que utiliza 21000 gas cuesta 0.000441 ETH. Utilizamos un precio de gas de 0.000000021 ETH, ligeramente por encima del mínimo, para asegurarnos de que se mina con rapidez. Nosotros no recibimos ninguna comisión por la transacción. ',
+TRANS_sendInfo              : 'Una transacción estándar que utiliza 21000 gas cuesta 0.000441 FUNC. Utilizamos un precio de gas de 0.000000021 FUNC, ligeramente por encima del mínimo, para asegurarnos de que se mina con rapidez. Nosotros no recibimos ninguna comisión por la transacción. ',
 
 /* Send Transaction Modals */
-TRANSModal_Title            : 'Transacciones "Sólo ETH" y "Sólo ETC" ',
+TRANSModal_Title            : 'Transacciones "Sólo FUNC" y "Sólo ETC" ',
 TRANSModal_Content_0        : 'Una nota sobre las distintas transacciones y servicios: ',
 TRANSModal_Content_1        : '**ETHO (transacción estándar): ** Esto genera una transacción predeterminada directamente de una dirección a otra. Utiliza gas predeterminado de 21000. Es probable que cualquier transacción de ETHO enviada mediante este método se reproduzca (replay) en la cadena ETC. ',
-TRANSModal_Content_2        : '**Sólo ETH: ** Esto envía a través del [contrato de protección contra replay de Timon Rapp (según recomienda VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) de modo que envías solamente en la cadena **ETH**. ',
+TRANSModal_Content_2        : '**Sólo FUNC: ** Esto envía a través del [contrato de protección contra replay de Timon Rapp (según recomienda VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) de modo que envías solamente en la cadena **FUNC**. ',
 TRANSModal_Content_3        : '**Sólo ETC: ** Esto envía a través del [contrato de protección contra replay de Timon Rapp (según recomienda VB)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) de modo que envías solamente en la cadena **ETC**. ',
-TRANSModal_Content_4        : '**Coinbase y ShapeShift: ** Envía solamente utilizando transacción estándar. Si envías utilizando los contratos "Sólo ETH" o "Sólo ETC", será necesario que contactes con su equipo de soporte para que añadan manualmente el saldo o te lo devuelvan. [También puedes probar la herramienta de "split" de Shapeshift.](https://split.shapeshift.io/) ',
+TRANSModal_Content_4        : '**Coinbase y ShapeShift: ** Envía solamente utilizando transacción estándar. Si envías utilizando los contratos "Sólo FUNC" o "Sólo ETC", será necesario que contactes con su equipo de soporte para que añadan manualmente el saldo o te lo devuelvan. [También puedes probar la herramienta de "split" de Shapeshift.](https://split.shapeshift.io/) ',
 TRANSModal_Content_5        : '**Kraken y Poloniex:** No se conocen problemas. Usa cualquiera. ',
 TRANSModal_Yes              : 'Bien, ahora lo entiendo. ',
 TRANSModal_No               : 'Estoy más confundido. Ayuda, por favor. ',
@@ -519,7 +519,7 @@ SWAP_progress_2             : "Esperando recibir tus ", // Waiting for your BTC.
 SWAP_progress_3             : "¡Recibido! ", // ETHO Received!
 SWAP_progress_4             : "Enviando tu {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Pedido completado ",
-SWAP_order_CTA              : "Por favor, envía ", // Please send 1 ETH...
+SWAP_order_CTA              : "Por favor, envía ", // Please send 1 FUNC...
 SWAP_unlock                 : "Desbloquea tu cartera para enviar ETHO o tokens directamente desde esta página. ",
 
 /* Sign Message */
@@ -656,7 +656,7 @@ TranslatorAddr_5            : '',
 HELP_Warning                : 'Si creaste una cartera -o- descargaste el repositorio antes del **31 de diciembre de 2015**, por favor comprueba tus carteras y descarga una nueva versión del repositorio. Haz clic para más información. ',
 HELP_Desc                   : '¿Echas algo en falta? ¿Tienes alguna otra pregunta? [Contacta con nosotros](mailto:support@myetherwallet.com) y no solamente contestaremos tu pregunta, sino que mejoraremos esta página para que sea más útil en el futuro. ',
 HELP_Remind_Title           : 'Algunos recordatorios ',
-HELP_Remind_Desc_1          : '**Ethereum, Funcoin Wallet y Funcoin Wallet CX, así como algunas de las librerías JavaScript que utilizamos están en desarrollo activo.** Aunque hemos testeado ampliamente y decenas de miles de carteras han sido creadas exitosamente por personas en todo el planeta, siempre existe la remota posibilidad de que ocurra algo inesperado que haga que se pierdan tus ETH. Por favor no inviertas más de lo que estés dispuesto a perder y, por favor, sé cuidadoso. Si algo ocurriera, lo lamentamos, pero **no somos responsables del Ether perdido**. ',
+HELP_Remind_Desc_1          : '**Ethereum, Funcoin Wallet y Funcoin Wallet CX, así como algunas de las librerías JavaScript que utilizamos están en desarrollo activo.** Aunque hemos testeado ampliamente y decenas de miles de carteras han sido creadas exitosamente por personas en todo el planeta, siempre existe la remota posibilidad de que ocurra algo inesperado que haga que se pierdan tus FUNC. Por favor no inviertas más de lo que estés dispuesto a perder y, por favor, sé cuidadoso. Si algo ocurriera, lo lamentamos, pero **no somos responsables del Ether perdido**. ',
 HELP_Remind_Desc_2          : 'MyEtherWallet y Funcoin Wallet CX no son "carteras web". No estás creando una cuenta ni nos estás entregando tus Ether para que los guardemos. Toda tu información nunca abandona tu equipo o tu navegador. Te facilitamos que puedas crear, guardar y acceder a tu información e interactuar con la blockchain. ',
 HELP_Remind_Desc_3          : 'Si no guardas tu clave privada y contraseña, no hay modo alguno de recuperar el acceso a tu cartera o a los fondos que ésta contiene. ¡Haz copias de seguridad en múltiples ubicaciones físicas, no solamente en tu equipo! ',
 

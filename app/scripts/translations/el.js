@@ -67,7 +67,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -84,7 +84,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -394,7 +394,7 @@ SEND_trans                  : 'Αποστολή συναλλαγής ',
 SEND_TransferTotal          : 'Μεταφορά συνολικού διαθέσιμου υπολοίπου ',
 SEND_custom                 : 'Προσθήκη προσαρμοσμένης μάρκας ',
 SENDModal_Title             : 'Προσοχή! ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'Πρόκειται να στείλετε ',
 SENDModal_Content_2         : 'στη διεύθυνση ',
 SENDModal_Content_3         : 'Είστε σίγουροι ότι θέλετε να το κάνετε; ',
@@ -412,17 +412,17 @@ TOKEN_show                  : 'Εμφάνιση όλων των μαρκών ',
 
 /* Send Transaction */
 TRANS_desc                  : 'Άν επιθυμείτε να στείλετε μάρκες, παρακαλούμε χρησιμοποιήστε τη σελίδα «Αποστολή μαρκών». ',
-TRANS_warning               : 'Άν χρησιμοποιείτε τις λειτουργίες «Μόνο ETH» ή «Μόνο ETC», η αποστολή γίνεται μέσω συμβολαίων. Ορισμένες υπηρεσίες παρουσιάζουν προβλήματα με την αποδοχή τέτοιων συναλλαγών. Διαβάστε περισσότερα. ',
+TRANS_warning               : 'Άν χρησιμοποιείτε τις λειτουργίες «Μόνο FUNC» ή «Μόνο ETC», η αποστολή γίνεται μέσω συμβολαίων. Ορισμένες υπηρεσίες παρουσιάζουν προβλήματα με την αποδοχή τέτοιων συναλλαγών. Διαβάστε περισσότερα. ',
 TRANS_advanced              : '+Για προχωρημένους: Προσθήκη δεδομένων ',
 TRANS_data                  : 'Δεδομένα ',
 TRANS_gas                   : 'Όριο αερίου ',
-TRANS_sendInfo              : 'Μία τυπική συναλλαγή που χρησιμοποιεί 21000 μονάδες αερίου θα κοστίσει 0,000441 ETH. Χρησιμοποιούμε για τιμή αερίου 0.000000021 ETHO που είναι λίγο πάνω απο την ελάχιστη ώστε να διασφαλίσουμε ότι θα επικυρωθεί γρήγορα. Δεν παίρνουμε προμήθεια για τη συναλλαγή. ',
+TRANS_sendInfo              : 'Μία τυπική συναλλαγή που χρησιμοποιεί 21000 μονάδες αερίου θα κοστίσει 0,000441 FUNC. Χρησιμοποιούμε για τιμή αερίου 0.000000021 ETHO που είναι λίγο πάνω απο την ελάχιστη ώστε να διασφαλίσουμε ότι θα επικυρωθεί γρήγορα. Δεν παίρνουμε προμήθεια για τη συναλλαγή. ',
 
 /* Send Transaction Modals */
-TRANSModal_Title            : 'Συναλλαγές «Μόνο ETH» και «Μόνο ETC» ',
+TRANSModal_Title            : 'Συναλλαγές «Μόνο FUNC» και «Μόνο ETC» ',
 TRANSModal_Content_0        : 'Μια σημείωση για τις διάφορετικές συναλλαγές και διαφορετικές υπηρεσίες συναλλαγών: ',
 TRANSModal_Content_1        : '**ETHO (τυπική συναλλαγή): ** Αυτό παράγει μια προεπιλεγμένη συναλλαγή απευθείας από μια διεύθυνση σε μία άλλη. Έχει προεπιλεγμένο αέριο 21000. Είναι πιθανόν ότι κάθε ETHO που αποστέλλεται μέσω αυτής της μεθόδου θα επαναληφθεί στην αλυσίδα ETC. ',
-TRANSModal_Content_2        : '**Μόνο ETH: ** Αυτό αποστέλλει μέσω του [συμβολαίου προστασίας από επανάληψη του Timon Rapp (όπως συνιστάται από τον Vitalik Buterin)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) ώστε η αποστολή να γίνεται μόνο στην αλυσίδα **ETH**. ',
+TRANSModal_Content_2        : '**Μόνο FUNC: ** Αυτό αποστέλλει μέσω του [συμβολαίου προστασίας από επανάληψη του Timon Rapp (όπως συνιστάται από τον Vitalik Buterin)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) ώστε η αποστολή να γίνεται μόνο στην αλυσίδα **FUNC**. ',
 TRANSModal_Content_3        : '**Μόνο ETC: ** Αυτό αποστέλλει μέσω του [συμβολαίου προστασίας από επανάληψη του Timon Rapp (όπως συνιστάται από τον Vitalik Buterin)](https://blog.ethereum.org/2016/07/26/onward_from_the_hard_fork/) ώστε η αποστολή να γίνεται μόνο στην αλυσίδα **ETC**. ',
 TRANSModal_Content_4        : '**Coinbase & ShapeShift: ** Αποστέλλετε μόνο με τυπική συναλλαγή. Αν στείλετε με τα συμβόλαια «Μόνο», θα χρειαστεί να έρθετε σε επαφή με το προσωπικό υποστήριξής τους ώστε να σας βοηθήσουν με χειροκίνητη μεταφορά υπολοίπων ή επιστροφή χρημάτων.[Μπορείτε επίσης να δοκιμάσετε το εργαλείο «διαχωρισμού» του Shapeshift](https://split.shapeshift.io/) ',
 TRANSModal_Content_5        : '**Kraken & Poloniex:** Δεν υπάρχουν γνωστά προβλήματα. Αποστέλλετε με οποιαδήποτε μέθοδο. ',
@@ -520,7 +520,7 @@ SWAP_progress_2             : "Εν αναμονή για ", // Waiting for your
 SWAP_progress_3             : "Ελήφθησαν! ", // ETHO Received!
 SWAP_progress_4             : "Γίνεται αποστολή {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Η εντολή ολοκληρώθηκε ",
-SWAP_order_CTA              : "Παρακαλούμε στείλτε ", // Please send 1 ETH...
+SWAP_order_CTA              : "Παρακαλούμε στείλτε ", // Please send 1 FUNC...
 SWAP_unlock                 : "Ξεκλειδώστε το πορτοφόλι σας για να στείλετε ETHO ή μάρκες απευθείας από αυτήν τη σελίδα. ",
 
 /* Sign Message */

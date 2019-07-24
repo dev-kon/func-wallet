@@ -131,7 +131,7 @@
                   You are just using our **interface** to interact **directly with the blockchain**.
                 </li>
                 <li translate="ONBOARD_interface_content__6">
-                  If you send your *public key (address)* to someone, they can send you ETH or tokens. 👍
+                  If you send your *public key (address)* to someone, they can send you FUNC or tokens. 👍
                 </li>
                 <li translate="ONBOARD_interface_content__7">
                   If you send your *private key* to someone, they now have full control of your account. 👎

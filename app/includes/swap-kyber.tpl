@@ -169,7 +169,7 @@
                 </section>
             </div>
         </div>
-        <!-- Swap CTA ETH -->
+        <!-- Swap CTA FUNC -->
         <article class="row">
 
             <section class="clearfix collapse-container">
@@ -186,11 +186,11 @@
                     }
                 </div>
             </section>
-            <div class="alert alert-danger" ng-show="ajaxReq.type!=='ETH' && ajaxReq.type!=='ROPSTEN ETH'">
-                <strong>Warning! You are not connected to an ETH node.</strong> <br/>
-                Please use the node switcher in the top-right corner to switch to an ETH node. We <strong>do
+            <div class="alert alert-danger" ng-show="ajaxReq.type!=='FUNC' && ajaxReq.type!=='ROPSTEN FUNC'">
+                <strong>Warning! You are not connected to an FUNC node.</strong> <br/>
+                Please use the node switcher in the top-right corner to switch to an FUNC node. We <strong>do
                                                                                                           not</strong>
-                support swapping ETC or Testnet ETH.
+                support swapping ETC or Testnet FUNC.
             </div>
 
             <section class="row" ng-show="wallet!=null " ng-controller="sendTxCtrl">
@@ -236,7 +236,7 @@
             </section>
             <!--</div>-->
         </article>
-        <!-- / Swap CTA ETH -->
+        <!-- / Swap CTA FUNC -->
 
 
     </article>
@@ -331,7 +331,7 @@
                             <h5>Transaction Hash(es):</h5>
                         </div>
 
-                        <!-- Token to ETH -->
+                        <!-- Token to FUNC -->
                         <div class="col-sm-12" ng-if="!kyberEthToToken && !kyberTransaction.bypassTokenApprove">
                             <span>
                                 Track your swap transaction:
@@ -363,9 +363,9 @@
                                 <h5>{{kyberTransaction.tokenApproveTxHash}}</h5>
                             </a>
                         </div>
-                        <!-- / Token to ETH -->
+                        <!-- / Token to FUNC -->
 
-                        <!-- Token to ETH ( with reset token allowance) -->
+                        <!-- Token to FUNC ( with reset token allowance) -->
                         <div class="col-sm-12" ng-if="kyberTransaction.tokenResetTx">
                             <span>
                                 Track your token approval reset transaction:
@@ -374,9 +374,9 @@
                                 <h5>{{kyberTransaction.tokenResetTxHash}}</h5>
                             </a>
                         </div>
-                        <!-- / Token to ETH ( with reset token allowance) -->
+                        <!-- / Token to FUNC ( with reset token allowance) -->
 
-                        <!-- ETH to Token-->
+                        <!-- FUNC to Token-->
                         <div class="col-sm-12" ng-if="kyberEthToToken">
                           <span>
                               Track your swap transaction:
@@ -386,9 +386,9 @@
                                 <h5>{{kyberTransaction.ethTxHash}}</h5>
                             </a>
                         </div>
-                        <!-- / ETH to Token-->
+                        <!-- / FUNC to Token-->
 
-                        <!-- Token to ETH (no approval needed)-->
+                        <!-- Token to FUNC (no approval needed)-->
                         <div class="col-sm-12" ng-if="!kyberEthToToken && kyberTransaction.bypassTokenApprove">
                                                         <span>
                                 Track your swap transaction:
@@ -403,7 +403,7 @@
                                 <h5>{{kyberTransaction.tokenTxHash}}</h5>
                             </a>
                         </div>
-                        <!-- / Token to ETH (no approval needed)-->
+                        <!-- / Token to FUNC (no approval needed)-->
 
                     </section>
                 </div>
@@ -417,7 +417,7 @@
 <!--        <div class="row text-center">
             <span> Common Questions: </span><br/>
             <a href="https://myetherwallet.github.io/knowledge-base/faq/eth-or-tokens-not-showing-on-exchange.html" target="_blank"
-               rel="noopener noreferrer"> ETH or Tokens haven't shown up </a><br/>
+               rel="noopener noreferrer"> FUNC or Tokens haven't shown up </a><br/>
             <a href="https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html" target="_blank"
                rel="noopener noreferrer"> Transactions are Not Showing Up or Pending Forever </a><br/>
             <span> Still need help: </span>

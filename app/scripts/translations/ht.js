@@ -67,7 +67,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -84,7 +84,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -441,7 +441,7 @@ SEND_raw                    : 'TRASFÈ SAN ANALIZ ',
 SEND_signed                 : 'TRANSFÈ SIYEN ',
 SEND_trans                  : 'VOYE TRANSFÈ A ',
 SENDModal_Title             : 'ATANSYON!  ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */                                                                                                  /*PLEN FRAZ POU LI ‘’ OU PRAL VOYE L’ ‘’10ETH’’ NAN ADRÈS ‘’0X1234’’ ESKE W’ KONFYAN OU VLE FÈ SA ?’’*/
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */                                                                                                  /*PLEN FRAZ POU LI ‘’ OU PRAL VOYE L’ ‘’10ETH’’ NAN ADRÈS ‘’0X1234’’ ESKE W’ KONFYAN OU VLE FÈ SA ?’’*/
 SENDModal_Content_1         : 'OU PRAL VOYE L ',
 SENDModal_Content_2         : 'NAN ADRÈS ',
 SENDModal_Content_3         : 'ESKE W KONFYAN ?  ',
@@ -458,11 +458,11 @@ TOKEN_hide                  : 'KACHE TOKENS YO ',
 
 /* Send Transaction */
 TRANS_desc                  : 'SI W’ VLE VOYE TOKENS YO, ALE PITO NAN PAJ « VOYE TOKENS » ',
-TRANS_warning               : 'METE FONKSYON ‘’ETH’’ YO SÈLMAN  AK ‘’ETC SÈLMAN’’ OU FÈ W’ PASE NAN YON KONTRA. KÈK NAN SÈVIS SA YO KONN GEN PWOBLÈM  AK TRANSFÈ SA YO. POU W’  KONN PLIS ',
+TRANS_warning               : 'METE FONKSYON ‘’FUNC’’ YO SÈLMAN  AK ‘’ETC SÈLMAN’’ OU FÈ W’ PASE NAN YON KONTRA. KÈK NAN SÈVIS SA YO KONN GEN PWOBLÈM  AK TRANSFÈ SA YO. POU W’  KONN PLIS ',
 TRANS_advanced              : '+AVANSE : METE GAZ ',
 TRANS_data                  : 'DONE ',
 TRANS_gas                   : 'LIMIT AN GAZ ;// CHANJE AN ENG POU LIMIT GAZ LA ',
-TRANS_sendInfo              : 'YON TRANSFÈ NÒMAL SÈVI  AK 21000 GAZ KI KOUTE 0.000441  ETH. PRI GAZ LA 0.000000021 ETHO  KE NOU TE CHWAZI A ON TI JAN PI WO KE  PI PITI A ASIRE W’ POU W’ YON KONFIMASYON RAPID. NOU PA PRAN FRÈ POU TRANSFÈ A.  ',
+TRANS_sendInfo              : 'YON TRANSFÈ NÒMAL SÈVI  AK 21000 GAZ KI KOUTE 0.000441  FUNC. PRI GAZ LA 0.000000021 ETHO  KE NOU TE CHWAZI A ON TI JAN PI WO KE  PI PITI A ASIRE W’ POU W’ YON KONFIMASYON RAPID. NOU PA PRAN FRÈ POU TRANSFÈ A.  ',
 
 /* Offline Transaction */
 OFFLINE_Title               : 'KREYE EPI VOYE YON TRANFÈ SAN SIYAL ',

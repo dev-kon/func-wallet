@@ -36,7 +36,7 @@ var addWalletCtrl = function($scope, $sce) {
     $scope.$watch('walletType', function() {
         if ($scope.walletType == "ledger") {
             switch ($scope.nodeType) {
-                case nodes.nodeTypes.ETH:
+                case nodes.nodeTypes.FUNC:
                     $scope.HDWallet.dPath = $scope.HDWallet.ledgerPath;
                     break;
                 case nodes.nodeTypes.ETC:
@@ -47,7 +47,7 @@ var addWalletCtrl = function($scope, $sce) {
             }
         } else if ($scope.walletType == "trezor") {
             switch ($scope.nodeType) {
-                case nodes.nodeTypes.ETH:
+                case nodes.nodeTypes.FUNC:
                     $scope.HDWallet.dPath = $scope.HDWallet.trezorPath;
                     break;
                 case nodes.nodeTypes.ETC:

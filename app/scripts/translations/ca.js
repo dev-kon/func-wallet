@@ -67,7 +67,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -84,7 +84,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -438,7 +438,7 @@ SEND_raw                    : 'Transacció en brut ',
 SEND_signed                 : 'Transacció signada ',
 SEND_trans                  : 'Enviar transacció ',
 SENDModal_Title             : 'Alerta! ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'Estàs a punt d\'enviar ',
 SENDModal_Content_2         : 'a l\'adreça ',
 SENDModal_Content_3         : 'Estàs segur que vols fer-ho? ',
@@ -458,7 +458,7 @@ TRANS_desc                  : 'Si vols enviar tokens, si us plau utilitza la pà
 TRANS_advanced              : '+Avançat: Afegir dades ',
 TRANS_data                  : 'Dades ',
 TRANS_gas                   : 'Limit de gas ',
-TRANS_sendInfo              : 'Una transacció estàndard utilitzant 21000 gas costarà 0.000441 ETH. Utilitzem un preu una mica per sobre del mínim de 0.000000021 FUNC per assegurar que es mina ràpidament. No ens quedem cap comissió per la transacció. ',
+TRANS_sendInfo              : 'Una transacció estàndard utilitzant 21000 gas costarà 0.000441 FUNC. Utilitzem un preu una mica per sobre del mínim de 0.000000021 FUNC per assegurar que es mina ràpidament. No ens quedem cap comissió per la transacció. ',
 
 /* Offline Transaction */
 OFFLINE_Title               : 'Crea i envia una transacció sense connexió ',
@@ -523,7 +523,7 @@ SWAP_progress_2             : "Esperant pels teus  ", // Waiting for your BTC...
 SWAP_progress_3             : "Rebut! ", // FUNC Received!
 SWAP_progress_4             : "Enviant el teu {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Comanda completa ",
-SWAP_order_CTA              : "Si us plau envia ", // Please send 1 ETH...
+SWAP_order_CTA              : "Si us plau envia ", // Please send 1 FUNC...
 SWAP_unlock                 : "Desbloqueja la teva cartera per enviar FUNC o Tokens directament des d\'aquesta pàgina ",
 
 /* Sign Message */

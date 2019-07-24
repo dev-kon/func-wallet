@@ -41,7 +41,7 @@ msg:        'Merculet (MVP) token sale - You must have registered at https://mer
 to:         '0xFcD862985628b254061F7A918035B80340D045d3',
 gasLimit:   200000,
 data:       '',
-msg:        'GIFcoin (GIF) token sale - https://gifcoin.io - save your ETH wallet after purchase on the website to gain access to investors hub.'
+msg:        'GIFcoin (GIF) token sale - https://gifcoin.io - save your FUNC wallet after purchase on the website to gain access to investors hub.'
 },{
 // AX1 Mining token
 to:         '0x5de9f32b2665bb2cdc23bfb51b03e2a2985ecc87',

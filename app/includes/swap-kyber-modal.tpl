@@ -106,13 +106,13 @@
                     <tr ng-if="!kyberTransaction.bypassTokenApprove">
                         <td class="small text-right">Avg. Gas Price:</td>
                         <td class="small text-left mono" >{{parsedTx.avgGasPrice.gwei}} GWEI
-                            <small>({{parsedTx.avgGasPrice.eth}} ETH)</small>
+                            <small>({{parsedTx.avgGasPrice.eth}} FUNC)</small>
                                                           <!-- todo: get eth value to display as a decimal not as an exponent-->
                         </td>
                     </tr>
                     <tr ng-if="!kyberTransaction.bypassTokenApprove">
                         <td class="small text-right">Max Combined TX Fee:</td>
-                        <td class="small text-left mono"> {{parsedTx.totalTxFee.eth}} ETH
+                        <td class="small text-left mono"> {{parsedTx.totalTxFee.eth}} FUNC
                             <small>({{parsedTx.totalTxFee.gwei}} GWEI)</small>
                         </td>
                     </tr>
@@ -127,13 +127,13 @@
                     <tr ng-if="kyberTransaction.bypassTokenApprove">
                         <td class="small text-right">Gas Price:</td>
                         <td class="small text-left mono" >{{parsedKyberTx.gasPrice.gwei}} GWEI
-                            <small>({{parsedKyberTx.avgGasPrice.eth}} ETH)</small>
+                            <small>({{parsedKyberTx.avgGasPrice.eth}} FUNC)</small>
                                                                                                       <!-- todo: get eth value to display as a decimal not as an exponent-->
                         </td>
                     </tr>
                     <tr ng-if="kyberTransaction.bypassTokenApprove">
                         <td class="small text-right">Max TX Fee:</td>
-                        <td class="small text-left mono"> {{parsedKyberTx.txFee.eth}} ETH
+                        <td class="small text-left mono"> {{parsedKyberTx.txFee.eth}} FUNC
                             <small>({{parsedKyberTx.txFee.gwei}} GWEI)</small>
                         </td>
                     </tr>
@@ -174,7 +174,7 @@
                         </tr>
                         <tr>
                             <td class="small text-right">Amount to Send:</td>
-                            <td class="small text-left mono">{{parsedKyberTx.value}} ETH</td>
+                            <td class="small text-left mono">{{parsedKyberTx.value}} FUNC</td>
                         </tr>
                         <tr>
                             <td class="small text-right">Account Balance:</td>
@@ -199,12 +199,12 @@
                         <tr>
                             <td class="small text-right">Gas Price:</td>
                             <td class="small text-left mono">{{parsedKyberTx.gasPrice.gwei}} GWEI
-                                <small>({{parsedKyberTx.gasPrice.eth}} ETH) <span ng-if="kyberTransaction.kyberMaxGas">| Note: Kyber Network Gas Price Max is 50 GWEI</span></small>
+                                <small>({{parsedKyberTx.gasPrice.eth}} FUNC) <span ng-if="kyberTransaction.kyberMaxGas">| Note: Kyber Network Gas Price Max is 50 GWEI</span></small>
                             </td>
                         </tr>
                         <tr>
                             <td class="small text-right">Max TX Fee:</td>
-                            <td class="small text-left mono"> {{parsedKyberTx.txFee.eth}} ETH
+                            <td class="small text-left mono"> {{parsedKyberTx.txFee.eth}} FUNC
                                 <small>({{parsedKyberTx.txFee.gwei}} GWEI)</small>
                             </td>
                         </tr>
@@ -233,7 +233,7 @@
                         </tr>
                         <tr>
                             <td class="small text-right">Amount to Send:</td>
-                            <td class="small text-left mono">{{parsedKyberTokenTx.value}} ETH</td>
+                            <td class="small text-left mono">{{parsedKyberTokenTx.value}} FUNC</td>
                         </tr>
                         <tr>
                             <td class="small text-right">Account Balance:</td>
@@ -250,12 +250,12 @@
                         <tr>
                             <td class="small text-right">Gas Price:</td>
                             <td class="small text-left mono">{{parsedKyberTokenTx.gasPrice.gwei}} GWEI
-                                <small>({{parsedKyberTokenTx.gasPrice.eth}} ETH)</small>
+                                <small>({{parsedKyberTokenTx.gasPrice.eth}} FUNC)</small>
                             </td>
                         </tr>
                         <tr>
                             <td class="small text-right">Max TX Fee:</td>
-                            <td class="small text-left mono"> {{parsedKyberTokenTx.txFee.eth}} ETH
+                            <td class="small text-left mono"> {{parsedKyberTokenTx.txFee.eth}} FUNC
                                 <small>({{parsedKyberTokenTx.txFee.gwei}} GWEI)</small>
                             </td>
                         </tr>
@@ -285,7 +285,7 @@
                         </tr>
                         <tr ng-show="kyberTransaction.tokenNeedsReset">
                             <td class="small text-right">Amount to Send:</td>
-                            <td class="small text-left mono">0 ETH</td>
+                            <td class="small text-left mono">0 FUNC</td>
                         </tr>
                         <tr ng-show="kyberTransaction.tokenNeedsReset">
                             <td class="small text-right">Current Approve Value:</td>
@@ -306,12 +306,12 @@
                         <tr ng-show="kyberTransaction.tokenNeedsReset">
                             <td class="small text-right">Gas Price:</td>
                             <td class="small text-left mono">{{parsedKyberResetTokenTx.gasPrice.gwei}} GWEI
-                                <small>({{parsedKyberResetTokenTx.gasPrice.eth}} ETH)</small>
+                                <small>({{parsedKyberResetTokenTx.gasPrice.eth}} FUNC)</small>
                             </td>
                         </tr>
                         <tr ng-show="kyberTransaction.tokenNeedsReset">
                             <td class="small text-right">Max TX Fee:</td>
-                            <td class="small text-left mono"> {{parsedKyberTokenTx.txFee.eth}} ETH
+                            <td class="small text-left mono"> {{parsedKyberTokenTx.txFee.eth}} FUNC
                                 <small>({{parsedKyberResetTokenTx.txFee.gwei}} GWEI)</small>
                             </td>
                         </tr>
@@ -327,7 +327,7 @@
                     </table>
                 </section>
                 <!-- / KYBER TOKEN TRANSACTION -->
-                <!-- KYBER ETH TRANSACTION -->
+                <!-- KYBER FUNC TRANSACTION -->
                 <table class="table small table-condensed table-hover transaction-modal" ng-if="kyberEthToToken">
                     <tbody>
                     <tr>
@@ -346,7 +346,7 @@
                     </tr>
                     <tr>
                         <td class="small text-right">Amount to Send:</td>
-                        <td class="small text-left mono">{{parsedKyberTx.value}} ETH</td>
+                        <td class="small text-left mono">{{parsedKyberTx.value}} FUNC</td>
                     </tr>
                     <tr>
                         <td class="small text-right">Account Balance:</td>
@@ -375,12 +375,12 @@
                     <tr>
                         <td class="small text-right">Gas Price:</td>
                         <td class="small text-left mono">{{parsedKyberTx.gasPrice.gwei}} GWEI
-                            <small>({{parsedKyberTx.gasPrice.eth}} ETH) <span ng-if="kyberTransaction.kyberMaxGas">| Note: Kyber Network Gas Price Max is 50 GWEI</span></small>
+                            <small>({{parsedKyberTx.gasPrice.eth}} FUNC) <span ng-if="kyberTransaction.kyberMaxGas">| Note: Kyber Network Gas Price Max is 50 GWEI</span></small>
                         </td>
                     </tr>
                     <tr>
                         <td class="small text-right">Max TX Fee:</td>
-                        <td class="small text-left mono"> {{parsedKyberTx.txFee.eth}} ETH
+                        <td class="small text-left mono"> {{parsedKyberTx.txFee.eth}} FUNC
                             <small>({{parsedKyberTx.txFee.gwei}} GWEI)</small>
                         </td>
                     </tr>
@@ -395,7 +395,7 @@
 
                     </tbody>
                 </table>
-                <!-- / KYBER ETH TRANSACTION -->
+                <!-- / KYBER FUNC TRANSACTION -->
             </div>
 
             <div class="modal-footer" ng-if="kyberEthToToken">

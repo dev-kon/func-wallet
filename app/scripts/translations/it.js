@@ -68,7 +68,7 @@ ENS_WrongAddress_1              :  'The wallet you unlocked does not own the nam
 ENS_WrongAddress_2              :  'Please unlock the wallet with address ',
 
 ENS_Finalize                    :  'Finalize',
-ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH. Any non-winners will also be refunded.',
+ENS_Finalize_content            :  'Finalizing this name assigns the ENS name to the winning bidder. The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC. Any non-winners will also be refunded.',
 ENS_Finalize_content_1          :  'You are about to finalize the auction & claim the name:',
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
@@ -85,7 +85,7 @@ ENS_Helper_12                   :  'You will unlock your account, enter the <u>B
 ENS_Helper_13                   :  'In the event that two parties bid exactly the same amount, the first bid revealed will win.',
 ENS_Helper_14                   :  '4) Finalize the Auction',
 ENS_Helper_15                   :  'Once the auction has ended (after 5 days / 120 hours), the winner needs to finalize the auction in order to claim their new name.',
-ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 ETH.',
+ENS_Helper_16                   :  'The winner will be refunded the difference between their bid and the next-highest bid. If you are the only bidder, you will refunded all but 0.01 FUNC.',
 ENS_Helper_17                   :  'More Information',
 ENS_Helper_18                   :  'The auction for this registrar is a blind auction, and is described in',
 ENS_Helper_19                   :  'Basically, no one can see *anything* during the auction.',
@@ -392,7 +392,7 @@ SEND_signed                 : 'Transazione firmata ',
 SEND_trans                  : 'Invia transazione ',
 SEND_TransferTotal          : 'Invia l\'intero saldo ',
 SENDModal_Title             : 'Attenzione! ',
-/* full sentence reads "You are about to send "10 ETH" to address "0x1234". Are you sure you want to do this? " */
+/* full sentence reads "You are about to send "10 FUNC" to address "0x1234". Are you sure you want to do this? " */
 SENDModal_Content_1         : 'Stai per inviare ',
 SENDModal_Content_2         : 'all\'indirizzo ',
 SENDModal_Content_3         : 'Sei sicuro di volerlo fare? ',
@@ -412,7 +412,7 @@ TRANS_desc                  : 'Se invece volevi inviare dei token, utilizza la p
 TRANS_advanced              : '+Avanzate: aggiungi dati ',
 TRANS_data                  : 'Dati ',
 TRANS_gas                   : 'Limite gas ',
-TRANS_sendInfo              : 'Una transazione standard che utilizza 21000 gas costerà 0,000441 ETH. Utilizziamo un prezzo del gas leggermente al di sopra del minimo pari a 0,000000021 ETHO per assicurarci che venga elaborata velocemente. Noi non prendiamo commissioni. ',
+TRANS_sendInfo              : 'Una transazione standard che utilizza 21000 gas costerà 0,000441 FUNC. Utilizziamo un prezzo del gas leggermente al di sopra del minimo pari a 0,000000021 ETHO per assicurarci che venga elaborata velocemente. Noi non prendiamo commissioni. ',
 
 /* Offline Transaction */
 OFFLINE_Title               : 'Genera & invia una transazione offline ',
@@ -545,7 +545,7 @@ SWAP_progress_2             : "In attesa dei tuoi ", // Waiting for your BTC...
 SWAP_progress_3             : "ricevuti! ", // ETHO Received!
 SWAP_progress_4             : "Invio dei tuoi {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Ordine completato ",
-SWAP_order_CTA              : "Invia ", // Please send 1 ETH...
+SWAP_order_CTA              : "Invia ", // Please send 1 FUNC...
 SWAP_unlock                 : "Sblocca il tuo portafoglio per inviare ETHO o token direttamente da questa pagina. ",
 
 /* Error Messages */
@@ -641,7 +641,7 @@ TranslatorAddr_5            : '',
 HELP_Warning                : 'Se hai creato un portafoglio -oppure- hai scaricato il repository prima del **31 Dicembre 2015**, controlla i tuoi portafogli e scarica una nuova versione del repository. Fai clic qui per i dettagli. ',
 HELP_Desc                   : 'Vedi che manca qualcosa? Hai un\'altra domanda? [Mettiti in contatto con noi](mailto:support@myetherwallet.com), e non solo risponderemo alla tua domanda, ma aggiorneremo anche questa pagina in modo che sia più utile ad altri in futuro! ',
 HELP_Remind_Title           : 'Qualche promemoria ',
-HELP_Remind_Desc_1          : '**Ethereum, Funcoin Wallet & Funcoin Wallet CX, e alcune delle librerie Javascript che utilizziamo sono in continuo sviluppo.** Anche se abbiamo testato approfonditamente e persone di tutto il mondo hanno correttamente creato decine di migliaia di portafogli, c\'è sempre la remota possibilità che accada qualcosa di imprevisto che provochi la perdita dei tuoi ETH. Ti preghiamo di non investire più di quello che sei disposto a perdere, e di fare attenzione. Se dovesse capitare qualcosa, ci dispiace, ma **non siamo responsabili per gli ether perduti**. ',
+HELP_Remind_Desc_1          : '**Ethereum, Funcoin Wallet & Funcoin Wallet CX, e alcune delle librerie Javascript che utilizziamo sono in continuo sviluppo.** Anche se abbiamo testato approfonditamente e persone di tutto il mondo hanno correttamente creato decine di migliaia di portafogli, c\'è sempre la remota possibilità che accada qualcosa di imprevisto che provochi la perdita dei tuoi FUNC. Ti preghiamo di non investire più di quello che sei disposto a perdere, e di fare attenzione. Se dovesse capitare qualcosa, ci dispiace, ma **non siamo responsabili per gli ether perduti**. ',
 HELP_Remind_Desc_2          : 'MyEtherWallet & Funcoin Wallet CX non sono "portafogli web". Non stai creando un account né ci stai dando i tuoi ether da custodire. Tutti i dati non lasciano mai il tuo computer/il tuo browser. Quello che facciamo è renderti facile creare, salvare, e accedere alle tue informazioni e interagire con la *blockchain*. ',
 HELP_Remind_Desc_3          : 'Se non salvi la tua chiave privata e la password, non c\'è modo di recuperare l\'accesso al tuo portafoglio o ai fondi che contiene.  Salvali in molti luoghi fisici diversi e non solo sul tuo computer! ',
 

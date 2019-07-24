@@ -12,11 +12,11 @@
     <div class="col-sm-4 order-info">
       <p class="mono">
         <input class="form-control input-sm" ng-model="priceTicker.ETHBTC"/>
-        <span>ETH = {{bity.curRate.ETHBTC*priceTicker.ETHBTC | number: 6}} BTC</span>
+        <span>FUNC = {{bity.curRate.ETHBTC*priceTicker.ETHBTC | number: 6}} BTC</span>
       </p>
       <p class="mono">
         <input class="form-control input-sm" ng-model="priceTicker.ETHREP"/>
-        <span>ETH = {{bity.curRate.ETHREP*priceTicker.ETHREP | number: 6}} REP</span>
+        <span>FUNC = {{bity.curRate.ETHREP*priceTicker.ETHREP | number: 6}} REP</span>
       </p>
     </div>
     <div class="col-sm-4 order-info">
@@ -33,7 +33,7 @@
     <div class="col-sm-4 order-info">
       <p class="mono">
         <input class="form-control input-sm" ng-model="priceTicker.BTCETH"/>
-        <span>BTC = {{bity.curRate.BTCETH*priceTicker.BTCETH | number: 6}} ETH</span>
+        <span>BTC = {{bity.curRate.BTCETH*priceTicker.BTCETH | number: 6}} FUNC</span>
       </p>
       <p class="mono">
         <input class="form-control input-sm" ng-model="priceTicker.BTCREP"/>
@@ -101,7 +101,7 @@
     <section class="row">
       <div class="col-xs-6 col-xs-offset-3" >
         <h4 style="margin-top: 40px; border: 5px #0b1929">
-          <a href="https://ccswap.myetherwallet.com" > Buy ETH with <img src="images/visa-master.png" width="60" height="30"></a>
+          <a href="https://ccswap.myetherwallet.com" > Buy FUNC with <img src="images/visa-master.png" width="60" height="30"></a>
         </h4>
       </div>
     </section>

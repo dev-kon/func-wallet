@@ -46,7 +46,7 @@ Check gh-pages files against live website at https://www.myetherwallet.com
 - [kvhnuke (founder) reddit: https://www.reddit.com/user/kvhnuke/](https://www.reddit.com/user/kvhnuke/)
 - [jordan (cmo) reddit: https://www.reddit.com/user/trogdortb001](https://www.reddit.com/user/trogdortb001)
 - [myetherwallet reddit user: https://www.reddit.com/user/myetherwallet](https://www.reddit.com/user/myetherwallet)
--  MEW ETH Donation Address: 0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D (mewtopia.eth)
+-  MEW FUNC Donation Address: 0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D (mewtopia.eth)
 -  MEW BTC Donation Address: 1DECAF2uSpFTP4L1fAHR8GCLrPqdwdLse9
 
 
@@ -65,9 +65,9 @@ Check gh-pages files against live website at https://www.myetherwallet.com
 
 - Create new wallets completely client side.
 - Access your wallet via unencrypted private key, encrypted private key, keystore files, mnemonics, or Digital Bitbox, Ledger Nano S or TREZOR hardware wallet.
-- Easily send ETH and *any* ERC-20 Standard Token. [Many tokens included as default.](https://myetherwallet.groovehq.com/knowledge_base/topics/can-i-send-my-steem-slash-btc-slash-ltc-slash-nem-slash-to-myetherwallet)
+- Easily send FUNC and *any* ERC-20 Standard Token. [Many tokens included as default.](https://myetherwallet.groovehq.com/knowledge_base/topics/can-i-send-my-steem-slash-btc-slash-ltc-slash-nem-slash-to-myetherwallet)
 - Generate, sign & send transactions offline, ensuring your private keys never touch an internet-connected device.
-- Securely access your ETH & Tokens on your [Digital Bitbox, Ledger or TREZOR Hardware Wallet](https://myetherwallet.groovehq.com/knowledge_base/topics/hardware-wallet-recommends) via the MyEtherWallet interface (Chrome & Opera natively, Firefox w/ [add-on](https://addons.mozilla.org/en-US/firefox/addon/u2f-support-add-on/))
+- Securely access your FUNC & Tokens on your [Digital Bitbox, Ledger or TREZOR Hardware Wallet](https://myetherwallet.groovehq.com/knowledge_base/topics/hardware-wallet-recommends) via the MyEtherWallet interface (Chrome & Opera natively, Firefox w/ [add-on](https://addons.mozilla.org/en-US/firefox/addon/u2f-support-add-on/))
 - Now in 18 languages thanks 100% to the amazing Ethereum community.
 - Supports URI Strings on Send Transaction Page.
     - to=[address]
@@ -243,9 +243,9 @@ If you can think of any other features or run into bugs, let us know. You can fo
 - 1/2/17: [Announcing MyEtherWallet v3.4: The Node Switcher](https://www.reddit.com/r/ethereum/comments/5lqx90/announcing_myetherwallet_v34_the_node_switcher/)
 - 1/9/17: [Announcing MyEtherWallet v3.4.3: Interacting with Contracts](https://www.reddit.com/r/ethereum/comments/5n0dj0/announcing_myetherwallet_v343_interacting_with/?utm_content=title&utm_medium=user&utm_source=reddit&utm_name=frontpage)
 - 2/3/17: [MyEtherWallet.com v3.4.7: You can use your TREZOR on MEW. Thanks to all who made this a reality 🤗](https://www.reddit.com/r/ethereum/comments/5rsfu9/myetherwalletcom_v347_you_can_use_your_trezor_on/?utm_content=comments&utm_medium=user&utm_source=reddit&utm_name=frontpage)
-- 2/16/17: [MyEtherWallet v3.5.0: Swap ETH <-> BTC <-> REP via Bity, directly from MEW! (also: Parity backup phrase support + add'l contract features + our roadmap)](https://www.reddit.com/r/ethereum/comments/5ueysp/myetherwallet_v350_swap_eth_btc_rep_via_bity/?utm_content=comments&utm_medium=user&utm_source=reddit&utm_name=frontpage)
+- 2/16/17: [MyEtherWallet v3.5.0: Swap FUNC <-> BTC <-> REP via Bity, directly from MEW! (also: Parity backup phrase support + add'l contract features + our roadmap)](https://www.reddit.com/r/ethereum/comments/5ueysp/myetherwallet_v350_swap_eth_btc_rep_via_bity/?utm_content=comments&utm_medium=user&utm_source=reddit&utm_name=frontpage)
 - 4/9/17: [Ethereum vanity address generator](https://www.reddit.com/r/ethereum/comments/5yeb4n/ethereum_vanity_address_generator/?utm_content=comments&utm_medium=user&utm_source=reddit&utm_name=frontpage)
-- 4/30/17: [MEW v3.6.6: Enables you to access any path for your Mnemonic, Ledger & TREZOR. (ATTN: folks who have ETH / ETC / Tokens stuck in a different path)](https://www.reddit.com/r/ethereum/comments/68f70l/mew_v366_enables_you_to_access_any_path_for_your/)
+- 4/30/17: [MEW v3.6.6: Enables you to access any path for your Mnemonic, Ledger & TREZOR. (ATTN: folks who have FUNC / ETC / Tokens stuck in a different path)](https://www.reddit.com/r/ethereum/comments/68f70l/mew_v366_enables_you_to_access_any_path_for_your/)
 - 5/7/17: [ENS disguise bid issue on MyEtherWallet](https://www.reddit.com/r/ethereum/comments/69vz57/ens_disguise_bid_issue_on_myetherwallet/)
 - - 8/15/17: [MyEtherWallet needs motivated devs!](https://www.reddit.com/r/ethereum/comments/6tqrs1/myetherwallet_needs_motivated_devs/?utm_content=comments&utm_medium=user&utm_source=reddit&utm_name=frontpage)
 - 10/28/17: [MyEtherWallet - New Contract Interaction Tools](https://www.reddit.com/r/ethereum/comments/7961ml/myetherwallet_new_contract_interaction_tools/)
