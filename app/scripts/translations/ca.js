@@ -72,7 +72,7 @@ ENS_Finalize_content_1          :  'You are about to finalize the auction & clai
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
 ENS_Helper_3                    :  'Decide which account you wish to own the name & ensure you have multiple backups of that account.',
-ENS_Helper_4                    :  'Decide the maximum amount of ETHO you are willing to pay for the name (your <u>Bid Amount</u>). Ensure that account has enough to cover your bid + 0.01 ETHO for gas.',
+ENS_Helper_4                    :  'Decide the maximum amount of FUNC you are willing to pay for the name (your <u>Bid Amount</u>). Ensure that account has enough to cover your bid + 0.01 FUNC for gas.',
 ENS_Helper_5                    :  '2) Start an Auction / Place a Bid',
 ENS_Helper_6                    :  'Bidding period lasts 3 days (72 hours).',
 ENS_Helper_7                    :  'You will enter the <u>name</u>, <u>Actual Bid Amount</u>, <u>Bid Mask</u>, which is protected by a <u>Secret Phrase</u>.',
@@ -128,7 +128,7 @@ ONBOARD_interface_content__2    :  'The handling of your keys happens entirely o
 ONBOARD_interface_content__3    :  'We never transmit, receive or store your private key, password, or other account information.',
 ONBOARD_interface_content__4    :  'We do not charge a transaction fee.',
 ONBOARD_interface_content__5    :  'You are simply using our **interface** to interact **directly with the blockchain**.',
-ONBOARD_interface_content__6    :  'If you send your *public key (address)* to someone, they can send you ETHO or tokens. 👍',
+ONBOARD_interface_content__6    :  'If you send your *public key (address)* to someone, they can send you FUNC or tokens. 👍',
 ONBOARD_interface_content__7    :  'If you send your *private key* to someone, they now have full control of your account. 👎',
 ONBOARD_bank_title__alt         :  'Funcoin Wallet isn\'t a Bank',
 ONBOARD_blockchain_title__alt   :  'WTF is a Blockchain?',
@@ -221,7 +221,7 @@ tx_notFound                 : 'Transacció no trobada',
 tx_notFound_1               : 'Aquesta TX no es pot trobar al TX Pool del node amb el qual estàs connectat.',
 tx_notFound_2               : 'Si acabes d\'enviar la transacció, espera 15 segons i prem el botó "Comprova l\'estat d\'una TX" de nou. ',
 tx_notFound_3               : 'Encara podria estar al TX Pool d\'un node diferent, esperant ser minat.',
-tx_notFound_4               : 'Utilitza el menú desplegable a la part superior dreta i selecciona un node ETHO diferent (p. Ex. `ETHO (Etherscan.io)` o `ETHO (Infura.io)` o `ETHO (MyEtherWallet)`)  i torna-ho a comprovar.',
+tx_notFound_4               : 'Utilitza el menú desplegable a la part superior dreta i selecciona un node FUNC diferent (p. Ex. `FUNC (Etherscan.io)` o `FUNC (Infura.io)` o `FUNC (MyEtherWallet)`)  i torna-ho a comprovar.',
 tx_foundInPending           : 'Transacció pendent trobada',
 tx_foundInPending_1         : 'La teva transacció s\'ha trobat a la TX Pool del node amb el qual estàs connectat. ',
 tx_foundInPending_2         : 'Actualment està pendent (esperant ser minada). ',
@@ -229,7 +229,7 @@ tx_foundInPending_3         : 'Hi ha una oportunitat de "cancel·lar" or reempla
 tx_FoundOnChain             : 'Transacció trobada',
 tx_FoundOnChain_1           : 'La teva transacció s\'ha minat correctament i és a la blockchain.',
 tx_FoundOnChain_2           : '**Si veus un `( ! )` vermell, un missatge d\'error `BAD INSTRUCTION` o `OUT OF GAS` **, vol dir que la transacció no s\'ha *enviat* correctament. No es pot cancel·lar o reemplaçar aquesta transacció. En lloc d\'això, envia una transacció nova. Si reps un error "Out of Gas", hauries de duplicar el límit de gas especificat originalment.',
-tx_FoundOnChain_3           : '**Si no veus cap error, la teva transacció s\'ha enviat amb èxit.** El teu ETHO o Tokens són on els has enviat. Si no pots veure aquest ETHO o Tokens a la teva cartera / compte de bescanvi, i han passat més de 24 hores des de l\'enviament, si us plau [contacta amb aquest servei](https://myetherwallet.github.io/knowledge-base/diving-deeper/ethereum-list-of-support-and-communities.html). Envia *l\'enllaç* de la teva transacció si demana amablement que investiguin.',
+tx_FoundOnChain_3           : '**Si no veus cap error, la teva transacció s\'ha enviat amb èxit.** El teu FUNC o Tokens són on els has enviat. Si no pots veure aquest FUNC o Tokens a la teva cartera / compte de bescanvi, i han passat més de 24 hores des de l\'enviament, si us plau [contacta amb aquest servei](https://myetherwallet.github.io/knowledge-base/diving-deeper/ethereum-list-of-support-and-communities.html). Envia *l\'enllaç* de la teva transacció si demana amablement que investiguin.',
 
 /* Gen Wallet Updates */
 GEN_Help_1                  : 'Utilitza la teva',
@@ -256,9 +256,9 @@ GET_ConfButton              : 'Ho entenc. Continua.',
 GEN_Label_5                 : 'Desa la teva `Clau Privada`. ',
 GEN_Unlock                  : 'Desbloqueja la teva cartera per veure\'n l\'adreça',
 GAS_PRICE_Desc              : 'El preu del gas és la quantitat que pagues per unitat de gas. `TX fee = preu del gas * límit de gas` i es paga als miners per incloure la teva TX a un block. Preu de gas més elevat = transacció més ràpida, però més cara. Per defecte és `41 GWEI`.',
-GAS_LIMIT_Desc              : 'El límit de gas és la quantitat de gas a enviar amb la teva TX. `TX fee` = preu del gas * límit de gas; i es paga als miners per incloure la teva TX a un block. Incrementat aquest nombre no farà que la teva TX sigui minada més ràpidament. Enviant ETHO = `21000`. Enviant Tokens = ~`200000`.',
+GAS_LIMIT_Desc              : 'El límit de gas és la quantitat de gas a enviar amb la teva TX. `TX fee` = preu del gas * límit de gas; i es paga als miners per incloure la teva TX a un block. Incrementat aquest nombre no farà que la teva TX sigui minada més ràpidament. Enviant FUNC = `21000`. Enviant Tokens = ~`200000`.',
 NONCE_Desc                  : 'El nonce és el nombre de transaccions enviades des d\'una adreça determinada. Assegura que les transaccions  s\'envien en ordre i no més d\'una vegada.',
-TXFEE_Desc                  : 'La comissió per la TX es paga als miners per incloure la teva TX en un block. És el `límit de gas` * `preu del gas`. [Pots convertir GWEI -> ETHO aquí](https://wallet.ether1.org/helpers.html)',
+TXFEE_Desc                  : 'La comissió per la TX es paga als miners per incloure la teva TX en un block. És el `límit de gas` * `preu del gas`. [Pots convertir GWEI -> FUNC aquí](https://wallet.ether1.org/helpers.html)',
 
 
 /* Navigation*/
@@ -458,7 +458,7 @@ TRANS_desc                  : 'Si vols enviar tokens, si us plau utilitza la pà
 TRANS_advanced              : '+Avançat: Afegir dades ',
 TRANS_data                  : 'Dades ',
 TRANS_gas                   : 'Limit de gas ',
-TRANS_sendInfo              : 'Una transacció estàndard utilitzant 21000 gas costarà 0.000441 ETH. Utilitzem un preu una mica per sobre del mínim de 0.000000021 ETHO per assegurar que es mina ràpidament. No ens quedem cap comissió per la transacció. ',
+TRANS_sendInfo              : 'Una transacció estàndard utilitzant 21000 gas costarà 0.000441 ETH. Utilitzem un preu una mica per sobre del mínim de 0.000000021 FUNC per assegurar que es mina ràpidament. No ens quedem cap comissió per la transacció. ',
 
 /* Offline Transaction */
 OFFLINE_Title               : 'Crea i envia una transacció sense connexió ',
@@ -507,7 +507,7 @@ NODE_CTA                    : 'Desa & utilitza el node personalitzat',
 /* Swap / Exchange */
 SWAP_rates                  : "Tarifes actuals ",
 SWAP_init_1                 : "Vull intercanviar els meus ",
-SWAP_init_2                 : " per ", // "I want to swap my X ETHO for X BTC"
+SWAP_init_2                 : " per ", // "I want to swap my X FUNC for X BTC"
 SWAP_init_CTA               : "Fes-ho! ", // or "Continue"
 SWAP_information            : "Le teva informació ",
 SWAP_send_amt               : "Quantitat a enviar ",
@@ -520,11 +520,11 @@ SWAP_time                   : "Temps restant per enviar ",
 SWAP_elapsed				: "Temps transcorregut des de l'enviament ",
 SWAP_progress_1             : "Comanda iniciada ",
 SWAP_progress_2             : "Esperant pels teus  ", // Waiting for your BTC...
-SWAP_progress_3             : "Rebut! ", // ETHO Received!
+SWAP_progress_3             : "Rebut! ", // FUNC Received!
 SWAP_progress_4             : "Enviant el teu {{orderResult.output.currency}} ",
 SWAP_progress_5             : "Comanda completa ",
 SWAP_order_CTA              : "Si us plau envia ", // Please send 1 ETH...
-SWAP_unlock                 : "Desbloqueja la teva cartera per enviar ETHO o Tokens directament des d\'aquesta pàgina ",
+SWAP_unlock                 : "Desbloqueja la teva cartera per enviar FUNC o Tokens directament des d\'aquesta pàgina ",
 
 /* Sign Message */
 MSG_message                 : 'Missatge ',
@@ -564,7 +564,7 @@ ERROR_13                        :  '(error_14) Ja existeix una cartera amb aques
 ERROR_14                        :  '(error_15) Cartera no trobada.  (Wallet not found.)',
 ERROR_15                        :  '(error_16) No sembla que existeixi una proposta amb aquest ID o hi ha hagut un error llegint-la.  (Whoops. It doesn\'t look like a proposal with this ID exists yet or there is an error reading this proposal.)',
 ERROR_16                        :  '(error_17) Ja hi ha emmagatzemada una cartera amb aquesta adreça. Si us plau comprova la pàgina de carteres.  (A wallet with this address already exists in storage. Please check your wallets page.)',
-ERROR_17                        :  '(error_18) El compte d\'origen no té prou saldo. Si estàs enviant tokens, has de tenir 0.01 ETHO al teu compte per cobrir el cost del gas.  (Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more ETHO to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html))',
+ERROR_17                        :  '(error_18) El compte d\'origen no té prou saldo. Si estàs enviant tokens, has de tenir 0.01 FUNC al teu compte per cobrir el cost del gas.  (Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more FUNC to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html))',
 ERROR_18                        :  '(error_19) Tot el gas seria utilitzat en aquesta transacció. Això vol dir que ja has votat aquesta proposta o que el període de debat ja ha acabat. (All gas would be used on this transaction. This means you have already voted on this proposal or the debate period has ended.)',
 ERROR_19                        :  '(error_20) Si us play introdueix un símbol vàlid (Please enter a valid symbol)',
 ERROR_20                        :  '(error_21) No és un token ERC-20 vàlid (Not a valid ERC-20 token)',
@@ -588,10 +588,10 @@ ERROR_37                        :  '(error_38) Introdueix una cadena hex (0x, 0,
 ERROR_38                        :  '(error_39) Offer must have either price or reserve set to more than 0)',
 ERROR_39                        :  '(error_40) Bid must be more than the specified minimum)',
 
-GETH_Balance                    :  '(geth-01) Saldo insuficient. Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more ETHO to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)',
+GETH_Balance                    :  '(geth-01) Saldo insuficient. Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more FUNC to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)',
 GETH_Cheap                      :  '(geth-02) El preu del gas és massa petit per ser acceptat. Gas price too low for acceptance. Try raising the gas price to 21 GWEI via the dropdown in top-right.',
 GETH_GasLimit                   :  '(geth-03) Excedeix del block gas límit. Exceeds block gas limit. Transaction cost exceeds current gas limit. Limit: (d+), got: (d+). Please lower the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again. [Learn More](https://myetherwallet.github.io/knowledge-base/gas/what-is-gas-ethereum.html)',
-GETH_InsufficientFunds          :  '(geth-04) Saldo insuficient per gas * preu + valor. Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more ETHO to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)',
+GETH_InsufficientFunds          :  '(geth-04) Saldo insuficient per gas * preu + valor. Insufficient balance. Your gas limit * gas price + amount to send exceeds your current balance. Send more FUNC to your account or use the "Send Entire Balance" button. If you believe this is in error, try pressing generate again. Required (d+) and got: (d+). [Learn More.](https://myetherwallet.github.io/knowledge-base/transactions/transactions-not-showing-or-pending.html)',
 GETH_IntrinsicGas               :  '(geth-05) Gas intrínsec massa baix. Intrinsic gas too low. Try raising the gas price to 21 GWEI via the dropdown in top-right or the gas limit to 21000 (for sending) or 200000 (for sending tokens or contracts) and try again.',
 GETH_InvalidSender              :  '(geth-06) Emissor no vàlid. Invalid sender.',
 GETH_NegativeValue              :  '(geth-07) Valor negatiu. Negative value.',
@@ -639,7 +639,7 @@ TranslatorAddr_5            : ' ',
 HELP_Warning                : 'If you created a wallet -or- downloaded the repo before **Dec. 31st, 2015**, please check your wallets &amp; download a new version of the repo. Click for details. ',
 HELP_Desc                   : 'Do you see something missing? Have another question? [Get in touch with us](mailto:support@myetherwallet.com), and we will not only answer your question, we will update this page to be more useful to people in the future! ',
 HELP_Remind_Title           : 'Some reminders ',
-HELP_Remind_Desc_1          : '**Ethereum, Funcoin Wallet & Funcoin Wallet CX, and some of the underlying Javascript libraries we use are under active development.** While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETHO to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but **we are not responsible for the lost Ether**. ',
+HELP_Remind_Desc_1          : '**Ethereum, Funcoin Wallet & Funcoin Wallet CX, and some of the underlying Javascript libraries we use are under active development.** While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your FUNC to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but **we are not responsible for the lost Ether**. ',
 HELP_Remind_Desc_2          : 'MyEtherWallet & Funcoin Wallet CX are not "web wallets". You do not create an account or give us your Ether to hold onto. All data never leaves your computer/your browser. We make it easy for you to create, save, and access your information and interact with the blockchain. ',
 HELP_Remind_Desc_3          : 'If you do not save your private key & password, there is no way to recover access to your wallet or the funds it holds.  Back them up in multiple physical locations &ndash; not just on your computer! ',
 

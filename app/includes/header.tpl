@@ -8,7 +8,7 @@
 </style>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Funcoin Wallet</title>
+<title>FUNCOIN Wallet</title>
 <meta property="og:title" content="FUNCOIN Wallet">
 <meta property="og:site_name" content="FUNCOIN Wallet">
 <meta name="twitter:title" content="FUNCOIN Wallet">

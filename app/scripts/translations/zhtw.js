@@ -72,7 +72,7 @@ ENS_Finalize_content_1          :  'You are about to finalize the auction & clai
 ENS_Helper_1                    :  'What is the process like?',
 ENS_Helper_2                    :  '1) Preparation',
 ENS_Helper_3                    :  'Decide which account you wish to own the name & ensure you have multiple backups of that account.',
-ENS_Helper_4                    :  'Decide the maximum amount of ETHO you are willing to pay for the name (your <u>Bid Amount</u>). Ensure that account has enough to cover your bid + 0.01 ETHO for gas.',
+ENS_Helper_4                    :  'Decide the maximum amount of FUNC you are willing to pay for the name (your <u>Bid Amount</u>). Ensure that account has enough to cover your bid + 0.01 FUNC for gas.',
 ENS_Helper_5                    :  '2) Start an Auction / Place a Bid',
 ENS_Helper_6                    :  'Bidding period lasts 3 days (72 hours).',
 ENS_Helper_7                    :  'You will enter the <u>name</u>, <u>Actual Bid Amount</u>, <u>Bid Mask</u>, which is protected by a <u>Secret Phrase</u>.',
@@ -223,7 +223,7 @@ tx_notFound                 : '查無交易',
 tx_notFound_1               : '無法在你所連接的節點之交易池找到這筆交易。',
 tx_notFound_2               : '如果你才剛送出交易，請等待 15 秒鐘後再按下 "檢查交易狀態" 按鈕。 ',
 tx_notFound_3               : '這筆交易可能仍在在其他節點的交易池中等待被確認。',
-tx_notFound_4               : '請用右上角的下拉式選單來選取其他 ETHO 節點 (例如： `ETHO (Etherscan.io)` 、 `ETHO (Infura.io)` 或 `ETHO (MyEtherWallet)`) 並再檢查一次。',
+tx_notFound_4               : '請用右上角的下拉式選單來選取其他 FUNC 節點 (例如： `FUNC (Etherscan.io)` 、 `FUNC (Infura.io)` 或 `FUNC (MyEtherWallet)`) 並再檢查一次。',
 tx_foundInPending           : '找到等待中的交易',
 tx_foundInPending_1         : '你的交易存在於你所連接的節點交易池中。 ',
 tx_foundInPending_2         : '此筆交易正在等待中 (等待確認). ',
@@ -258,9 +258,9 @@ GET_ConfButton              : '我了解，請繼續。',
 GEN_Label_5                 : '保存 `私鑰`. ',
 GEN_Unlock                  : '解鎖你的錢包來查看地址',
 GAS_PRICE_Desc              : 'Gas Price is the amount you pay per unit of gas. `TX fee = gas price * gas limit` & is paid to miners for including your TX in a block. Higher the gas price = faster transaction, but more expensive. Default is `10 GWEI`.',
-GAS_LIMIT_Desc              : 'Gas limit is the amount of gas to send with your TX. `TX fee` = gas price * gas limit & is paid to miners for including your TX in a block. Increasing this number will not get your TX mined faster. Sending ETHO = `21000`. Sending Tokens = ~`200000`.',
+GAS_LIMIT_Desc              : 'Gas limit is the amount of gas to send with your TX. `TX fee` = gas price * gas limit & is paid to miners for including your TX in a block. Increasing this number will not get your TX mined faster. Sending FUNC = `21000`. Sending Tokens = ~`200000`.',
 NONCE_Desc                  : 'The nonce is the number of transactions sent from a given address. It ensures transactions are sent in order & not more than once.',
-TXFEE_Desc                  : 'The TX Fee is paid to miners for including your TX in a block. Is is the `gas limit` * `gas price`. [You can convert GWEI -> ETHO here](https://wallet.ether1.org/helpers.html)',
+TXFEE_Desc                  : 'The TX Fee is paid to miners for including your TX in a block. Is is the `gas limit` * `gas price`. [You can convert GWEI -> FUNC here](https://wallet.ether1.org/helpers.html)',
 
 
 
@@ -512,7 +512,7 @@ NODE_CTA                    : '儲存設定並使用客製節點',
 /* Swap / Exchange */
 SWAP_rates                  : "目前的匯率 ",
 SWAP_init_1                 : "我想要用我的 ",
-SWAP_init_2                 : " 換 ", // "I want to swap my X ETHO for X BTC"
+SWAP_init_2                 : " 換 ", // "I want to swap my X FUNC for X BTC"
 SWAP_init_CTA               : "下一步 ", // or "Continue"
 SWAP_information            : "你的相關資料 ",
 SWAP_send_amt               : "送出多少金額 ",
@@ -525,7 +525,7 @@ SWAP_time                   : "剩餘多少時間可送出交易 ",
 SWAP_elapsed                : "送出交易後已經經過了 ",
 SWAP_progress_1             : "訂單已產生 ",
 SWAP_progress_2             : "正在等待你的 ", // Waiting for your BTC...
-SWAP_progress_3             : "收到了! ", // ETHO Received!
+SWAP_progress_3             : "收到了! ", // FUNC Received!
 SWAP_progress_4             : "正在傳送你的 {{orderResult.output.currency}} ",
 SWAP_progress_5             : "訂單完成 ",
 SWAP_order_CTA              : "請傳送 ", // Please send 1 ETH...
@@ -569,7 +569,7 @@ ERROR_13                    : '已經有一個使用相同暱稱的錢包存在�
 ERROR_14                    : '找不到錢包。 ',
 ERROR_15                    : 'It doesn\'t look like a proposal with this ID exists yet or there is an error reading this proposal. ',
 ERROR_16                    : '儲存裝置中已經有一個包含這個地址的錢包存在。 請見錢包頁面。 ',
-ERROR_17                    : '你帳戶中必須有至少 **0.01 ETH** 來支付gas的成本。 請增加一些 ETHO 並重試。 ',
+ERROR_17                    : '你帳戶中必須有至少 **0.01 ETH** 來支付gas的成本。 請增加一些 FUNC 並重試。 ',
 ERROR_18                    : 'All gas would be used on this transaction. This means you have already voted on this proposal or the debate period has ended.', // 18
 ERROR_19                    : '無效的符號 ',
 ERROR_20                    : '並不是一個有效的 ERC-20 代幣 ',
@@ -593,7 +593,7 @@ ERROR_37                    : 'Enter valid hex string (0-9, a-f)', // 37
 
 SUCCESS_1                   : '有效的地址 ',
 SUCCESS_2                   : '成功解密錢包 ',
-SUCCESS_3                   : '你的交易已被發布到網路上。這並不表示該交易已被確認或完成。遇到區塊鏈網路流量極大時，你可能需要超過三個小時才能完成交易 1) 在下面確認你的交易狀態。 2) 如果該交易已經等待(pending)數小時或消失，使用 檢查交易狀態 頁面來替換它。 3) 使用 [ETH加油站](https://ethgasstation.info/) 來確認最佳的Gas價格。 4) 存下該筆交易的雜湊值，你可能需要它:   ', //'Your TX has been broadcast to the network. This does not mean it has been mined & sent. During times of extreme volume, it may take 3+ hours to send. 1) Check your TX below. 2) If it is pending for hours or disappears, use the Check TX Status Page to replace. 3) Use [ETHO Gas Station](https://ethgasstation.info/) to see what gas price is optimal. 4) Save your TX Hash in case you need it later:    ', //
+SUCCESS_3                   : '你的交易已被發布到網路上。這並不表示該交易已被確認或完成。遇到區塊鏈網路流量極大時，你可能需要超過三個小時才能完成交易 1) 在下面確認你的交易狀態。 2) 如果該交易已經等待(pending)數小時或消失，使用 檢查交易狀態 頁面來替換它。 3) 使用 [ETH加油站](https://ethgasstation.info/) 來確認最佳的Gas價格。 4) 存下該筆交易的雜湊值，你可能需要它:   ', //'Your TX has been broadcast to the network. This does not mean it has been mined & sent. During times of extreme volume, it may take 3+ hours to send. 1) Check your TX below. 2) If it is pending for hours or disappears, use the Check TX Status Page to replace. 3) Use [FUNC Gas Station](https://ethgasstation.info/) to see what gas price is optimal. 4) Save your TX Hash in case you need it later:    ', //
 SUCCESS_4                   : '成功新增你的錢包 ',
 SUCCESS_5                   : '已選擇檔案 ',
 SUCCESS_6                   : '你已經成功連上 ',
@@ -644,7 +644,7 @@ TranslatorAddr_5            : ' ',
 HELP_Warning                : 'If you created a wallet -or- downloaded the repo before **Dec. 31st, 2015**, please check your wallets &amp; download a new version of the repo. Click for details. ',
 HELP_Desc                   : 'Do you see something missing? Have another question? [Get in touch with us](mailto:support@myetherwallet.com), and we will not only answer your question, we will update this page to be more useful to people in the future! ',
 HELP_Remind_Title           : 'Some reminders ',
-HELP_Remind_Desc_1          : '**Ethereum, Funcoin Wallet & Funcoin Wallet CX, and some of the underlying Javascript libraries we use are under active development.** While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETHO to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but **we are not responsible for the lost Ether**. ',
+HELP_Remind_Desc_1          : '**Ethereum, Funcoin Wallet & Funcoin Wallet CX, and some of the underlying Javascript libraries we use are under active development.** While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your FUNC to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but **we are not responsible for the lost Ether**. ',
 HELP_Remind_Desc_2          : 'MyEtherWallet & Funcoin Wallet CX are not "web wallets". You do not create an account or give us your Ether to hold onto. All data never leaves your computer/your browser. We make it easy for you to create, save, and access your information and interact with the blockchain. ',
 HELP_Remind_Desc_3          : 'If you do not save your private key & password, there is no way to recover access to your wallet or the funds it holds.  Back them up in multiple physical locations &ndash; not just on your computer! ',
 
