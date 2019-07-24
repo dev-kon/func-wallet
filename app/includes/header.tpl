@@ -5,7 +5,7 @@
 #logoPicture img {
     height: 70px;
 }
-</style><!--
+</style>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Ether-1 Wallet</title>
@@ -47,7 +47,7 @@
 <meta name="twitter:image" content="/images/ether1-logo-twitter.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@ether1official">
-<meta name="twitter:creator" content="@ether1official"> -->
+<meta name="twitter:creator" content="@ether1official">
 <script type="application/ld+json">
 {
 "@context": "http://schema.org",
