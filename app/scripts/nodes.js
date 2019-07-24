@@ -23,16 +23,16 @@ nodes.customNodeObj = {
 };
 nodes.nodeList = {
     'eth_mew': {
-        'name': 'Ether-1',
-        'blockExplorerTX': 'https://explorer.ether1.org/#/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://explorer.ether1.org/addr/[[address]]',
+        'name': 'FUNCOIN',
+        'blockExplorerTX': 'https://node.funcoin.io/#/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://node.funcoin.io/addr/[[address]]',
         'type': nodes.nodeTypes.ETHO,
         'eip155': true,
-        'chainId': 1313114,
+        'chainId': 6832,
         'tokenList': require('./tokens/ethTokens.json'),
         'abiList': require('./abiDefinitions/ethAbi.json'),
         'service': 'rpc.ether1.org',
-        'lib': new nodes.customNode('https://rpc.ether1.org', '443')
+        'lib': new nodes.customNode('https://node.funcoin.io', '')
     },
 };
 
