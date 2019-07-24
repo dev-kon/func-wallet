@@ -9,13 +9,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Funcoin Wallet</title>
-<meta property="og:title" content="Funcoin Wallet">
-<meta property="og:site_name" content="Funcoin Wallet">
-<meta name="twitter:title" content="Funcoin Wallet">
-<meta name="apple-mobile-web-app-title" content="Funcoin Wallet">
-<link href="https://www.ether1.org" rel="canonical">
-<meta content="https://www.ether1.org" property="og:url">
-<meta content="https://www.ether1.org" name="twitter:url">
+<meta property="og:title" content="FUNCOIN Wallet">
+<meta property="og:site_name" content="FUNCOIN Wallet">
+<meta name="twitter:title" content="FUNCOIN Wallet">
+<meta name="apple-mobile-web-app-title" content="FUNCOIN Wallet">
+<link href="https://funcoin.io" rel="canonical">
+<meta content="https://funcoin.io" property="og:url">
+<meta content="https://twitter.com/funcoinio" name="twitter:url">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
@@ -25,26 +25,19 @@
 <meta name="robots" content="index,follow">
 <meta name="googlebot" content="index,follow">
 <meta name="google-site-verification" content="IpChQ00NYUQuNs_7Xs6xlnSdzalOlTUYbBsr8f7OpvM" />
-<link rel="apple-touch-icon" sizes="180x180" href="https://www.ether1.org/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://www.ether1.org/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://www.ether1.org/favicon-16x16.png">
-<link rel="manifest" href="https://www.ether1.org/site.webmanifest">
-<link rel="mask-icon" href="https://www.ether1.org/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="apple-touch-icon" sizes="180x180" href="https://funcoin.io/favicon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://funcoin.io/favicon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://funcoin.io/favicon.png">
 <meta name="msapplication-TileColor" content="#da532c">
 <meta name="theme-color" content="#ffffff">
-<meta name="apple-mobile-web-app-title" content="Funcoin Wallet &middot; Your Key to Funcoin">
-<meta name="application-name" content="Funcoin Wallet">
+<meta name="apple-mobile-web-app-title" content="FUNCOIN Wallet &middot; Your Key to FUNCOIN">
+<meta name="application-name" content="FUNCOIN Wallet">
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta name="apple-mobile-web-app-status-bar-style" content="#1d6986">
-<meta property="og:url" content="https://www.ether1.org" />
-<meta property="og:title" content="Funcoin Wallet  &middot; Your Key to Funcoin" />
+<meta property="og:url" content="https://funcoin.io" />
+<meta property="og:title" content="FUNCOIN Wallet  &middot; Your Key to FUNCOIN" />
 <meta property="og:type" content="website">
-<meta property="og:image" content="/images/ether1-logo-banner.png" />
-<meta property="og:image" content="/images/ether1-logo.png" />
-<meta property="og:image" content="/images/ether1-logo-square.png" />
-<meta property="og:image" content="/images/ether1-banner-fun.jpg" />
-<meta name="twitter:image" content="/images/ether1-logo-twitter.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@ether1official">
 <meta name="twitter:creator" content="@ether1official">
@@ -62,10 +55,10 @@
   "contactType" : "customer service"
 }],
 "logo" : "images/logo.png",
-"description": "Funcoin Wallet is an open-source, client-side interface for generating Funcoin wallets &amp; more. Interact with the Funcoin blockchain easily &amp; securely.",
+"description": "FUNCOIN Wallet is an open-source, client-side interface for generating FUNCOIN wallets &amp; more. Interact with the Funcoin blockchain easily &amp; securely.",
 "sameAs" : [
-  "https://www.ether1.org/",
-  "https://twitter.com/ether1official"
+  "https://funcoin.io/",
+  "https://twitter.com/funcoinio"
 ]
 }
 </script>
