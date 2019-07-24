@@ -4,7 +4,7 @@ nodes.customNode = require('./nodeHelpers/customNode');
 nodes.infuraNode = require('./nodeHelpers/infura');
 nodes.metamaskNode = require('./nodeHelpers/metamask');
 nodes.nodeTypes = {
-    ETHO: "ETHO"
+    ETHO: "FUNC"
 };
 nodes.ensNodeTypes = [nodes.nodeTypes.ETHO, nodes.nodeTypes.Ropsten];
 nodes.ensSubNodeTypes = [nodes.nodeTypes.ETHO];
@@ -31,7 +31,7 @@ nodes.nodeList = {
         'chainId': 6832,
         'tokenList': require('./tokens/ethTokens.json'),
         'abiList': require('./abiDefinitions/ethAbi.json'),
-        'service': 'rpc.ether1.org',
+        'service': 'node.funcoin.io',
         'lib': new nodes.customNode('https://node.funcoin.io', '')
     },
 };
