@@ -1,7 +1,7 @@
 <section class="pre-footer">
   <div class="container">
     <p>
-      Ether-1 does not hold your keys for you. We cannot access accounts, recover keys, reset passwords, nor reverse transactions. Protect your keys &amp; always check that you are on correct URL.
+      Funcoin does not hold your keys for you. We cannot access accounts, recover keys, reset passwords, nor reverse transactions. Protect your keys &amp; always check that you are on correct URL.
       <a role="link" tabindex="0" data-toggle="modal" data-target="#disclaimerModal">
         You are responsible for your security.
       </a>
@@ -17,7 +17,7 @@
 
       <p>
         <span>
-          Free, open-source, client-side interface for generating Ether-1 wallets. 
+          Free, open-source, client-side interface for generating Funcoin wallets. 
         </span>
       </p>
       

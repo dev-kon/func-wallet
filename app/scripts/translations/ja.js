@@ -104,48 +104,48 @@ EOS_02                          :  '**ＥＯＳの鍵を登録／転写する**'
 EOS_03                          :  '`register`を選択する', /*Select `register`*/
 EOS_04                          :  '**ＥＯＳの公開鍵**を入力する　<---　ＥＯＳの公開鍵に注意！', /*Enter your **EOS Public Key** <--- CAREFUL! EOS PUBLIC KEY!*/
 EOS_05                          :  '送出ページでＥＯＳの契約に入金', /*Fund EOS Contract on Send Page*/
-EOS_06                          :  'Ether/トークンの送出ページに移動', /*Go to Send Ether-1 & Tokens Page*/
+EOS_06                          :  'Ether/トークンの送出ページに移動', /*Go to Send Funcoin & Tokens Page*/
 EOS_07                          :  '解錠中のお財布と同じものをここで解錠', /*Unlock same wallet you are unlocking here.*/
 EOS_08                          :  '支援する数量を`0xd0a6E6C54DbC68Db5db3A091B171A77407Ff7ccf`に送出する', /*Send Amount you want to Contribute to `0xd0a6E6C54DbC68Db5db3A091B171A77407Ff7ccf`*/
 EOS_09                          :  'ＥＯＳトークンを請求', /*Claim EOS Tokens*/
 EOS_10                          :  '`claimAll`を選択。', /*Select `claimAll`.*/
 
 /* Onboarding */
-ONBOARD_welcome_title           :  'いらっしゃいませ！ Ether-1 Wallet へようこそ！', /*Welcome to Ether-1 Wallet*/
+ONBOARD_welcome_title           :  'いらっしゃいませ！ Funcoin Wallet へようこそ！', /*Welcome to Funcoin Wallet*/
 ONBOARD_welcome_content__1      :  '安全のためにご理解ください🙏 。', /*Please take some time to understand this for your own safety. 🙏*/
 ONBOARD_welcome_content__2      :  'これらの警告をよくご覧いただきませんと、**資産が盗まれる**ことになります。', /*Your funds will be stolen if you do not heed these warnings.*/
 ONBOARD_welcome_content__3      :  'わずらわしい説明と重々に承知いたしております。申し訳ございません。', /*We know this click-through stuff is annoying. We are sorry.*/
-ONBOARD_welcome_content__4      :  'ＭＥＷって何？', /*What is Ether-1 Wallet*/
-ONBOARD_welcome_content__5      :  'MyEtherWalletはソースコード公開で、クライアント側にある無料で共用の利用者窓口です。', /*Ether-1 Wallet is a free, open-source, client-side interface.*/
+ONBOARD_welcome_content__4      :  'ＭＥＷって何？', /*What is Funcoin Wallet*/
+ONBOARD_welcome_content__5      :  'MyEtherWalletはソースコード公開で、クライアント側にある無料で共用の利用者窓口です。', /*Funcoin Wallet is a free, open-source, client-side interface.*/
 ONBOARD_welcome_content__6      :  'ブロックチェーン上の暗号鍵と暗号資産の管理を直接行うことができます。', /*We allow you to interact directly with the blockchain while remaining in full control of your keys &amp; your funds.*/
 ONBOARD_welcome_content__7      :  'セキュリティの全責任は**自分**に、そして**自分だけ**にあります。', /***You** and **only you** are responsible for your security.*/
 ONBOARD_welcome_content__8      :  'ＭＥＷを騙る詐欺サイトに行って、暗号鍵や、暗号資産を盗られてしまったら、誰も取り返したり凍結することはできません。', /*We cannot recover your funds or freeze your account if you visit a phishing site or lose your private key.*/
-ONBOARD_bank_title              :  'MyEtherWalletは金融機関にあらず　', /*Ether-1 Wallet is not a Bank*/
+ONBOARD_bank_title              :  'MyEtherWalletは金融機関にあらず　', /*Funcoin Wallet is not a Bank*/
 ONBOARD_bank_content__1         :  '取引所などの金融機関に口座を開設すると、その金融機関がシステムの中にあなたの口座を作成します。', /*When you open an account with a bank or exchange, they create an account for you in their system.*/
 ONBOARD_bank_content__2         :  'その金融機関は口座のパスワード、残高、取引記録や最終的にあなたの財産を含む個人情報を記録管理します。', /*The bank keeps track of your personal information, account passwords, balances, transactions and ultimately your money.*/
 ONBOARD_bank_content__3         :  'また、カードが盗難に会った際の払い戻しなど、口座の維持管理に必要な手数料を徴収します。', /*The bank charge fees to manage your account and provide services, like refunding transactions when your card gets stolen.*/
 ONBOARD_bank_content__4         :  'そのため、送金したり、オンラインで口座の確認をしたり、パスワードや盗難に会ったカードの再発行ができます。', /*The bank allows you to write a check or charge your debit card to send money, go online to check your balance, reset your password, and get a new debit card if you lose it.*/
 ONBOARD_bank_content__5         :  '金融機関や取引所にある口座では、送金額の上限、送金相手の設定、送金前にどれくらいの時間をかけて相手の疑わしさを調べるか、などを独自に決めています。全て手数料が元になっています。', /*You have an account *with the bank or exchange* and they decide how much money you can send, where you can send it, and how long to hold on a suspicious deposit. All for a fee.*/
 ONBOARD_welcome_title__alt      :  '前置き', /*Introduction*/
-ONBOARD_interface_title         :  'MyEtherWalletは、共用の利用者窓口　', /*Ether-1 Wallet is an Interface*/
-ONBOARD_interface_content__1    :  'MyEtherWalletを使って口座を作る時、一対の暗号のための二つの長い数字、すなわち秘密鍵と公開鍵（アドレス）とが作成されます。', /*When you create an account on Ether-1 Wallet you are generating a cryptographic set of numbers: your private key and your public key (address).*/
+ONBOARD_interface_title         :  'MyEtherWalletは、共用の利用者窓口　', /*Funcoin Wallet is an Interface*/
+ONBOARD_interface_content__1    :  'MyEtherWalletを使って口座を作る時、一対の暗号のための二つの長い数字、すなわち秘密鍵と公開鍵（アドレス）とが作成されます。', /*When you create an account on Funcoin Wallet you are generating a cryptographic set of numbers: your private key and your public key (address).*/
 ONBOARD_interface_content__2    :  'これらの暗号鍵の操作は全て自分のコンピューターのブラウザの中で行われます。', /*The handling of your keys happens entirely on your computer, inside your browser.*/
 ONBOARD_interface_content__3    :  '私たちは、秘密鍵、パスワードや口座情報の送信や保管を一切いたしません。', /*We never transmit, receive or store your private key, password, or other account information.*/
 ONBOARD_interface_content__4    :  '私たちは取引手数料を一切いただきません。', /*We do not charge a transaction fee.*/
 ONBOARD_interface_content__5    :  'あなたは、私たちの**利用者窓口**でブロックチェーンを**直接**操作しています。', /*You are simply using our **interface** to interact **directly with the blockchain**.*/
 ONBOARD_interface_content__6    :  '公開鍵（アドレス）を相手に教えると、ＥＴＨやトークンを受け渡し出来る様になります。👍', /*If you send your *public key (address)* to someone, they can send you ETHO or tokens. 👍*/
 ONBOARD_interface_content__7    :  '秘密鍵が誰かの手に渡ると、受け取った相手がその口座を自分のものにします。👎', /*If you send your *private key* to someone, they now have full control of your account. 👎*/
-ONBOARD_bank_title__alt         :  'MyEtherWalletは金融機関にあらず　', /*Ether-1 Wallet isn\'t a Bank*/
+ONBOARD_bank_title__alt         :  'MyEtherWalletは金融機関にあらず　', /*Funcoin Wallet isn\'t a Bank*/
 ONBOARD_blockchain_title__alt   :  '一体ブロックチェーンって何？　', /*WTF is a Blockchain?*/
 ONBOARD_blockchain_skip         :  'もう知ってるんだけど...', /*I already know what a blockchain is...*/
 ONBOARD_blockchain_title        :  'ちょっと待って、一体ブロックチェーンって何？ ', /*Wait, WTF is a Blockchain?*/
 ONBOARD_blockchain_content__1   :  'ブロックチェーンは、世界共通の巨大な分散型のスプレッドシートのようなものです。', /*The blockchain is like a huge, global, decentralized spreadsheet.*/
 ONBOARD_blockchain_content__2   :  '誰が誰にコインをいくら送ったとか、どの口座にいくら、などの履歴を全て持っています。', /*It keeps track of who sent how many coins to whom, and what the balance of every account is.*/
 ONBOARD_blockchain_content__3   :  '何千もいる特殊なコンピューターを持った人（発掘者）によって記録と管理が行われます。', /*It is stored and maintained by thousands of people (miners) across the globe who have special computers.*/
-ONBOARD_blockchain_content__4   :  'ブロックチェーンのなかのブロックはMyEtherWallet, MetaMask, Exodus, Mist, Geth, Parityなど至る所で行われている個々の処理や取引で作られています。', /*The blocks in the blockchain are made up of all the individual transactions sent from Ether-1 Wallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.*/
-ONBOARD_blockchain_content__5   :  'MyEtherWalletや[explorer.ether1.org](https://explorer.ether1.org)で残高や処理を見た時、見えるのは私たちのシステムの中ではなく、ブロックチェーンにあるデータです。', /*When you see your balance on Ether-1 Wallet or view your transactions on [explorer.ether1.org](https://explorer.ether1.org), you are seeing data on the blockchain, not in our personal systems.*/
+ONBOARD_blockchain_content__4   :  'ブロックチェーンのなかのブロックはMyEtherWallet, MetaMask, Exodus, Mist, Geth, Parityなど至る所で行われている個々の処理や取引で作られています。', /*The blocks in the blockchain are made up of all the individual transactions sent from Funcoin Wallet, MetaMask, Exodus, Mist, Geth, Parity, and everywhere else.*/
+ONBOARD_blockchain_content__5   :  'MyEtherWalletや[explorer.ether1.org](https://explorer.ether1.org)で残高や処理を見た時、見えるのは私たちのシステムの中ではなく、ブロックチェーンにあるデータです。', /*When you see your balance on Funcoin Wallet or view your transactions on [explorer.ether1.org](https://explorer.ether1.org), you are seeing data on the blockchain, not in our personal systems.*/
 ONBOARD_blockchain_content__6   :  'もう一度： **私たちは金融機関ではありません。**', /*Again: **we are not a bank**.*/
-ONBOARD_interface_title__alt    :  'ＭＥＷは共用の利用者窓口　', /*Ether-1 Wallet is an Interface*/
+ONBOARD_interface_title__alt    :  'ＭＥＷは共用の利用者窓口　', /*Funcoin Wallet is an Interface*/
 ONBOARD_why_title__alt          :  'でも...なんでそれがそんなに大事？', /*But...why does this matter?*/
 ONBOARD_why_title               :  'なんで全部読ませる訳？', /*Why are you making me read all this?*/
 ONBOARD_why_content__1          :  'それは私たちに**出来ない**事をわかっていただくためで...', /*Because we need you to understand that we **cannot**...*/
@@ -159,18 +159,18 @@ ONBOARD_why_content__8          :  '秘密鍵とパスワードを大事に保�
 ONBOARD_why_content__9          :  'もし秘密鍵やパスワードを忘れると、誰も回復させることができません。', /*If you lose your private key or password, no one can recover it.*/
 ONBOARD_why_content__10         :  'もし、あなたが秘密鍵を詐欺サイトで入力すると、**全ての資産**が盗まれてしまいます。', /*If you enter your private key on a phishing website, you will have **all your funds taken**.*/
 ONBOARD_blockchain_title__alt   :  '一体ブロックチェーンって何？ ', /*WTF is a Blockchain?*/
-ONBOARD_point_title__alt        :  'それじゃＭＥＷは何ができるの？', /*What\'s the Point of Ether-1 Wallet then?*/
-ONBOARD_whymew_title            :  'MyEtherWalletにできないなら、どうすればいいの？', /*If Ether-1 Wallet can\'t do those things, what\'s the point?*/
+ONBOARD_point_title__alt        :  'それじゃＭＥＷは何ができるの？', /*What\'s the Point of Funcoin Wallet then?*/
+ONBOARD_whymew_title            :  'MyEtherWalletにできないなら、どうすればいいの？', /*If Funcoin Wallet can\'t do those things, what\'s the point?*/
 ONBOARD_whymew_content__1       :  'それがブロックチェーンによる分散化の**きも**だからです。', /*Because that is the point of decentralization and the blockchain.*/
 ONBOARD_whymew_content__2       :  '自分の資産やお金を動かすときに、金融機関、政府や他の誰かを頼る必要が全くありません。', /*You don\'t have to rely on your bank, government, or anyone else when you want to move your funds.*/
 ONBOARD_whymew_content__3       :  '自分の資産を守るために、取引所や金融機関のセキュリティを頼る必要もありません。', /*You don\'t have to rely on the security of an exchange or bank to keep your funds safe.*/
 ONBOARD_whymew_content__4       :  'もし、こういった事には価値がない、と感じるのでしたら、なぜブロックチェーンや仮想通貨に価値があるのかよーく考えて見てください。', /*If you don\'t find these things valuable, ask yourself why you think the blockchain and cryptocurrencies are valuable. 😉*/
 ONBOARD_whymew_content__5       :  'もし、お気に召さないようでしたら、[Coinbase](https://www.coinbase.com/) や [Blockchain.info](https://blockchain.info/wallet/#/signup)をお使いください。これらは、より身近なＩＤとパスワードを使用しています。', /*If you don\'t like the sound of this, consider using [Coinbase](https://www.coinbase.com/) or [Blockchain.info](https://blockchain.info/wallet/#/signup). They have more familiar accounts with usernames & passwords.*/
-ONBOARD_whymew_content__6       :  'もし、少し不安だけれどもＭＥＷを使いたければ、[ハードウェアワレットを入手(英語)](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html)！', /*If you are scared but want to use Ether-1 Wallet, [get a hardware wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html)! These keep your keys secure.*/
+ONBOARD_whymew_content__6       :  'もし、少し不安だけれどもＭＥＷを使いたければ、[ハードウェアワレットを入手(英語)](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html)！', /*If you are scared but want to use Funcoin Wallet, [get a hardware wallet](https://myetherwallet.github.io/knowledge-base/hardware-wallets/hardware-wallet-recommendations.html)! These keep your keys secure.*/
 ONBOARD_why_title__alt          :  'でも...どうして？', /*But...why?*/
 ONBOARD_secure_title            :  '自分自身とその資産の守り方　', /*How To Protect Yourself & Your Funds*/
 ONBOARD_secure_1_title          :  'オンライン詐欺から自分自身を守る方法　', /*How To Protect Yourself from Phishers*/
-ONBOARD_secure_1_content__1     :  'オンライン詐欺師は、MyEtherWallet、EtherDelta、Paypalやあなたの金融機関のリンクが含まれた個人メッセージを送りつけてきますが、これは偽のサイトです。あなたの情報を盗み、そして資産を盗みます。', /*Phishers send you a message with a link to a website that looks just like Ether-1 Wallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.*/
+ONBOARD_secure_1_content__1     :  'オンライン詐欺師は、MyEtherWallet、EtherDelta、Paypalやあなたの金融機関のリンクが含まれた個人メッセージを送りつけてきますが、これは偽のサイトです。あなたの情報を盗み、そして資産を盗みます。', /*Phishers send you a message with a link to a website that looks just like Funcoin Wallet, EtherDelta, Paypal, or your bank, but is not the real website. They steal your information and then steal your money.*/
 ONBOARD_secure_1_content__2     :  '[EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn)または[MetaMask](https://myetherwallet.github.io/knowledge-base/migration/moving-from-private-key-to-metamask.html) or [Cryptonite by Metacert](https://chrome.google.com/webstore/detail/cryptonite-by-metacert/keghdcpemohlojlglbiegihkljkgnige). のクローム拡張を使って、これらの悪意のサイトを遮断してください。', /*Install [EAL](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn) or [MetaMask](https://chrome.google.com/webstore/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn) or  or the [MyEtherWallet Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm) to block malicious websites.*/
 ONBOARD_secure_1_content__3     :  'いつも、必ず、ＵＲＬ：「https://wallet.ether1.org」を確認してください。', /*Always check the URL: `https://wallet.ether1.org`.*/
 ONBOARD_secure_1_content__4     :  'ＵＲＬバーに、 `ETHER-1`と緑色で表示されていることを必ず確認してください。', /**/
@@ -198,8 +198,8 @@ ONBOARD_final_title             :  'オーライ！講義終了！', /*Alright, 
 ONBOARD_final_subtitle          :  'こんな風で申し訳ありません。次はこれです！', /*Sorry for being like this. Onwards!*/
 ONBOARD_final_content__1        :  'お財布を作る', /**/
 ONBOARD_final_content__2        :  'ハードウェア・ワレットを手に入れる', /*Get a hardware wallet*/
-ONBOARD_final_content__3        :  'ＭＥＷとＭｅｔａｍａｓｋの設定方法', /*How to Set up Ether-1 Wallet + MetaMask*/
-ONBOARD_final_content__4        :  'オフライン/手元でのＭＥＷの使い方', /*How to Run Ether-1 Wallet Offline / Locally*/
+ONBOARD_final_content__3        :  'ＭＥＷとＭｅｔａｍａｓｋの設定方法', /*How to Set up Funcoin Wallet + MetaMask*/
+ONBOARD_final_content__4        :  'オフライン/手元でのＭＥＷの使い方', /*How to Run Funcoin Wallet Offline / Locally*/
 ONBOARD_final_content__5        :  'Ledgerハードウェア・ワレットでの送出方法', /*How to Send via Ledger hardware wallet*/
 ONBOARD_final_content__6        :  'TREZORハードウェア・ワレットでの送出方法', /*How to Send via TREZOR hardware wallet*/
 ONBOARD_final_content__7        :  'MetaMaskでの送出方法', /*How to Send via MetaMask*/
@@ -211,8 +211,8 @@ ONBOARD_resume                  :  '前回スライドを最後までお読み�
 ADD_DigitalBitbox_0a        : 'セキュアコネクション（SSL)で再度MyEtherWalletを開いてください。 ',
 ADD_DigitalBitbox_0b        : 'MyEtherWalletを再度「Chrome」(https://www.google.com/chrome/browser/desktop/) あるいは [Opera](https://www.opera.com/)で開いてください。 ',
 ADD_DigitalBitbox_scan      : 'DigitalBitboxに接続する ',
-ADD_Secalot_0a              : 'Re-open Ether-1 Wallet on a secure (SSL) connection ',
-ADD_Secalot_0b              : 'Re-open Ether-1 Wallet using [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/) ',
+ADD_Secalot_0a              : 'Re-open Funcoin Wallet on a secure (SSL) connection ',
+ADD_Secalot_0b              : 'Re-open Funcoin Wallet using [Chrome](https://www.google.com/chrome/browser/desktop/) or [Opera](https://www.opera.com/) ',
 ADD_Secalot_scan            : 'Connect your Secalot ',
 ADD_Label_1                 : 'ご希望の操作方法をお選びください ',
 ADD_Label_2                 : 'ニックネームの作成： ',
@@ -358,7 +358,7 @@ GEN_Help_8                  : 'ファイルをダウンロードしませんで�
 GEN_Help_9                  : 'Google Chromeをお使いください', /* Try using Google Chrome */
 GEN_Help_10                 : '右クリックしてファイルを保存。ファイル名: ', /* Right click & save file as. Filename:  */
 GEN_Help_11                 : 'このファイルは自分のコンピューターで開かないでください', /*Don\'t open this file on your computer */
-GEN_Help_12                 : 'MyEtherWalletの上でこれを使って自分のお財布をアンロックしてください（Mist, Geth, Parityや他のお財布クライアントも可）', /*Use it to unlock your wallet via Ether-1 Wallet (or Mist, Geth, Parity and other wallet clients.)*/
+GEN_Help_12                 : 'MyEtherWalletの上でこれを使って自分のお財布をアンロックしてください（Mist, Geth, Parityや他のお財布クライアントも可）', /*Use it to unlock your wallet via Funcoin Wallet (or Mist, Geth, Parity and other wallet clients.)*/
 GEN_Help_13                 : '自分のキーストアファイルのバックアップ作成方法', /*How to Back Up Your Keystore File */
 GEN_Help_14                 : 'これらの方式の違いは？',　/*What are these Different Formats? */
 GEN_Help_15                 : '自分の資金の紛失や盗難を防止する。', /* Preventing loss & theft of your funds. */
@@ -640,7 +640,7 @@ HELP_2b_Desc_8              : 'Go to the "View Wallet Info" page and type in you
 HELP_3_Title                : '3) How do I verify I have access to my new wallet? ',
 HELP_3_Desc_1               : '**Before you send any Ether to your new wallet**, you should ensure you have access to it. ',
 HELP_3_Desc_2               : 'Navigate to the "View Wallet Info" page. ',
-HELP_3_Desc_3               : 'Navigate to the Ether-1 Wallet "View Wallet Info" page. ',
+HELP_3_Desc_3               : 'Navigate to the Funcoin Wallet "View Wallet Info" page. ',
 HELP_3_Desc_4               : 'Select your wallet file -or- your private key and unlock your wallet. ',
 HELP_3_Desc_5               : 'If the wallet is encrypted, a text box will automatically appear. Enter the password. ',
 HELP_3_Desc_6               : 'Click the "Unlock Wallet" button. ',
@@ -659,7 +659,7 @@ HELP_4_Desc_10              : 'A couple more fields will appear. This is your br
 HELP_4_Desc_11              : 'Click the blue "Send Transaction" button below that. ',
 HELP_4_Desc_12              : 'A pop-up will appear. Verify that the amount and the address you are sending to are correct. Then click "Yes, I am sure! Make transaction." button. ',
 HELP_4_Desc_13              : 'The transaction will be submitted. The TX Hash will display. You can click that TX Hash to see it on the blockchain. ',
-HELP_4CX_Title              : '4) How do I send Ether using Ether-1 Wallet CX? ',
+HELP_4CX_Title              : '4) How do I send Ether using Funcoin Wallet CX? ',
 HELP_4CX_Desc_1             : 'First, you need to add a wallet. Once you have done that, you have 2 options: the "QuickSend" functionality from the Chrome Extension icon or the "Ether送出 トークン送出" page. ',
 HELP_4CX_Desc_2             : 'QuickSend: ',
 HELP_4CX_Desc_3             : 'Click the Chrome Extension Icon. ',
@@ -672,11 +672,11 @@ HELP_4CX_Desc_9             : 'Verify the address and the amount you are sending
 HELP_4CX_Desc_10            : 'Enter the password for that wallet. ',
 HELP_4CX_Desc_11            : 'Click "Send Transaction." ',
 HELP_4CX_Desc_12            : 'Using "Ether送出 トークン送出" Page ',
-HELP_5_Title                : '5) How do I run Ether-1 Wallet offline/locally? ',
-HELP_5_Desc_1               : 'You can run Ether-1 Wallet on your computer instead of from the GitHub servers. You can generate a wallet completely offline and send transactions from the "Offline Transaction" page. ',
-HELP_5_Desc_7               : 'Ether-1 Wallet is now running entirely on your computer. ',
-HELP_5_Desc_8               : 'In case you are not familiar, you need to keep the entire folder in order to run the website, not just `index.html`. Don\'t touch or move anything around in the folder. If you are storing a backup of the Ether-1 Wallet repo for the future, we recommend just storing the ZIP so you can be sure the folder contents stay intact. ',
-HELP_5_Desc_9               : 'As we are constantly updating Ether-1 Wallet, we recommend you periodically update your saved version of the repo. ',
+HELP_5_Title                : '5) How do I run Funcoin Wallet offline/locally? ',
+HELP_5_Desc_1               : 'You can run Funcoin Wallet on your computer instead of from the GitHub servers. You can generate a wallet completely offline and send transactions from the "Offline Transaction" page. ',
+HELP_5_Desc_7               : 'Funcoin Wallet is now running entirely on your computer. ',
+HELP_5_Desc_8               : 'In case you are not familiar, you need to keep the entire folder in order to run the website, not just `index.html`. Don\'t touch or move anything around in the folder. If you are storing a backup of the Funcoin Wallet repo for the future, we recommend just storing the ZIP so you can be sure the folder contents stay intact. ',
+HELP_5_Desc_9               : 'As we are constantly updating Funcoin Wallet, we recommend you periodically update your saved version of the repo. ',
 HELP_5CX_Title              : '5) How can I install this extension from the repo instead of the Chrome Store? ',
 HELP_5CX_Desc_2             : 'Click on `chrome-extension-vX.X.X.X.zip` and unzip it. ',
 HELP_5CX_Desc_3             : 'Go to Google Chrome and find you settings (in the menu in the upper right). ',
@@ -703,14 +703,14 @@ HELP_7_Desc_13              : 'Click the blue "Send Transaction" button below th
 HELP_7_Desc_14              : 'A pop-up will appear. Verify that the amount and the address you are sending to are correct. Then click "Yes, I am sure! Make transaction." button. ',
 HELP_7_Desc_15              : 'The transaction will be submitted. The TX Hash will display. You can click that TX Hash to see it on the blockchain. ',
 HELP_8_Title                : '8) What happens if your site goes down? ',
-HELP_8_Desc_1               : 'Ether-1 Wallet is not a web wallet. You don\'t have a login and nothing ever gets saved to our servers. It is simply an interface that allows you interact with the blockchain. ',
-HELP_8_Desc_2               : 'If Ether-1 Wallet goes down, you would have to find another way (like geth or Ethereum Wallet / Mist) to do what we are doing. But you wouldn\'t have to "get" your Ether out of Ether-1 Wallet because it\'s not in MyEtherWallet. It\'s in whatever wallet your generated via our site. ',
+HELP_8_Desc_1               : 'Funcoin Wallet is not a web wallet. You don\'t have a login and nothing ever gets saved to our servers. It is simply an interface that allows you interact with the blockchain. ',
+HELP_8_Desc_2               : 'If Funcoin Wallet goes down, you would have to find another way (like geth or Ethereum Wallet / Mist) to do what we are doing. But you wouldn\'t have to "get" your Ether out of Funcoin Wallet because it\'s not in MyEtherWallet. It\'s in whatever wallet your generated via our site. ',
 HELP_8_Desc_3               : 'You can import your unencrypted private key and your Geth/Mist Format (encrypted) files directly into geth / Ethereum Wallet / Mist very easily now. See question #12 below. ',
-HELP_8_Desc_4               : 'In addition, the likelihood of us taking Ether-1 Wallet down is slim to none. It costs us almost nothing to maintain as we aren\'t storing any information. If we do take the domain down, it still is, and always will be, publicly available at [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages). You can download the ZIP there and run it locally. ',
-HELP_8CX_Title              : '8) What happens if Ether-1 Wallet CX disappears? ',
+HELP_8_Desc_4               : 'In addition, the likelihood of us taking Funcoin Wallet down is slim to none. It costs us almost nothing to maintain as we aren\'t storing any information. If we do take the domain down, it still is, and always will be, publicly available at [https://github.com/kvhnuke/etherwallet](https://github.com/kvhnuke/etherwallet/tree/gh-pages). You can download the ZIP there and run it locally. ',
+HELP_8CX_Title              : '8) What happens if Funcoin Wallet CX disappears? ',
 HELP_8CX_Desc_1             : 'First, all data is saved on your computer, not our servers. I know it can be confusing, but when you look at the Chrome Extension, you are NOT looking at stuff saved on our servers somewhere - it\'s all saved on your own computer. ',
-HELP_8CX_Desc_2             : 'That said, it is **very important** that you back up all your information for any new wallets generated with Ether-1 Wallet CX. That way if anything happens to Ether-1 Wallet CX or your computer, you still have all the information necessary to access your Ether. See the #2a for how to back up your wallets. ',
-HELP_8CX_Desc_3             : 'If for some reason Ether-1 Wallet CX disappears from the Chrome Store, you can find the source on Github and load it manually. See #5 above. ',
+HELP_8CX_Desc_2             : 'That said, it is **very important** that you back up all your information for any new wallets generated with Funcoin Wallet CX. That way if anything happens to Funcoin Wallet CX or your computer, you still have all the information necessary to access your Ether. See the #2a for how to back up your wallets. ',
+HELP_8CX_Desc_3             : 'If for some reason Funcoin Wallet CX disappears from the Chrome Store, you can find the source on Github and load it manually. See #5 above. ',
 HELP_9_Title                : '9) Is the "Ether送出 トークン送出" page offline? ',
 HELP_9_Desc_1               : 'No. It needs the internet in order to get the current gas price, nonce of your account, and broadcast the transaction (aka "send"). However, it only sends the signed transaction. Your private key safely stays with you. We also now provide an "Offline Transaction" page so that you can ensure your private keys are on an offline/airgapped computer at all times. ',
 HELP_10_Title               : '10) How do I make an offline transaction? ',
@@ -725,8 +725,8 @@ HELP_10_Desc_8              : 'Select your wallet file -or- your private key and
 HELP_10_Desc_9              : 'Press the "GENERATE SIGNED TRANSACTION" button. ',
 HELP_10_Desc_10             : 'The data field below this button will populate with your signed transaction. Copy this and move it back to your online computer. ',
 HELP_10_Desc_11             : 'On your online computer, paste the signed transaction into the text field in step #3 and click send. This will broadcast your transaction. ',
-HELP_12_Title               : '12) How do I import a wallet created with Ether-1 Wallet into geth / Ethereum Wallet / Mist? ',
-HELP_12_Desc_1              : 'Using an Geth/Mist JSON file from Ether-1 Wallet v2+.... ',
+HELP_12_Title               : '12) How do I import a wallet created with Funcoin Wallet into geth / Ethereum Wallet / Mist? ',
+HELP_12_Desc_1              : 'Using an Geth/Mist JSON file from Funcoin Wallet v2+.... ',
 HELP_12_Desc_2              : 'Go to the "View Wallet Info" page. ',
 HELP_12_Desc_3              : 'Unlock your wallet using your **encrypted** private key or JSON file. ',
 HELP_12_Desc_4              : 'Go to the "My Wallets" page. ',
@@ -757,8 +757,8 @@ HELP_12_Desc_27             : 'After successful import, delete `nothing_special_
 HELP_12_Desc_28             : 'The next time you open the Ethereum Wallet application, your account will be listed under "Accounts". ',
 HELP_13_Title               : '13) What does "Insufficient funds. Account you try to send transaction from does not have enough funds. Required XXXXXXXXXXXXXXXXXXX and got: XXXXXXXXXXXXXXXX." Mean? ',
 HELP_13_Desc_1              : 'This means you do not have enough Ether in your account to cover the cost of gas. Each transaction (including token and contract transactions) require gas and that gas is paid in Ether. The number displayed is the amount required to cover the cost of the transaction in Wei. Take that number, divide by `1000000000000000000`, and subtract the amount of Ether you were trying to send (if you were attempting to send Ether). This will give you the amount of Ether you need to send to that account to make the transaction. ',
-HELP_14_Title               : '14) Some sites randomize (seed) the private key generation via mouse movements. Ether-1 Wallet doesn\'t do this. Is the random number generation for Ether-1 Wallet safe? ',
-HELP_14_Desc_1              : 'While the mouse moving thing is clever and we understand why people like it, the reality is window.crypto ensures more entropy than your mouse movements. The mouse movements aren\'t unsafe, it\'s just that we (and tons of other crypto experiments) believe in window.crypto. In addition, Ether-1 Wallet can be used on touch devices. Here\'s a [conversation between an angry redditor and Vitalik Buterin regarding mouse movements v. window.crypto](https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm) and here is the [the window.crypto w3 spec](https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto). ',
+HELP_14_Title               : '14) Some sites randomize (seed) the private key generation via mouse movements. Funcoin Wallet doesn\'t do this. Is the random number generation for Funcoin Wallet safe? ',
+HELP_14_Desc_1              : 'While the mouse moving thing is clever and we understand why people like it, the reality is window.crypto ensures more entropy than your mouse movements. The mouse movements aren\'t unsafe, it\'s just that we (and tons of other crypto experiments) believe in window.crypto. In addition, Funcoin Wallet can be used on touch devices. Here\'s a [conversation between an angry redditor and Vitalik Buterin regarding mouse movements v. window.crypto](https://www.reddit.com/r/ethereum/comments/2bilqg/note_there_is_a_paranoid_highsecurity_way_to/cj5sgrm) and here is the [the window.crypto w3 spec](https://dvcs.w3.org/hg/webcrypto-api/raw-file/tip/spec/Overview.html#dfn-GlobalCrypto). ',
 HELP_15_Title               : '15) Why hasn\'t the account I just created show up in the blockchain explorer? (ie: etherchain, etherscan) ',
 HELP_15_Desc_1              : 'Accounts will only show up in a blockchain explorer once the account has activity on it&mdash;for example, once you have transferred some Ether to it. ',
 HELP_16_Title               : '16) How do I check the balance of my account? ',
@@ -782,16 +782,16 @@ HELP_21_Desc_8              : 'Of course, this all assumes that keys are generat
 HELP_Warning                : 'If you created a wallet -or- downloaded the repo before **Dec. 31st, 2015**, please check your wallets &amp; download a new version of the repo. Click for details. ',
 HELP_Desc                   : 'Do you see something missing? Have another question? [Get in touch with us](mailto:support@myetherwallet.com), and we will not only answer your question, we will update this page to be more useful to people in the future! ',
 HELP_Remind_Title           : 'Some reminders ',
-HELP_Remind_Desc_1          : '**Ethereum, Ether-1 Wallet & Ether-1 Wallet CX, and some of the underlying Javascript libraries we use are under active development.** While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETHO to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but **we are not responsible for the lost Ether**. ',
-HELP_Remind_Desc_2          : 'MyEtherWallet & Ether-1 Wallet CX are not "web wallets". You do not create an account or give us your Ether to hold onto. All data never leaves your computer/your browser. We make it easy for you to create, save, and access your information and interact with the blockchain. ',
+HELP_Remind_Desc_1          : '**Ethereum, Funcoin Wallet & Funcoin Wallet CX, and some of the underlying Javascript libraries we use are under active development.** While we have thoroughly tested & tens of thousands of wallets have been successfully created by people all over the globe, there is always the remote possibility that something unexpected happens that causes your ETHO to be lost. Please do not invest more than you are willing to lose, and please be careful. If something were to happen, we are sorry, but **we are not responsible for the lost Ether**. ',
+HELP_Remind_Desc_2          : 'MyEtherWallet & Funcoin Wallet CX are not "web wallets". You do not create an account or give us your Ether to hold onto. All data never leaves your computer/your browser. We make it easy for you to create, save, and access your information and interact with the blockchain. ',
 HELP_Remind_Desc_3          : 'If you do not save your private key & password, there is no way to recover access to your wallet or the funds it holds.  Back them up in multiple physical locations &ndash; not just on your computer! ',
-HELP_SecCX_Title            : 'Security - Ether-1 Wallet CX ',
+HELP_SecCX_Title            : 'Security - Funcoin Wallet CX ',
 HELP_SecCX_Desc_1           : 'Where is this extension saving my information? ',
 HELP_SecCX_Desc_2           : 'The information you store in this Chrome Extension is saved via [chrome.storage](http://chrome.storage/). - this is the same place your passwords are saved when you save your password in Chrome. ',
 HELP_SecCX_Desc_3           : 'What information is saved? ',
 HELP_SecCX_Desc_4           : 'The address, nickname, private key is stored in chrome.storage. The private key is encrypted using the password you set when you added the wallet. The nickname and wallet address is not encrypted. ',
 HELP_SecCX_Desc_5           : 'Why aren\'t the nickname and wallet address encrypted? ',
-HELP_SecCX_Desc_6           : 'If we were to encrypt these items, you would need to enter a password each time you wanted to view your account balance or view the nicknames. If this concerns you, we recommend you use Ether-1 Wallet instead of this Chrome Extension. ',
+HELP_SecCX_Desc_6           : 'If we were to encrypt these items, you would need to enter a password each time you wanted to view your account balance or view the nicknames. If this concerns you, we recommend you use Funcoin Wallet instead of this Chrome Extension. ',
 HELP_Sec_Title              : 'Security ',
 HELP_Sec_Desc_1             : 'If one of your first questions is "Why should I trust these people?", that is a good thing. Hopefully the following will help ease your fears. ',
 HELP_Sec_Desc_2             : 'We\'ve been up and running since August 2015. If you search for ["myetherwallet" on reddit](https://www.reddit.com/search?q=myetherwallet), you can see numerous people who use us with great success. ',
