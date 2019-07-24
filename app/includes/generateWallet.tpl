@@ -40,14 +40,14 @@
       <p translate="x_PasswordDesc"></p>
       <div class="text-center">
         <strong>
-          <a href="https://myetherwallet.github.io/knowledge-base/getting-started/creating-a-new-wallet-on-myetherwallet.html"
+          <a href="https://forum.funcoin.io/index.php?threads/how-to-create-a-wallet.1/"
              target="_blank"
              rel="noopener noreferrer"
              translate="GEN_Help_5">
                How to Create a Wallet
           </a>
           &nbsp;&nbsp;&middot;&nbsp;&nbsp;
-          <a href="https://myetherwallet.github.io/knowledge-base/getting-started/getting-started-new.html"
+          <a href="https://forum.funcoin.io/index.php?threads/getting-started.2/"
              target="_blank"
              rel="noopener noreferrer"
              translate="GEN_Help_6">
