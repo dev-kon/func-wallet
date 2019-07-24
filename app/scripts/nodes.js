@@ -24,8 +24,8 @@ nodes.customNodeObj = {
 nodes.nodeList = {
     'eth_mew': {
         'name': 'FUNCOIN',
-        'blockExplorerTX': 'https://node.funcoin.io/#/tx/[[txHash]]',
-        'blockExplorerAddr': 'https://node.funcoin.io/addr/[[address]]',
+        'blockExplorerTX': 'https://explorer.funcoin.io/#/tx/[[txHash]]',
+        'blockExplorerAddr': 'https://explorer.funcoin.io/addr/[[address]]',
         'type': nodes.nodeTypes.ETHO,
         'eip155': true,
         'chainId': 6832,
